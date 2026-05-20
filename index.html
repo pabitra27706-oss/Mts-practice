@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- ── SEO ── -->
+  <title>MTS Prep — Practice MTS Exam Questions Online</title>
+  <meta name="description" content="Practice MTS exam with previous year question papers and mock tests. Free online MTS question practice with instant results and detailed analysis." />
+  <meta name="keywords" content="MTS practice, MTS question paper, MTS previous year questions, MTS exam preparation, SSC MTS practice" />
+  <meta name="author" content="MTS Prep" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yourusername.github.io/mts-practice/" />
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="MTS Prep — Practice MTS Exam Questions" />
+  <meta property="og:description" content="Practice MTS exam with PYQ papers and mock tests. Free, fast and offline ready." />
+  <meta property="og:url"         content="https://yourusername.github.io/mts-practice/" />
+  <meta property="og:image"       content="https://yourusername.github.io/mts-practice/icons/og-image.png" />
+  <meta property="og:site_name"   content="MTS Prep" />
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="MTS Prep — Practice MTS Exam Questions" />
+  <meta name="twitter:description" content="Free MTS exam practice with PYQ and mock tests." />
+  <meta name="twitter:image"       content="https://yourusername.github.io/mts-practice/icons/og-image.png" />
+
+  <!-- ── PWA ── -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#6366f1" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="MTS Prep" />
+  <link rel="apple-touch-icon" href="icons/icon-152x152.png" />
+
+  <!-- ── Favicon ── -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-72x72.png" />
+
+  <!-- ── Preconnect ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- ── Styles ── -->
+  <link rel="stylesheet" href="css/root.css" />
+  <link rel="stylesheet" href="css/home.css" />
+
+  <!-- ── Structured Data ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalApplication",
+    "name": "MTS Prep",
+    "description": "Practice MTS exam questions with previous year papers and mock tests",
+    "applicationCategory": "EducationApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "INR"
+    },
+    "url": "https://yourusername.github.io/mts-practice/"
+  }
+  </script>
+</head>
+
+<body class="no-select">
+
+  <!-- ── Background Orbs ── -->
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb orb--1"></div>
+    <div class="orb orb--2"></div>
+    <div class="orb orb--3"></div>
+  </div>
+
+  <!-- ── Install Banner ── -->
+  <div class="install-banner hidden" id="installBanner" role="banner">
+    <div class="install-banner__icon">📲</div>
+    <div class="install-banner__text">
+      <span class="install-banner__title">Install MTS Prep</span>
+      <span class="install-banner__sub">Use offline, anytime</span>
+    </div>
+    <button class="btn btn--sm btn--primary" id="installBtn">Install</button>
+    <button class="install-banner__close" id="installClose" aria-label="Close">✕</button>
+  </div>
+
+  <!-- ── Header ── -->
+  <header class="header" role="banner">
+    <div class="container">
+      <div class="header__inner">
+
+        <!-- Logo -->
+        <div class="header__logo">
+          <div class="header__logo-icon" aria-hidden="true">🎯</div>
+          <div class="header__logo-text">
+            <span class="header__logo-name">MTS Prep</span>
+            <span class="header__logo-tag">Crack MTS with Confidence</span>
+          </div>
+        </div>
+
+        <!-- Header Actions -->
+        <div class="header__actions">
+
+          <!-- Theme Toggle -->
+          <button
+            class="btn btn--icon btn--ghost"
+            id="themeToggle"
+            aria-label="Toggle theme"
+            title="Toggle theme">
+            <span class="theme-icon" id="themeIcon">🌙</span>
+          </button>
+
+          <!-- Mode Toggle -->
+          <div class="mode-toggle" id="modeToggle" title="Switch mode" role="group" aria-label="Quiz mode">
+            <button
+              class="mode-toggle__btn mode-toggle__btn--active"
+              id="examModeBtn"
+              data-mode="exam"
+              aria-pressed="true">
+              🎯 Exam
+            </button>
+            <button
+              class="mode-toggle__btn"
+              id="readModeBtn"
+              data-mode="read"
+              aria-pressed="false">
+              📖 Read
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main Content ── -->
+  <main class="main" id="main" role="main">
+    <div class="container page-enter">
+
+      <!-- Hero Section -->
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero__content">
+          <div class="hero__badge badge badge--primary">
+            <span>⚡</span> Free MTS Practice
+          </div>
+          <h1 class="hero__title" id="heroTitle">
+            Ace Your <span class="hero__title-highlight">MTS Exam</span>
+          </h1>
+          <p class="hero__subtitle">
+            Practice with real PYQ papers & mock tests.
+            Track your progress and improve every day.
+          </p>
+        </div>
+
+        <!-- Stats Row -->
+        <div class="hero__stats" role="list">
+          <div class="hero__stat" role="listitem">
+            <span class="hero__stat-value" id="totalSets">—</span>
+            <span class="hero__stat-label">Sets</span>
+          </div>
+          <div class="hero__stat-divider" aria-hidden="true"></div>
+          <div class="hero__stat" role="listitem">
+            <span class="hero__stat-value" id="totalQuestions">—</span>
+            <span class="hero__stat-label">Questions</span>
+          </div>
+          <div class="hero__stat-divider" aria-hidden="true"></div>
+          <div class="hero__stat" role="listitem">
+            <span class="hero__stat-value" id="totalAttempts">—</span>
+            <span class="hero__stat-label">Attempts</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mode Indicator -->
+      <div class="mode-indicator" id="modeIndicator" role="status" aria-live="polite">
+        <div class="mode-indicator__dot" id="modeDot"></div>
+        <span class="mode-indicator__text" id="modeText">
+          🎯 Exam Mode — Timer active, answers hidden until submit
+        </span>
+      </div>
+
+      <!-- ── Option Cards ── -->
+      <section class="cards-section" aria-label="Practice options">
+
+        <!-- PYQ Card -->
+        <a href="pages/pyq.html" class="option-card option-card--pyq" aria-label="Previous Year Questions Practice">
+          <div class="option-card__glow" aria-hidden="true"></div>
+          <div class="option-card__header">
+            <div class="option-card__icon-wrap">
+              <span class="option-card__icon" aria-hidden="true">📋</span>
+            </div>
+            <div class="option-card__badge badge badge--primary">Official</div>
+          </div>
+          <div class="option-card__body">
+            <h2 class="option-card__title">PYQ Practice</h2>
+            <p class="option-card__desc">
+              Previous Year Question papers from official MTS exams. Year-wise, shift-wise.
+            </p>
+            <div class="option-card__meta" id="pyqMeta">
+              <span class="option-card__meta-item">
+                <span aria-hidden="true">📁</span>
+                <span id="pyqSetCount">Loading...</span>
+              </span>
+              <span class="option-card__meta-item">
+                <span aria-hidden="true">❓</span>
+                <span id="pyqQCount">— Questions</span>
+              </span>
+            </div>
+          </div>
+          <div class="option-card__footer">
+            <span class="option-card__cta">
+              Start Practice
+              <span class="option-card__arrow" aria-hidden="true">→</span>
+            </span>
+          </div>
+        </a>
+
+        <!-- Practice Card -->
+        <a href="pages/practice.html" class="option-card option-card--practice" aria-label="Practice Mode">
+          <div class="option-card__glow" aria-hidden="true"></div>
+          <div class="option-card__header">
+            <div class="option-card__icon-wrap">
+              <span class="option-card__icon" aria-hidden="true">✏️</span>
+            </div>
+            <div class="option-card__badge badge badge--success">New</div>
+          </div>
+          <div class="option-card__body">
+            <h2 class="option-card__title">Practice Mode</h2>
+            <p class="option-card__desc">
+              Topic-wise practice sets with explanations. Perfect for building strong concepts.
+            </p>
+            <div class="option-card__meta">
+              <span class="option-card__meta-item">
+                <span aria-hidden="true">📁</span>
+                <span id="practiceSetCount">Loading...</span>
+              </span>
+              <span class="option-card__meta-item">
+                <span aria-hidden="true">❓</span>
+                <span id="practiceQCount">— Questions</span>
+              </span>
+            </div>
+          </div>
+          <div class="option-card__footer">
+            <span class="option-card__cta">
+              Start Practice
+              <span class="option-card__arrow" aria-hidden="true">→</span>
+            </span>
+          </div>
+        </a>
+
+      </section>
+
+      <!-- ── Results Button ── -->
+      <section class="results-section" aria-label="Results">
+        <a href="pages/results.html" class="results-card" aria-label="View all results">
+          <div class="results-card__left">
+            <div class="results-card__icon" aria-hidden="true">📊</div>
+            <div class="results-card__info">
+              <h3 class="results-card__title">My Results</h3>
+              <p class="results-card__sub" id="resultsSubtext">View all your previous attempts</p>
+            </div>
+          </div>
+          <div class="results-card__right">
+            <span class="results-card__count" id="resultCount">—</span>
+            <span class="results-card__arrow" aria-hidden="true">›</span>
+          </div>
+        </a>
+      </section>
+
+      <!-- ── Quick Tips ── -->
+      <section class="tips-section" aria-label="Quick tips">
+        <h3 class="tips-section__title">💡 Quick Tips</h3>
+        <div class="tips-grid" role="list">
+          <div class="tip-card" role="listitem">
+            <span class="tip-card__icon" aria-hidden="true">🎯</span>
+            <p class="tip-card__text">Use <strong>Exam Mode</strong> to simulate real test conditions</p>
+          </div>
+          <div class="tip-card" role="listitem">
+            <span class="tip-card__icon" aria-hidden="true">📖</span>
+            <p class="tip-card__text">Use <strong>Read Mode</strong> to study at your own pace</p>
+          </div>
+          <div class="tip-card" role="listitem">
+            <span class="tip-card__icon" aria-hidden="true">📊</span>
+            <p class="tip-card__text">Check <strong>Results</strong> to track your improvement</p>
+          </div>
+          <div class="tip-card" role="listitem">
+            <span class="tip-card__icon" aria-hidden="true">📲</span>
+            <p class="tip-card__text">Install the app to practice <strong>offline</strong> anytime</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ── Bottom Nav ── -->
+  <nav class="bottom-nav" role="navigation" aria-label="Main navigation">
+    <a href="index.html"          class="bottom-nav__item bottom-nav__item--active" aria-current="page">
+      <span class="bottom-nav__icon" aria-hidden="true">🏠</span>
+      <span class="bottom-nav__label">Home</span>
+    </a>
+    <a href="pages/pyq.html"      class="bottom-nav__item">
+      <span class="bottom-nav__icon" aria-hidden="true">📋</span>
+      <span class="bottom-nav__label">PYQ</span>
+    </a>
+    <a href="pages/practice.html" class="bottom-nav__item">
+      <span class="bottom-nav__icon" aria-hidden="true">✏️</span>
+      <span class="bottom-nav__label">Practice</span>
+    </a>
+    <a href="pages/results.html"  class="bottom-nav__item">
+      <span class="bottom-nav__icon" aria-hidden="true">📊</span>
+      <span class="bottom-nav__label">Results</span>
+    </a>
+  </nav>
+
+  <!-- ── Toast ── -->
+  <div class="toast" id="toast" role="alert" aria-live="assertive"></div>
+
+  <!-- ── Scripts ── -->
+  <script src="js/pwa.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/manifest-loader.js"></script>
+  <script src="js/mode-toggle.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

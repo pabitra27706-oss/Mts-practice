@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- ── SEO ── -->
+  <title>Quiz — MTS Prep</title>
+  <meta name="description" content="MTS exam question practice quiz." />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <!-- ── PWA ── -->
+  <link rel="manifest"      href="../manifest.json" />
+  <meta name="theme-color"  content="#6366f1" />
+  <meta name="mobile-web-app-capable"              content="yes" />
+  <meta name="apple-mobile-web-app-capable"        content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="apple-touch-icon" href="../icons/icon-152x152.png" />
+
+  <!-- ── Favicon ── -->
+  <link rel="icon" type="image/png" href="../icons/icon-72x72.png" />
+
+  <!-- ── Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- ── Styles ── -->
+  <link rel="stylesheet" href="../css/root.css" />
+  <link rel="stylesheet" href="../css/quiz.css" />
+  <link rel="stylesheet" href="../css/home.css" />
+</head>
+
+<body class="no-select">
+
+  <!-- ── Background ── -->
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb orb--1"></div>
+    <div class="orb orb--2"></div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       QUIZ HEADER
+  ══════════════════════════════════════ -->
+  <header class="quiz-header" role="banner">
+    <div class="container">
+      <div class="quiz-header__inner">
+
+        <!-- Left: Back + Info -->
+        <div class="quiz-header__left">
+          <button
+            class="back-btn"
+            id="backBtn"
+            aria-label="Exit quiz">
+            ←
+          </button>
+          <div class="quiz-header__info">
+            <div class="quiz-header__set-name" id="quizSetName">Loading...</div>
+            <div class="quiz-header__meta"     id="quizMeta">—</div>
+          </div>
+        </div>
+
+        <!-- Right: Timer / Read Badge -->
+        <div id="timerWrap">
+          <!-- Exam mode: timer -->
+          <div class="timer" id="timerEl" aria-live="polite" aria-label="Time remaining">
+            <span class="timer__icon" aria-hidden="true">⏱️</span>
+            <span class="timer__display" id="timerDisplay">25:00</span>
+          </div>
+          <!-- Read mode: badge (hidden by default) -->
+          <div class="read-mode-badge hidden" id="readBadge" aria-label="Read mode active">
+            <span aria-hidden="true">📖</span>
+            <span>Read Mode</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Progress Strip -->
+      <div class="quiz-progress" role="progressbar"
+        aria-label="Quiz progress"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        id="progressBar">
+        <div class="quiz-progress__bar">
+          <div class="quiz-progress__fill" id="progressFill" style="width: 0%"></div>
+        </div>
+        <div class="quiz-progress__info">
+          <span class="quiz-progress__count"    id="progressCount">Q 1 of 25</span>
+          <span class="quiz-progress__answered" id="progressAnswered">0 Answered</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════
+       MAIN QUIZ AREA
+  ══════════════════════════════════════ -->
+  <main class="quiz-main" role="main" id="quizMain">
+    <div class="container page-enter">
+
+      <!-- Loading State -->
+      <div id="loadingState" aria-busy="true" aria-label="Loading questions">
+        <div class="question-card">
+          <div class="question-card__header">
+            <div class="shimmer" style="width:60px;height:32px;"></div>
+            <div class="shimmer" style="width:80px;height:24px;"></div>
+          </div>
+          <div class="question-card__body">
+            <div class="shimmer" style="width:100%;height:20px;margin-bottom:8px;"></div>
+            <div class="shimmer" style="width:80%;height:20px;margin-bottom:24px;"></div>
+            <div style="display:flex;flex-direction:column;gap:12px;">
+              <div class="shimmer" style="width:100%;height:52px;border-radius:12px;"></div>
+              <div class="shimmer" style="width:100%;height:52px;border-radius:12px;"></div>
+              <div class="shimmer" style="width:100%;height:52px;border-radius:12px;"></div>
+              <div class="shimmer" style="width:100%;height:52px;border-radius:12px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Error State -->
+      <div id="errorState" class="hidden">
+        <div class="error-state">
+          <div class="error-state__icon" aria-hidden="true">⚠️</div>
+          <h2 class="error-state__title">Failed to Load Questions</h2>
+          <p class="error-state__text" id="errorMsg">
+            Could not load the question set. Please try again.
+          </p>
+          <div style="display:flex;gap:12px;margin-top:8px;">
+            <button
+              class="btn btn--ghost btn--sm"
+              onclick="window.history.back()">
+              ← Go Back
+            </button>
+            <button
+              class="btn btn--primary btn--sm"
+              onclick="window.location.reload()">
+              🔄 Retry
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question Area (hidden until loaded) -->
+      <div id="quizArea" class="hidden">
+
+        <!-- Question Card -->
+        <article class="question-card" id="questionCard" aria-label="Current question">
+
+          <!-- Card Header -->
+          <div class="question-card__header">
+            <div class="question-card__number">
+              <div class="question-card__num-badge" id="qNumBadge" aria-hidden="true">1</div>
+              <span class="question-card__num-text" id="qNumText">Question 1 of 25</span>
+            </div>
+            <div class="question-card__actions">
+              <span class="subject-badge" id="subjectBadge" aria-label="Subject">General</span>
+              <button
+                class="bookmark-btn"
+                id="bookmarkBtn"
+                aria-label="Bookmark this question"
+                title="Bookmark">
+                🔖
+              </button>
+            </div>
+          </div>
+
+          <!-- Card Body -->
+          <div class="question-card__body">
+            <!-- Question Text -->
+            <p class="question-text" id="questionText" aria-live="polite">
+              Loading question...
+            </p>
+
+            <!-- Options -->
+            <ul class="options-list" id="optionsList" role="radiogroup" aria-label="Answer options">
+              <!-- Rendered by JS -->
+            </ul>
+
+            <!-- Explanation (Read Mode) -->
+            <div class="explanation-card" id="explanationCard" aria-live="polite">
+              <div class="explanation-card__title">💡 Explanation</div>
+              <p class="explanation-card__text" id="explanationText"></p>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Question Navigator -->
+        <nav class="question-nav" aria-label="Question navigator">
+          <div class="question-nav__title">Jump to Question</div>
+          <div class="question-nav__grid" id="navGrid" role="list">
+            <!-- Rendered by JS -->
+          </div>
+          <div class="nav-legend" aria-label="Legend">
+            <div class="nav-legend__item">
+              <div class="nav-legend__dot" style="background:var(--bg-tertiary);border:1.5px solid var(--border);"></div>
+              <span>Not visited</span>
+            </div>
+            <div class="nav-legend__item">
+              <div class="nav-legend__dot" style="background:rgba(99,102,241,0.3);border:1.5px solid var(--primary);"></div>
+              <span>Answered</span>
+            </div>
+            <div class="nav-legend__item" id="legendCurrent">
+              <div class="nav-legend__dot" style="background:var(--grad-primary);"></div>
+              <span>Current</span>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+      <!-- end #quizArea -->
+
+    </div>
+  </main>
+
+  <!-- ══════════════════════════════════════
+       BOTTOM ACTION BAR
+  ══════════════════════════════════════ -->
+  <div class="quiz-actions" role="toolbar" aria-label="Quiz controls">
+    <div class="quiz-actions__inner">
+
+      <!-- Prev / Next -->
+      <div class="quiz-actions__nav">
+        <button
+          class="nav-btn"
+          id="prevBtn"
+          aria-label="Previous question"
+          title="Previous"
+          disabled>
+          ←
+        </button>
+        <button
+          class="nav-btn"
+          id="nextBtn"
+          aria-label="Next question"
+          title="Next">
+          →
+        </button>
+      </div>
+
+      <!-- Submit Button -->
+      <button
+        class="btn btn--submit btn--full quiz-actions__submit"
+        id="submitBtn"
+        aria-label="Submit quiz">
+        Submit Quiz
+      </button>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       CONFIRM SUBMIT DIALOG
+  ══════════════════════════════════════ -->
+  <div
+    class="confirm-overlay"
+    id="confirmOverlay"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="confirmTitle">
+
+    <div class="confirm-dialog">
+      <div class="confirm-dialog__icon" aria-hidden="true">📝</div>
+      <h2 class="confirm-dialog__title" id="confirmTitle">Submit Quiz?</h2>
+      <p class="confirm-dialog__text">
+        Are you sure you want to submit? You won't be able to change answers.
+      </p>
+
+      <!-- Stats before submit -->
+      <div class="confirm-dialog__stats" aria-label="Answer summary">
+        <div class="confirm-stat">
+          <span class="confirm-stat__val" id="confirmAnswered">0</span>
+          <span class="confirm-stat__label">Answered</span>
+        </div>
+        <div class="confirm-stat">
+          <span class="confirm-stat__val" id="confirmSkipped">0</span>
+          <span class="confirm-stat__label">Skipped</span>
+        </div>
+        <div class="confirm-stat">
+          <span class="confirm-stat__val" id="confirmTotal">0</span>
+          <span class="confirm-stat__label">Total</span>
+        </div>
+      </div>
+
+      <div class="confirm-dialog__btns">
+        <button
+          class="btn btn--ghost btn--full"
+          id="confirmCancelBtn"
+          aria-label="Cancel and go back to quiz">
+          Cancel
+        </button>
+        <button
+          class="btn btn--primary btn--full"
+          id="confirmSubmitBtn"
+          aria-label="Confirm submit">
+          Submit ✓
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       RESULT OVERLAY (Bottom Sheet)
+  ══════════════════════════════════════ -->
+  <div
+    class="result-overlay"
+    id="resultOverlay"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="resultTitle">
+
+    <div class="result-sheet">
+
+      <!-- Score Circle -->
+      <div class="result-score">
+        <div
+          class="result-score__circle"
+          id="scoreCircle"
+          style="--pct: 0"
+          aria-hidden="true">
+          <span class="result-score__value" id="scoreValue">0/0</span>
+          <span class="result-score__pct"   id="scorePct">0%</span>
+        </div>
+        <h2 class="result-score__label" id="resultTitle">Quiz Complete!</h2>
+        <p class="result-score__sub"    id="resultSub">Here's how you did</p>
+      </div>
+
+      <!-- Stat Cards -->
+      <div class="result-stats" aria-label="Result breakdown">
+        <div class="result-stat result-stat--correct">
+          <span class="result-stat__value" id="statCorrect">0</span>
+          <span class="result-stat__label">✅ Correct</span>
+        </div>
+        <div class="result-stat result-stat--wrong">
+          <span class="result-stat__value" id="statWrong">0</span>
+          <span class="result-stat__label">❌ Wrong</span>
+        </div>
+        <div class="result-stat result-stat--skipped">
+          <span class="result-stat__value" id="statSkipped">0</span>
+          <span class="result-stat__label">⏭️ Skipped</span>
+        </div>
+      </div>
+
+      <!-- Time taken -->
+      <div
+        style="
+          text-align:center;
+          font-size:var(--text-sm);
+          color:var(--text-muted);
+          margin-bottom:var(--space-5);
+        "
+        id="timeTakenEl"
+        aria-label="Time taken">
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="result-actions">
+        <button
+          class="btn btn--primary btn--full"
+          id="reviewBtn"
+          aria-label="Review all answers">
+          📋 Review Answers
+        </button>
+        <div class="result-actions__row">
+          <button
+            class="btn btn--ghost btn--full"
+            id="retryBtn"
+            aria-label="Try this set again">
+            🔄 Try Again
+          </button>
+          <button
+            class="btn btn--ghost btn--full"
+            id="homeBtn"
+            aria-label="Go to home page">
+            🏠 Home
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── Toast ── -->
+  <div class="toast" id="toast" role="alert" aria-live="assertive"></div>
+
+  <!-- ── Scripts ── -->
+  <script src="../js/pwa.js"></script>
+  <script src="../js/storage.js"></script>
+  <script src="../js/manifest-loader.js"></script>
+  <script src="../js/mode-toggle.js"></script>
+  <script src="../js/timer.js"></script>
+  <script src="../js/quiz-engine.js"></script>
+</body>
+</html>

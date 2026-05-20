@@ -1,0 +1,106 @@
+{
+  "name": "MTS Question Practice",
+  "short_name": "MTS Prep",
+  "description": "Practice MTS exam questions with previous year papers and mock tests",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#6366f1",
+  "background_color": "#0f0f1a",
+  "lang": "en",
+  "categories": ["education", "productivity"],
+
+  "icons": [
+    { "src": "icons/icon-72x72.png",   "sizes": "72x72",   "type": "image/png" },
+    { "src": "icons/icon-96x96.png",   "sizes": "96x96",   "type": "image/png" },
+    { "src": "icons/icon-128x128.png", "sizes": "128x128", "type": "image/png" },
+    { "src": "icons/icon-144x144.png", "sizes": "144x144", "type": "image/png" },
+    { "src": "icons/icon-152x152.png", "sizes": "152x152", "type": "image/png" },
+    { "src": "icons/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-384x384.png", "sizes": "384x384", "type": "image/png" },
+    { "src": "icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+
+  "screenshots": [
+    { "src": "screenshots/mobile.png",  "sizes": "390x844", "type": "image/png", "form_factor": "narrow" },
+    { "src": "screenshots/desktop.png", "sizes": "1280x720","type": "image/png", "form_factor": "wide" }
+  ],
+
+  "question_sets": {
+    "pyq": [
+      {
+        "id": "pyq-1",
+        "name": "PYQ Set 1",
+        "year": "2023",
+        "shift": "Morning",
+        "file": "data/pyq/pyq-set-1.json",
+        "totalQuestions": 25,
+        "timeInSeconds": 1500,
+        "difficulty": "medium",
+        "tags": ["2023", "official"]
+      },
+      {
+        "id": "pyq-2",
+        "name": "PYQ Set 2",
+        "year": "2023",
+        "shift": "Evening",
+        "file": "data/pyq/pyq-set-2.json",
+        "totalQuestions": 25,
+        "timeInSeconds": 1500,
+        "difficulty": "medium",
+        "tags": ["2023", "official"]
+      },
+      {
+        "id": "pyq-3",
+        "name": "PYQ Set 3",
+        "year": "2022",
+        "shift": "Morning",
+        "file": "data/pyq/pyq-set-3.json",
+        "totalQuestions": 25,
+        "timeInSeconds": 1500,
+        "difficulty": "hard",
+        "tags": ["2022", "official"]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-1",
+        "name": "Practice Set 1",
+        "topic": "General Awareness",
+        "file": "data/practice/practice-set-1.json",
+        "totalQuestions": 25,
+        "timeInSeconds": 1200,
+        "difficulty": "easy",
+        "tags": ["general", "beginner"]
+      },
+      {
+        "id": "practice-2",
+        "name": "Practice Set 2",
+        "topic": "Numerical Ability",
+        "file": "data/practice/practice-set-2.json",
+        "totalQuestions": 25,
+        "timeInSeconds": 1200,
+        "difficulty": "medium",
+        "tags": ["maths", "numerical"]
+      },
+      {
+        "id": "practice-3",
+        "name": "Practice Set 3",
+        "topic": "Reasoning",
+        "file": "data/practice/practice-set-3.json",
+        "totalQuestions": 25,
+        "timeInSeconds": 1200,
+        "difficulty": "medium",
+        "tags": ["reasoning", "logic"]
+      }
+    ]
+  },
+
+  "appConfig": {
+    "defaultMode": "exam",
+    "version": "1.0.0",
+    "appName": "MTS Prep",
+    "tagline": "Crack MTS with Confidence"
+  }
+}

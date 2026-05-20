@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block quiz page (dynamic, no value for SEO)
+Disallow: /pages/quiz.html
+Disallow: /pages/results.html
+
+# Allow important pages
+Allow: /index.html
+Allow: /pages/pyq.html
+Allow: /pages/practice.html
+
+# Sitemap
+Sitemap: https://yourusername.github.io/mts-practice/sitemap.xml

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offline — MTS Prep</title>
+  <link rel="icon" type="image/png" href="icons/icon-72x72.png" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --primary:    #6366f1;
+      --bg:         #0f0f1a;
+      --bg-card:    #1e1e35;
+      --border:     rgba(255,255,255,0.08);
+      --text:       #f1f5f9;
+      --text-muted: #64748b;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .offline-wrap {
+      max-width: 340px;
+      width: 100%;
+    }
+
+    .offline-icon {
+      font-size: 5rem;
+      margin-bottom: 1.5rem;
+      display: block;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0);     }
+      50%       { transform: translateY(-12px); }
+    }
+
+    .offline-title {
+      font-size: 1.75rem;
+      font-weight: 900;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.02em;
+    }
+
+    .offline-sub {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .offline-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 1.25rem;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+      text-align: left;
+    }
+
+    .offline-card__title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.75rem;
+    }
+
+    .offline-tip {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.625rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    .offline-tip:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .offline-tip__icon {
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+
+    .retry-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      width: 100%;
+      padding: 0.875rem 1.5rem;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: #fff;
+      border: none;
+      border-radius: 0.875rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      box-shadow: 0 8px 32px rgba(99,102,241,0.3);
+    }
+
+    .retry-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 40px rgba(99,102,241,0.4);
+    }
+
+    .retry-btn:active {
+      transform: scale(0.98);
+    }
+
+    .offline-status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 1.25rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #ef4444;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.4; }
+    }
+
+    .status-dot--online {
+      background: #10b981;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="offline-wrap">
+
+    <span class="offline-icon" aria-hidden="true">📴</span>
+
+    <h1 class="offline-title">You're Offline</h1>
+    <p class="offline-sub">
+      No internet connection detected. But don't worry —
+      cached content is still available!
+    </p>
+
+    <div class="offline-card">
+      <div class="offline-card__title">Available Offline</div>
+      <div class="offline-tip">
+        <span class="offline-tip__icon">🏠</span>
+        <span>Home page & set selection</span>
+      </div>
+      <div class="offline-tip">
+        <span class="offline-tip__icon">📋</span>
+        <span>Previously loaded question sets</span>
+      </div>
+      <div class="offline-tip">
+        <span class="offline-tip__icon">📊</span>
+        <span>Your results & progress</span>
+      </div>
+      <div class="offline-tip">
+        <span class="offline-tip__icon">🔖</span>
+        <span>Bookmarked questions</span>
+      </div>
+    </div>
+
+    <button
+      class="retry-btn"
+      onclick="window.location.href='/'"
+      aria-label="Return to home page">
+      🏠 Go to Home
+    </button>
+
+    <button
+      class="retry-btn"
+      style="margin-top:0.75rem;background:rgba(255,255,255,0.06);
+             border:1px solid rgba(255,255,255,0.1);
+             box-shadow:none;"
+      onclick="window.location.reload()"
+      aria-label="Retry connection">
+      🔄 Retry Connection
+    </button>
+
+    <div class="offline-status" role="status" aria-live="polite">
+      <span class="status-dot" id="statusDot"></span>
+      <span id="statusText">Offline</span>
+    </div>
+
+  </div>
+
+  <script>
+    // Auto-redirect when back online
+    window.addEventListener('online', () => {
+      const dot  = document.getElementById('statusDot');
+      const text = document.getElementById('statusText');
+      if (dot)  dot.classList.add('status-dot--online');
+      if (text) text.textContent = 'Back online! Redirecting...';
+      setTimeout(() => window.location.href = '/', 1500);
+    });
+
+    // Check initial state
+    if (navigator.onLine) {
+      window.location.href = '/';
+    }
+  </script>
+</body>
+</html>

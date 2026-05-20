@@ -1,0 +1,360 @@
+{
+  "setId": "pyq-2",
+  "setName": "PYQ Set 2",
+  "type": "pyq",
+  "year": "2023",
+  "shift": "Evening",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Schedule of the Indian Constitution contains the list of recognized languages?",
+      "options": {
+        "A": "Sixth Schedule",
+        "B": "Seventh Schedule",
+        "C": "Eighth Schedule",
+        "D": "Ninth Schedule"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Eighth Schedule of the Indian Constitution lists 22 officially recognized languages of India.",
+      "subject": "Polity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 2,
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "options": {
+        "A": "China",
+        "B": "South Korea",
+        "C": "Thailand",
+        "D": "Japan"
+      },
+      "correctAnswer": "D",
+      "explanation": "Japan is known as the Land of the Rising Sun. The name Japan in Japanese is Nihon or Nippon, meaning sun-origin.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What is the LCM of 12, 18, and 24?",
+      "options": {
+        "A": "48",
+        "B": "60",
+        "C": "72",
+        "D": "36"
+      },
+      "correctAnswer": "C",
+      "explanation": "LCM of 12, 18, 24: Prime factorization: 12=2²×3, 18=2×3², 24=2³×3. LCM = 2³×3² = 8×9 = 72.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "The Battle of Panipat (First) was fought in which year?",
+      "options": {
+        "A": "1526",
+        "B": "1556",
+        "C": "1576",
+        "D": "1761"
+      },
+      "correctAnswer": "A",
+      "explanation": "The First Battle of Panipat was fought in 1526 between Babur and Ibrahim Lodi. It established the Mughal Empire in India.",
+      "subject": "History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "question": "Which blood group is known as the universal donor?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "AB",
+        "D": "O"
+      },
+      "correctAnswer": "D",
+      "explanation": "Blood group O negative is the universal donor because it can be transfused to any blood group patient in emergencies.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Complete the series: 2, 6, 12, 20, 30, __",
+      "options": {
+        "A": "40",
+        "B": "42",
+        "C": "44",
+        "D": "46"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pattern: n(n+1). 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.",
+      "subject": "Reasoning",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "question": "The Tropic of Cancer passes through how many Indian states?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+      "subject": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "id": 8,
+      "question": "Which is the smallest bone in the human body?",
+      "options": {
+        "A": "Femur",
+        "B": "Stapes",
+        "C": "Fibula",
+        "D": "Tibia"
+      },
+      "correctAnswer": "B",
+      "explanation": "The stapes is the smallest bone in the human body. It is located in the middle ear and is about 3mm long.",
+      "subject": "Science",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "question": "A shopkeeper sells an item for ₹840 at a 20% profit. What is the cost price?",
+      "options": {
+        "A": "₹680",
+        "B": "₹700",
+        "C": "₹720",
+        "D": "₹750"
+      },
+      "correctAnswer": "B",
+      "explanation": "CP = SP / (1 + profit%) = 840 / 1.20 = 840 / 1.2 = ₹700.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "question": "Which is the highest civilian award in India?",
+      "options": {
+        "A": "Padma Vibhushan",
+        "B": "Padma Bhushan",
+        "C": "Bharat Ratna",
+        "D": "Padma Shri"
+      },
+      "correctAnswer": "C",
+      "explanation": "Bharat Ratna is the highest civilian award in India, followed by Padma Vibhushan, Padma Bhushan, and Padma Shri.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "The chemical formula of water is:",
+      "options": {
+        "A": "HO",
+        "B": "H₂O",
+        "C": "H₂O₂",
+        "D": "HO₂"
+      },
+      "correctAnswer": "B",
+      "explanation": "Water has the chemical formula H₂O, meaning each molecule has 2 hydrogen atoms and 1 oxygen atom.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "In a class, 40% of students passed in Maths, 50% in English. If 20% passed in both, what % failed in both?",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "30%",
+        "D": "35%"
+      },
+      "correctAnswer": "C",
+      "explanation": "Passed in at least one = 40 + 50 - 20 = 70%. Failed in both = 100 - 70 = 30%.",
+      "subject": "Numerical Ability",
+      "difficulty": "hard"
+    },
+    {
+      "id": 13,
+      "question": "Who was the first woman President of India?",
+      "options": {
+        "A": "Sarojini Naidu",
+        "B": "Indira Gandhi",
+        "C": "Pratibha Patil",
+        "D": "Sushma Swaraj"
+      },
+      "correctAnswer": "C",
+      "explanation": "Pratibha Patil was the first woman President of India, serving from 2007 to 2012.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Arrange in ascending order: 3/4, 5/6, 7/8, 2/3",
+      "options": {
+        "A": "2/3, 3/4, 5/6, 7/8",
+        "B": "7/8, 5/6, 3/4, 2/3",
+        "C": "3/4, 2/3, 5/6, 7/8",
+        "D": "2/3, 7/8, 3/4, 5/6"
+      },
+      "correctAnswer": "A",
+      "explanation": "Convert to decimals: 2/3≈0.667, 3/4=0.75, 5/6≈0.833, 7/8=0.875. Ascending: 2/3, 3/4, 5/6, 7/8.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is the national game of India?",
+      "options": {
+        "A": "Cricket",
+        "B": "Hockey",
+        "C": "Badminton",
+        "D": "Kabaddi"
+      },
+      "correctAnswer": "B",
+      "explanation": "Field Hockey is considered the national game of India, though India has not officially declared any sport as the national game.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "The outermost layer of the Earth is called:",
+      "options": {
+        "A": "Mantle",
+        "B": "Core",
+        "C": "Crust",
+        "D": "Lithosphere"
+      },
+      "correctAnswer": "C",
+      "explanation": "The crust is the outermost solid layer of the Earth. It is divided into oceanic crust and continental crust.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "question": "Which mirror is used in the rear-view mirrors of vehicles?",
+      "options": {
+        "A": "Plane mirror",
+        "B": "Concave mirror",
+        "C": "Convex mirror",
+        "D": "Cylindrical mirror"
+      },
+      "correctAnswer": "C",
+      "explanation": "Convex mirrors are used as rear-view mirrors because they give a wider field of view, though images appear smaller.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "If P is 16 km south of Q, and R is 12 km west of P, what is the distance QR?",
+      "options": {
+        "A": "18 km",
+        "B": "20 km",
+        "C": "22 km",
+        "D": "24 km"
+      },
+      "correctAnswer": "B",
+      "explanation": "QP = 16 km (south), PR = 12 km (west). QR = √(16² + 12²) = √(256 + 144) = √400 = 20 km.",
+      "subject": "Reasoning",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "The Preamble of the Indian Constitution begins with the words:",
+      "options": {
+        "A": "We the citizens of India",
+        "B": "We the people of India",
+        "C": "We the members of India",
+        "D": "We the nationals of India"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Preamble begins with 'WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC...'",
+      "subject": "Polity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Which element has the chemical symbol 'Fe'?",
+      "options": {
+        "A": "Fluorine",
+        "B": "Francium",
+        "C": "Iron",
+        "D": "Fermium"
+      },
+      "correctAnswer": "C",
+      "explanation": "Fe is the chemical symbol for Iron, derived from the Latin word 'Ferrum'.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "The ratio of boys to girls in a class is 3:2. If there are 30 boys, how many girls are there?",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "18",
+        "D": "25"
+      },
+      "correctAnswer": "B",
+      "explanation": "3:2 = 30:x. x = (30 × 2) / 3 = 60 / 3 = 20 girls.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is a non-renewable source of energy?",
+      "options": {
+        "A": "Solar energy",
+        "B": "Wind energy",
+        "C": "Coal",
+        "D": "Tidal energy"
+      },
+      "correctAnswer": "C",
+      "explanation": "Coal is a non-renewable fossil fuel. Solar, wind, and tidal energy are renewable sources.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "How many times does the digit '3' appear in numbers from 1 to 100?",
+      "options": {
+        "A": "10",
+        "B": "19",
+        "C": "20",
+        "D": "21"
+      },
+      "correctAnswer": "C",
+      "explanation": "3 appears in units place: 3,13,23,33,43,53,63,73,83,93 = 10 times. In tens place: 30,31,32,33,34,35,36,37,38,39 = 10 times. Total = 20 times.",
+      "subject": "Numerical Ability",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Which is the capital city of Australia?",
+      "options": {
+        "A": "Sydney",
+        "B": "Melbourne",
+        "C": "Brisbane",
+        "D": "Canberra"
+      },
+      "correctAnswer": "D",
+      "explanation": "Canberra is the capital of Australia, not Sydney or Melbourne as commonly mistaken. It was purpose-built to serve as the capital.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "question": "MIRROR is coded as RORRMI, then WINDOW is coded as?",
+      "options": {
+        "A": "WODNIW",
+        "B": "WODNIV",
+        "C": "WODINW",
+        "D": "WONDIW"
+      },
+      "correctAnswer": "A",
+      "explanation": "The code reverses the word. MIRROR reversed = RORRIM. WINDOW reversed = WODNIW.",
+      "subject": "Reasoning",
+      "difficulty": "easy"
+    }
+  ]
+}

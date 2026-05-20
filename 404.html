@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Page Not Found | MTS Prep</title>
+  <meta name="description" content="Page not found. Go back to MTS Prep home page." />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" type="image/png" href="icons/icon-72x72.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+    /* ── Reset ── */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ── Variables ── */
+    :root {
+      --primary:        #6366f1;
+      --primary-light:  #818cf8;
+      --secondary:      #06b6d4;
+      --success:        #10b981;
+      --bg:             #0f0f1a;
+      --bg-secondary:   #1a1a2e;
+      --bg-card:        #1e1e35;
+      --border:         rgba(255, 255, 255, 0.08);
+      --border-light:   rgba(255, 255, 255, 0.12);
+      --text:           #f1f5f9;
+      --text-secondary: #94a3b8;
+      --text-muted:     #64748b;
+      --grad-primary:   linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+      --grad-secondary: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+      --shadow-primary: 0 8px 32px rgba(99, 102, 241, 0.3);
+      --font:           'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    /* ── Base ── */
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+      overflow: hidden;
+      -webkit-font-smoothing: antialiased;
+      position: relative;
+    }
+
+    /* ── Background Orbs ── */
+    .orb {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.12;
+      pointer-events: none;
+      animation: orbFloat 8s ease-in-out infinite;
+    }
+
+    .orb--1 {
+      width: 400px;
+      height: 400px;
+      background: #6366f1;
+      top: -100px;
+      right: -100px;
+    }
+
+    .orb--2 {
+      width: 300px;
+      height: 300px;
+      background: #06b6d4;
+      bottom: -80px;
+      left: -80px;
+      animation-delay: -4s;
+    }
+
+    .orb--3 {
+      width: 200px;
+      height: 200px;
+      background: #8b5cf6;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation-delay: -2s;
+    }
+
+    @keyframes orbFloat {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50%       { transform: translateY(-20px) scale(1.05); }
+    }
+
+    /* ── Main Wrapper ── */
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 440px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 0;
+    }
+
+    /* ── 404 Number ── */
+    .error-number {
+      font-size: clamp(6rem, 22vw, 9rem);
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      background: var(--grad-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      position: relative;
+      margin-bottom: 0.5rem;
+      animation: numberIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+      user-select: none;
+    }
+
+    @keyframes numberIn {
+      from {
+        opacity: 0;
+        transform: scale(0.7) translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+      }
+    }
+
+    /* Animated dots on the 404 */
+    .error-number::after {
+      content: '';
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60%;
+      height: 4px;
+      background: var(--grad-primary);
+      border-radius: 999px;
+      opacity: 0.4;
+      filter: blur(8px);
+    }
+
+    /* ── Emoji ── */
+    .error-emoji {
+      font-size: 3.5rem;
+      margin-bottom: 1.25rem;
+      display: block;
+      animation: emojiFloat 3s ease-in-out infinite,
+                 emojiIn 0.5s ease 0.2s both;
+    }
+
+    @keyframes emojiFloat {
+      0%, 100% { transform: translateY(0) rotate(-5deg); }
+      50%       { transform: translateY(-10px) rotate(5deg); }
+    }
+
+    @keyframes emojiIn {
+      from { opacity: 0; transform: scale(0); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+
+    /* ── Title ── */
+    .error-title {
+      font-size: clamp(1.5rem, 5vw, 2rem);
+      font-weight: 900;
+      color: var(--text);
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+      animation: fadeUp 0.5s ease 0.3s both;
+    }
+
+    /* ── Subtitle ── */
+    .error-sub {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      max-width: 300px;
+      margin-bottom: 2rem;
+      animation: fadeUp 0.5s ease 0.4s both;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* ── Quick Links Card ── */
+    .quick-links {
+      width: 100%;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 1.25rem;
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+      animation: fadeUp 0.5s ease 0.5s both;
+    }
+
+    .quick-links__title {
+      padding: 0.875rem 1.25rem;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+    }
+
+    .quick-link {
+      display: flex;
+      align-items: center;
+      gap: 0.875rem;
+      padding: 0.875rem 1.25rem;
+      text-decoration: none;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      transition: all 0.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .quick-link:last-child {
+      border-bottom: none;
+    }
+
+    .quick-link::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 255, 255, 0.03);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .quick-link:hover::before {
+      opacity: 1;
+    }
+
+    .quick-link:hover {
+      color: var(--primary-light);
+    }
+
+    .quick-link:hover .quick-link__arrow {
+      transform: translateX(4px);
+    }
+
+    .quick-link:active {
+      transform: scale(0.99);
+    }
+
+    .quick-link__icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 0.625rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+
+    .quick-link--home .quick-link__icon {
+      background: rgba(99, 102, 241, 0.15);
+      border: 1px solid rgba(99, 102, 241, 0.25);
+    }
+
+    .quick-link--pyq .quick-link__icon {
+      background: rgba(99, 102, 241, 0.1);
+      border: 1px solid rgba(99, 102, 241, 0.2);
+    }
+
+    .quick-link--practice .quick-link__icon {
+      background: rgba(6, 182, 212, 0.1);
+      border: 1px solid rgba(6, 182, 212, 0.2);
+    }
+
+    .quick-link--results .quick-link__icon {
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+    }
+
+    .quick-link__text {
+      flex: 1;
+      text-align: left;
+    }
+
+    .quick-link__label {
+      font-size: 0.9rem;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 1px;
+    }
+
+    .quick-link__desc {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .quick-link__arrow {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+      flex-shrink: 0;
+    }
+
+    /* ── Back Button ── */
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.125rem 0;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-family: var(--font);
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      animation: fadeUp 0.5s ease 0.6s both;
+    }
+
+    .back-btn:hover {
+      color: var(--primary-light);
+      gap: 0.75rem;
+    }
+
+    .back-btn__arrow {
+      transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .back-btn:hover .back-btn__arrow {
+      transform: translateX(-4px);
+    }
+
+    /* ── Search hint ── */
+    .search-hint {
+      margin-top: 1.5rem;
+      padding: 0.875rem 1.25rem;
+      background: rgba(99, 102, 241, 0.06);
+      border: 1px solid rgba(99, 102, 241, 0.15);
+      border-radius: 1rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-align: left;
+      animation: fadeUp 0.5s ease 0.65s both;
+    }
+
+    .search-hint__icon {
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+
+    .search-hint__text {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .search-hint__text strong {
+      color: var(--primary-light);
+      font-weight: 600;
+    }
+
+    /* ── Footer note ── */
+    .footer-note {
+      margin-top: 2rem;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      animation: fadeUp 0.5s ease 0.7s both;
+    }
+
+    .footer-note a {
+      color: var(--primary-light);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .footer-note a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 360px) {
+      .error-number {
+        font-size: 5.5rem;
+      }
+      .error-title {
+        font-size: 1.35rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ── Background Orbs ── -->
+  <div class="orb orb--1" aria-hidden="true"></div>
+  <div class="orb orb--2" aria-hidden="true"></div>
+  <div class="orb orb--3" aria-hidden="true"></div>
+
+  <!-- ── Main Content ── -->
+  <main class="wrapper" role="main">
+
+    <!-- 404 Number -->
+    <div class="error-number" aria-hidden="true">404</div>
+
+    <!-- Emoji -->
+    <span class="error-emoji" role="img" aria-label="Lost">🧭</span>
+
+    <!-- Title -->
+    <h1 class="error-title">Page Not Found</h1>
+
+    <!-- Subtitle -->
+    <p class="error-sub">
+      Oops! The page you're looking for doesn't exist or may have been moved.
+      Let's get you back on track!
+    </p>
+
+    <!-- Quick Navigation Links -->
+    <nav class="quick-links" aria-label="Quick navigation">
+      <div class="quick-links__title">Where would you like to go?</div>
+
+      <a href="index.html" class="quick-link quick-link--home">
+        <div class="quick-link__icon" aria-hidden="true">🏠</div>
+        <div class="quick-link__text">
+          <span class="quick-link__label">Home</span>
+          <span class="quick-link__desc">Back to the main page</span>
+        </div>
+        <span class="quick-link__arrow" aria-hidden="true">›</span>
+      </a>
+
+      <a href="pages/pyq.html" class="quick-link quick-link--pyq">
+        <div class="quick-link__icon" aria-hidden="true">📋</div>
+        <div class="quick-link__text">
+          <span class="quick-link__label">PYQ Practice</span>
+          <span class="quick-link__desc">Previous year question papers</span>
+        </div>
+        <span class="quick-link__arrow" aria-hidden="true">›</span>
+      </a>
+
+      <a href="pages/practice.html" class="quick-link quick-link--practice">
+        <div class="quick-link__icon" aria-hidden="true">✏️</div>
+        <div class="quick-link__text">
+          <span class="quick-link__label">Practice Mode</span>
+          <span class="quick-link__desc">Topic-wise mock test sets</span>
+        </div>
+        <span class="quick-link__arrow" aria-hidden="true">›</span>
+      </a>
+
+      <a href="pages/results.html" class="quick-link quick-link--results">
+        <div class="quick-link__icon" aria-hidden="true">📊</div>
+        <div class="quick-link__text">
+          <span class="quick-link__label">My Results</span>
+          <span class="quick-link__desc">View your attempt history</span>
+        </div>
+        <span class="quick-link__arrow" aria-hidden="true">›</span>
+      </a>
+
+    </nav>
+
+    <!-- Back button -->
+    <button
+      class="back-btn"
+      onclick="window.history.length > 1 ? window.history.back() : window.location.href='index.html'"
+      aria-label="Go back to previous page">
+      <span class="back-btn__arrow" aria-hidden="true">←</span>
+      Go Back
+    </button>
+
+    <!-- Search hint -->
+    <div class="search-hint" role="note">
+      <span class="search-hint__icon" aria-hidden="true">💡</span>
+      <p class="search-hint__text">
+        If you typed the URL manually, double-check for typos.
+        All pages are listed above — <strong>bookmark the home page</strong> for quick access!
+      </p>
+    </div>
+
+    <!-- Footer note -->
+    <p class="footer-note">
+      MTS Prep &mdash;
+      <a href="index.html">mts-practice</a>
+      &middot; Free exam preparation
+    </p>
+
+  </main>
+
+  <!-- ── Auto redirect after 30s ── -->
+  <script>
+    // Apply saved theme
+    try {
+      const settings = JSON.parse(localStorage.getItem('mts_settings') || '{}');
+      if (settings.theme === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        document.body.style.background = '#f8fafc';
+        document.body.style.color = '#0f172a';
+
+        // Update orb opacity for light mode
+        document.querySelectorAll('.orb').forEach(o => {
+          o.style.opacity = '0.05';
+        });
+
+        // Update card colors
+        document.querySelectorAll('.quick-links').forEach(el => {
+          el.style.background = '#ffffff';
+          el.style.borderColor = 'rgba(0,0,0,0.08)';
+        });
+
+        document.querySelectorAll('.quick-link').forEach(el => {
+          el.style.borderColor = 'rgba(0,0,0,0.06)';
+          el.style.color = '#0f172a';
+        });
+
+        document.querySelectorAll('.quick-link__desc').forEach(el => {
+          el.style.color = '#94a3b8';
+        });
+      }
+    } catch (e) {}
+
+    // Auto redirect countdown
+    let countdown = 30;
+    const note = document.querySelector('.footer-note');
+
+    const timer = setInterval(() => {
+      countdown--;
+      if (note) {
+        note.innerHTML = `
+          MTS Prep &mdash;
+          <a href="index.html">mts-practice</a>
+          &middot; Redirecting to home in
+          <strong style="color:var(--primary-light)">${countdown}s</strong>
+        `;
+      }
+      if (countdown <= 0) {
+        clearInterval(timer);
+        window.location.href = 'index.html';
+      }
+    }, 1000);
+
+    // Cancel redirect if user interacts
+    document.addEventListener('click', () => {
+      clearInterval(timer);
+      if (note) {
+        note.innerHTML = `
+          MTS Prep &mdash;
+          <a href="index.html">mts-practice</a>
+          &middot; Free exam preparation
+        `;
+      }
+    }, { once: true });
+  </script>
+
+</body>
+</html>

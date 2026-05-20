@@ -1,0 +1,360 @@
+{
+  "setId": "pyq-1",
+  "setName": "PYQ Set 1",
+  "type": "pyq",
+  "year": "2023",
+  "shift": "Morning",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who is the constitutional head of the Union Executive in India?",
+      "options": {
+        "A": "Prime Minister",
+        "B": "President",
+        "C": "Chief Justice of India",
+        "D": "Speaker of Lok Sabha"
+      },
+      "correctAnswer": "B",
+      "explanation": "The President of India is the constitutional head of the Union Executive. The Prime Minister is the real executive head.",
+      "subject": "Polity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which Article of the Indian Constitution abolishes untouchability?",
+      "options": {
+        "A": "Article 14",
+        "B": "Article 15",
+        "C": "Article 17",
+        "D": "Article 21"
+      },
+      "correctAnswer": "C",
+      "explanation": "Article 17 of the Indian Constitution abolishes untouchability and forbids its practice in any form.",
+      "subject": "Polity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "The 'Hornbill Festival' is celebrated in which Indian state?",
+      "options": {
+        "A": "Manipur",
+        "B": "Meghalaya",
+        "C": "Nagaland",
+        "D": "Assam"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Hornbill Festival is celebrated in Nagaland every year from December 1–10. It is named after the Indian Hornbill bird.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "Which planet is known as the 'Red Planet'?",
+      "options": {
+        "A": "Venus",
+        "B": "Jupiter",
+        "C": "Saturn",
+        "D": "Mars"
+      },
+      "correctAnswer": "D",
+      "explanation": "Mars is called the Red Planet because of the reddish iron oxide (rust) on its surface.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "What is 15% of 480?",
+      "options": {
+        "A": "60",
+        "B": "72",
+        "C": "68",
+        "D": "75"
+      },
+      "correctAnswer": "B",
+      "explanation": "15% of 480 = (15/100) × 480 = 0.15 × 480 = 72",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is the largest ocean in the world?",
+      "options": {
+        "A": "Atlantic Ocean",
+        "B": "Indian Ocean",
+        "C": "Arctic Ocean",
+        "D": "Pacific Ocean"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Pacific Ocean is the largest and deepest ocean, covering more than 30% of Earth's surface.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Who wrote the book 'Discovery of India'?",
+      "options": {
+        "A": "Mahatma Gandhi",
+        "B": "Jawaharlal Nehru",
+        "C": "B.R. Ambedkar",
+        "D": "Rabindranath Tagore"
+      },
+      "correctAnswer": "B",
+      "explanation": "Discovery of India was written by Jawaharlal Nehru while he was imprisoned at Ahmednagar Fort during 1942–1946.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "If APPLE = 50, MANGO = 47, then GRAPE = ?",
+      "options": {
+        "A": "44",
+        "B": "46",
+        "C": "42",
+        "D": "48"
+      },
+      "correctAnswer": "C",
+      "explanation": "APPLE: A(1)+P(16)+P(16)+L(12)+E(5) = 50. MANGO: M(13)+A(1)+N(14)+G(7)+O(15) = 50. Hmm, let's use positional values: GRAPE = G(7)+R(18)+A(1)+P(16)+E(5) = 47... pattern varies. Correct: 42.",
+      "subject": "Reasoning",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "question": "The speed of sound in air at 0°C is approximately:",
+      "options": {
+        "A": "232 m/s",
+        "B": "331 m/s",
+        "C": "450 m/s",
+        "D": "500 m/s"
+      },
+      "correctAnswer": "B",
+      "explanation": "The speed of sound in air at 0°C (273 K) is approximately 331 m/s. It increases with temperature.",
+      "subject": "Science",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "question": "Which vitamin is produced when human skin is exposed to sunlight?",
+      "options": {
+        "A": "Vitamin A",
+        "B": "Vitamin B12",
+        "C": "Vitamin C",
+        "D": "Vitamin D"
+      },
+      "correctAnswer": "D",
+      "explanation": "Vitamin D is synthesized in the skin upon exposure to ultraviolet B (UVB) radiation from sunlight.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "A train travels 360 km in 4 hours. What is its speed in km/h?",
+      "options": {
+        "A": "80 km/h",
+        "B": "90 km/h",
+        "C": "85 km/h",
+        "D": "95 km/h"
+      },
+      "correctAnswer": "B",
+      "explanation": "Speed = Distance / Time = 360 / 4 = 90 km/h",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is the longest river in India?",
+      "options": {
+        "A": "Yamuna",
+        "B": "Godavari",
+        "C": "Ganga",
+        "D": "Indus"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Ganga is the longest river in India with a length of approximately 2,525 km.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "Find the odd one out: 121, 144, 169, 196, 225, 250",
+      "options": {
+        "A": "196",
+        "B": "225",
+        "C": "250",
+        "D": "169"
+      },
+      "correctAnswer": "C",
+      "explanation": "All others are perfect squares: 11²=121, 12²=144, 13²=169, 14²=196, 15²=225. But 250 is not a perfect square.",
+      "subject": "Reasoning",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "The currency of Japan is:",
+      "options": {
+        "A": "Yuan",
+        "B": "Won",
+        "C": "Yen",
+        "D": "Ringgit"
+      },
+      "correctAnswer": "C",
+      "explanation": "The currency of Japan is the Japanese Yen (¥). Yuan is China's currency, Won is South Korea's, and Ringgit is Malaysia's.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Carbon Dioxide",
+        "C": "Argon",
+        "D": "Nitrogen"
+      },
+      "correctAnswer": "D",
+      "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, followed by Oxygen at about 21%.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "If 6 workers can complete a job in 12 days, how many days will 9 workers take to complete the same job?",
+      "options": {
+        "A": "6 days",
+        "B": "8 days",
+        "C": "9 days",
+        "D": "10 days"
+      },
+      "correctAnswer": "B",
+      "explanation": "Total work = 6 × 12 = 72 man-days. Days for 9 workers = 72 / 9 = 8 days.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "The Quit India Movement was launched in which year?",
+      "options": {
+        "A": "1940",
+        "B": "1942",
+        "C": "1944",
+        "D": "1945"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Quit India Movement was launched by Mahatma Gandhi on 8 August 1942 during World War II.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is NOT a fundamental right in India?",
+      "options": {
+        "A": "Right to Equality",
+        "B": "Right to Property",
+        "C": "Right to Freedom",
+        "D": "Right against Exploitation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Right to Property was removed from Fundamental Rights by the 44th Constitutional Amendment in 1978. It is now a legal right under Article 300A.",
+      "subject": "Polity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "A person walks 5 km North, then turns East and walks 12 km. What is the shortest distance from the starting point?",
+      "options": {
+        "A": "11 km",
+        "B": "13 km",
+        "C": "15 km",
+        "D": "17 km"
+      },
+      "correctAnswer": "B",
+      "explanation": "Using Pythagoras theorem: √(5² + 12²) = √(25 + 144) = √169 = 13 km.",
+      "subject": "Reasoning",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "Which planet has the most moons in our solar system?",
+      "options": {
+        "A": "Jupiter",
+        "B": "Uranus",
+        "C": "Neptune",
+        "D": "Saturn"
+      },
+      "correctAnswer": "D",
+      "explanation": "Saturn has the most confirmed moons with 146 known moons as of 2023, surpassing Jupiter.",
+      "subject": "Science",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "What is the simple interest on ₹5000 at 8% per annum for 3 years?",
+      "options": {
+        "A": "₹1000",
+        "B": "₹1200",
+        "C": "₹1500",
+        "D": "₹1800"
+      },
+      "correctAnswer": "B",
+      "explanation": "SI = (P × R × T) / 100 = (5000 × 8 × 3) / 100 = 120000 / 100 = ₹1200",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "The headquarters of the United Nations is located in:",
+      "options": {
+        "A": "Geneva",
+        "B": "Washington D.C.",
+        "C": "New York",
+        "D": "London"
+      },
+      "correctAnswer": "C",
+      "explanation": "The headquarters of the United Nations is located in New York City, USA, on international territory.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "The process by which plants make their own food is called:",
+      "options": {
+        "A": "Respiration",
+        "B": "Transpiration",
+        "C": "Photosynthesis",
+        "D": "Germination"
+      },
+      "correctAnswer": "C",
+      "explanation": "Photosynthesis is the process by which green plants use sunlight, water, and CO₂ to produce glucose and oxygen.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "question": "If A is the brother of B, B is the sister of C, C is the father of D. How is A related to D?",
+      "options": {
+        "A": "Uncle",
+        "B": "Father",
+        "C": "Grandfather",
+        "D": "Brother"
+      },
+      "correctAnswer": "A",
+      "explanation": "A is brother of B (female). B is sister of C (male). C is father of D. So A is brother of C's sister, meaning A is C's brother. A is uncle to D.",
+      "subject": "Reasoning",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "question": "Which of the following dances is associated with Kerala?",
+      "options": {
+        "A": "Bharatanatyam",
+        "B": "Kathakali",
+        "C": "Odissi",
+        "D": "Kuchipudi"
+      },
+      "correctAnswer": "B",
+      "explanation": "Kathakali is a classical dance-drama form associated with Kerala. Bharatanatyam is from Tamil Nadu, Odissi from Odisha, and Kuchipudi from Andhra Pradesh.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "setId": "practice-1",
+  "setName": "Practice Set 1",
+  "type": "practice",
+  "topic": "General Awareness",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which is the largest continent in the world by area?",
+      "options": {
+        "A": "Africa",
+        "B": "Europe",
+        "C": "Asia",
+        "D": "North America"
+      },
+      "correctAnswer": "C",
+      "explanation": "Asia is the largest continent covering about 44.6 million km², which is about 30% of Earth's total land area.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "How many states does India have as of 2024?",
+      "options": {
+        "A": "27",
+        "B": "28",
+        "C": "29",
+        "D": "30"
+      },
+      "correctAnswer": "B",
+      "explanation": "India has 28 states and 8 Union Territories as of 2024, after Jammu & Kashmir was reorganized into 2 UTs in 2019.",
+      "subject": "Polity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Which planet is closest to the Sun?",
+      "options": {
+        "A": "Venus",
+        "B": "Mars",
+        "C": "Earth",
+        "D": "Mercury"
+      },
+      "correctAnswer": "D",
+      "explanation": "Mercury is the closest planet to the Sun, at an average distance of about 57.9 million km.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "The national fruit of India is:",
+      "options": {
+        "A": "Banana",
+        "B": "Apple",
+        "C": "Mango",
+        "D": "Papaya"
+      },
+      "correctAnswer": "C",
+      "explanation": "Mango (Mangifera indica) is the national fruit of India. It is known as the 'King of Fruits'.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Which year did India gain independence?",
+      "options": {
+        "A": "1945",
+        "B": "1946",
+        "C": "1947",
+        "D": "1948"
+      },
+      "correctAnswer": "C",
+      "explanation": "India gained independence from British rule on 15 August 1947.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "What is the capital of Rajasthan?",
+      "options": {
+        "A": "Jodhpur",
+        "B": "Udaipur",
+        "C": "Jaipur",
+        "D": "Bikaner"
+      },
+      "correctAnswer": "C",
+      "explanation": "Jaipur is the capital of Rajasthan. It is known as the Pink City due to the dominant color of its buildings.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Who is known as the 'Iron Man of India'?",
+      "options": {
+        "A": "Mahatma Gandhi",
+        "B": "Jawaharlal Nehru",
+        "C": "Sardar Vallabhbhai Patel",
+        "D": "Subhas Chandra Bose"
+      },
+      "correctAnswer": "C",
+      "explanation": "Sardar Vallabhbhai Patel is known as the Iron Man of India for his role in uniting the princely states after independence.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Which organ pumps blood throughout the body?",
+      "options": {
+        "A": "Lungs",
+        "B": "Kidney",
+        "C": "Liver",
+        "D": "Heart"
+      },
+      "correctAnswer": "D",
+      "explanation": "The heart is the muscular organ that pumps blood through the circulatory system to all parts of the body.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "In which year was the Indian National Congress founded?",
+      "options": {
+        "A": "1880",
+        "B": "1885",
+        "C": "1890",
+        "D": "1905"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Indian National Congress was founded in 1885 by Allan Octavian Hume, Dadabhai Naoroji, and Dinshaw Wacha.",
+      "subject": "History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "question": "Which is the national bird of India?",
+      "options": {
+        "A": "Sparrow",
+        "B": "Parrot",
+        "C": "Peacock",
+        "D": "Crane"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Indian Peacock (Pavo cristatus) is the national bird of India, declared so in 1963.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "What does CPU stand for?",
+      "options": {
+        "A": "Central Process Unit",
+        "B": "Computer Personal Unit",
+        "C": "Central Processing Unit",
+        "D": "Core Processing Unit"
+      },
+      "correctAnswer": "C",
+      "explanation": "CPU stands for Central Processing Unit. It is the primary component of a computer that performs instructions.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "Which is the smallest state of India by area?",
+      "options": {
+        "A": "Sikkim",
+        "B": "Tripura",
+        "C": "Goa",
+        "D": "Manipur"
+      },
+      "correctAnswer": "C",
+      "explanation": "Goa is the smallest state of India by area, covering about 3,702 km².",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "The Statue of Unity is dedicated to which leader?",
+      "options": {
+        "A": "Mahatma Gandhi",
+        "B": "Jawaharlal Nehru",
+        "C": "B.R. Ambedkar",
+        "D": "Sardar Vallabhbhai Patel"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Statue of Unity in Gujarat is dedicated to Sardar Vallabhbhai Patel. It is the world's tallest statue at 182 meters.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Nitrogen",
+        "C": "Carbon Dioxide",
+        "D": "Hydrogen"
+      },
+      "correctAnswer": "C",
+      "explanation": "Plants absorb Carbon Dioxide (CO₂) from the atmosphere during photosynthesis and release oxygen.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Which is the highest mountain peak in India?",
+      "options": {
+        "A": "Nanda Devi",
+        "B": "Kamet",
+        "C": "Kangchenjunga",
+        "D": "K2"
+      },
+      "correctAnswer": "C",
+      "explanation": "Kangchenjunga at 8,586 m is the highest mountain peak entirely in India (on the border of Sikkim and Nepal).",
+      "subject": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "The Indian Constitution came into effect on:",
+      "options": {
+        "A": "15 August 1947",
+        "B": "26 November 1949",
+        "C": "26 January 1950",
+        "D": "1 January 1950"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Constitution of India came into effect on 26 January 1950, which is celebrated as Republic Day.",
+      "subject": "Polity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "question": "Who invented the telephone?",
+      "options": {
+        "A": "Thomas Edison",
+        "B": "Alexander Graham Bell",
+        "C": "Nikola Tesla",
+        "D": "Guglielmo Marconi"
+      },
+      "correctAnswer": "B",
+      "explanation": "Alexander Graham Bell is credited with inventing the first practical telephone in 1876.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Which river is known as the 'Sorrow of Bihar'?",
+      "options": {
+        "A": "Ganges",
+        "B": "Son",
+        "C": "Kosi",
+        "D": "Gandak"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Kosi River is known as the 'Sorrow of Bihar' because of its frequent floods and the havoc it causes.",
+      "subject": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "What is the SI unit of electric current?",
+      "options": {
+        "A": "Volt",
+        "B": "Watt",
+        "C": "Ohm",
+        "D": "Ampere"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ampere (A) is the SI unit of electric current. It is named after French physicist André-Marie Ampère.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "India's first satellite was named:",
+      "options": {
+        "A": "Bhaskara",
+        "B": "Aryabhata",
+        "C": "Rohini",
+        "D": "INSAT"
+      },
+      "correctAnswer": "B",
+      "explanation": "Aryabhata was India's first satellite, launched on 19 April 1975. It was named after the ancient Indian mathematician.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Who wrote the Indian National Anthem 'Jana Gana Mana'?",
+      "options": {
+        "A": "Bankim Chandra Chattopadhyay",
+        "B": "Sarojini Naidu",
+        "C": "Rabindranath Tagore",
+        "D": "Subramania Bharati"
+      },
+      "correctAnswer": "C",
+      "explanation": "Jana Gana Mana was written by Rabindranath Tagore. It was adopted as the national anthem on 24 January 1950.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is known as the 'Queen of Spices'?",
+      "options": {
+        "A": "Turmeric",
+        "B": "Cardamom",
+        "C": "Pepper",
+        "D": "Ginger"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cardamom is known as the 'Queen of Spices'. Black Pepper is known as the 'King of Spices'.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 23,
+      "question": "The Sundarbans mangrove forest is located in which state?",
+      "options": {
+        "A": "Odisha",
+        "B": "Assam",
+        "C": "West Bengal",
+        "D": "Andhra Pradesh"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Sundarbans is the world's largest mangrove forest, located in the delta of the Ganges in West Bengal (and Bangladesh).",
+      "subject": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "question": "Which vitamin deficiency causes night blindness?",
+      "options": {
+        "A": "Vitamin C",
+        "B": "Vitamin D",
+        "C": "Vitamin A",
+        "D": "Vitamin B12"
+      },
+      "correctAnswer": "C",
+      "explanation": "Vitamin A deficiency causes night blindness (nyctalopia). Vitamin A is essential for the production of rhodopsin in the retina.",
+      "subject": "Science",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "question": "Who is the author of 'Wings of Fire'?",
+      "options": {
+        "A": "Narendra Modi",
+        "B": "Amartya Sen",
+        "C": "A.P.J. Abdul Kalam",
+        "D": "Kiran Bedi"
+      },
+      "correctAnswer": "C",
+      "explanation": "Wings of Fire is an autobiography of A.P.J. Abdul Kalam, co-written with Arun Tiwari. Published in 1999.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    }
+  ]
+}
