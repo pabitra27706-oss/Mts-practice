@@ -792,3 +792,165 @@
     display: none;
   }
 }
+/* ══════════════════════════════════════════
+   INSTALL MODAL
+══════════════════════════════════════════ */
+
+.install-modal {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-top);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.install-modal--show {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.install-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+}
+
+.install-modal__dialog {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-xl);
+  transform: scale(0.9) translateY(20px);
+  transition: transform 0.3s cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+.install-modal--show .install-modal__dialog {
+  transform: scale(1) translateY(0);
+}
+
+.install-modal__close {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  width: 32px;
+  height: 32px;
+  background: var(--bg-glass);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--trans-fast);
+}
+
+.install-modal__close:hover {
+  background: var(--bg-glass-hover);
+  color: var(--text-primary);
+}
+
+.install-modal__title {
+  font-size: var(--text-xl);
+  font-weight: 800;
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: var(--space-5);
+  letter-spacing: -0.02em;
+}
+
+.install-modal__steps {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+.install-step {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  background: var(--bg-glass);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.install-step__num {
+  width: 28px;
+  height: 28px;
+  background: var(--grad-primary);
+  color: #fff;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-xs);
+  font-weight: 800;
+  flex-shrink: 0;
+  box-shadow: var(--shadow-primary);
+}
+
+.install-step__icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.install-step__text {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.install-step__text strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.install-modal__benefit {
+  padding: var(--space-4);
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: var(--radius-lg);
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--space-4);
+}
+
+.install-modal__benefit strong {
+  color: var(--primary-light);
+  font-size: var(--text-sm);
+}
+
+.install-modal__btn {
+  width: 100%;
+}
+
+/* ── Install Banner Improvements ── */
+.install-banner {
+  animation: slideDown 0.4s cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+.install-banner__icon {
+  font-size: 1.75rem;
+  animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-3px); }
+}
