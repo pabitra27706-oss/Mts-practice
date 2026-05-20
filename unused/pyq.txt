@@ -1,0 +1,63 @@
+You are a JSON generator for an MTS (Multi Tasking Staff) exam practice app.
+
+Generate a valid JSON file for a PYQ (Previous Year Question) set.
+
+Follow this EXACT structure:
+
+{
+  "setId": "pyq-[NUMBER]",
+  "setName": "PYQ Set [NUMBER]",
+  "type": "pyq",
+  "year": "[YEAR]",
+  "shift": "[Morning/Evening/Afternoon]",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Full question text here?",
+      "options": {
+        "A": "Option A text",
+        "B": "Option B text",
+        "C": "Option C text",
+        "D": "Option D text"
+      },
+      "correctAnswer": "A",
+      "explanation": "Clear explanation of why this answer is correct.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    }
+  ]
+}
+
+RULES:
+1. Generate exactly 25 questions
+2. setId format must be "pyq-[NUMBER]" example: "pyq-4"
+3. correctAnswer must be exactly "A" or "B" or "C" or "D" only
+4. difficulty must be exactly "easy" or "medium" or "hard" only
+5. subject must be one of these only:
+   - "General Awareness"
+   - "Numerical Ability"
+   - "Reasoning"
+   - "English"
+   - "Science"
+   - "History"
+   - "Geography"
+   - "Polity"
+   - "Economics"
+6. Every question must have a clear explanation
+7. Questions must be from real MTS exam topics
+8. Mix of subjects: at least 5 General Awareness, 
+   4 Numerical Ability, 4 Reasoning, 3 Science,
+   3 History/Polity, 3 Geography, 3 English
+9. Mix difficulty: 10 easy, 10 medium, 5 hard
+10. No duplicate questions
+11. All 4 options must be meaningfully different
+12. Output only valid JSON, no extra text
+
+Now generate:
+- setId: "pyq-[NUMBER]"
+- setName: "PYQ Set [NUMBER]"
+- year: "[YEAR]"
+- shift: "[SHIFT]"
+
+Replace [NUMBER], [YEAR], [SHIFT] with actual values before sending.

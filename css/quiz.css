@@ -832,3 +832,104 @@
     margin-bottom: var(--space-8);
   }
 }
+/* ══════════════════════════════════════════
+   SCROLL + SWIPE FIXES
+══════════════════════════════════════════ */
+
+/* ── Give enough bottom padding so action
+   bar never covers last question content ── */
+.quiz-main {
+  padding-bottom: 200px !important;
+}
+
+/* ── Question card — never go under header ── */
+.question-card {
+  scroll-margin-top: 120px;
+}
+
+/* ── Swipe Hint Overlay ── */
+.swipe-hint {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.5);
+  font-size: 3rem;
+  color: var(--primary-light);
+  background: rgba(99, 102, 241, 0.15);
+  border: 2px solid rgba(99, 102, 241, 0.3);
+  border-radius: var(--radius-full);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: var(--z-top);
+  opacity: 0;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  backdrop-filter: blur(8px);
+}
+
+.swipe-hint--show {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* ── Swipe indicator strip at bottom of card ── */
+.question-card::after {
+  content: '← swipe →';
+  display: block;
+  text-align: center;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  padding: var(--space-2) 0 var(--space-1);
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+}
+
+/* Hide swipe hint on desktop */
+@media (hover: hover) and (pointer: fine) {
+  .question-card::after {
+    display: none;
+  }
+  .swipe-hint {
+    display: none;
+  }
+}
+
+/* ── Nav dot scroll into view ── */
+.nav-dot--current {
+  scroll-margin: 8px;
+}
+
+/* ── Action bar safe area ── */
+.quiz-actions {
+  padding-bottom: calc(
+    var(--space-3) +
+    env(safe-area-inset-bottom, 16px)
+  );
+}
+
+/* ── Smooth question transition ── */
+#questionCard {
+  will-change: transform, opacity;
+}
+
+/* ── Nav grid scroll on mobile ── */
+.question-nav__grid {
+  max-height: 160px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) transparent;
+}
+
+.question-nav__grid::-webkit-scrollbar {
+  width: 4px;
+}
+
+.question-nav__grid::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: var(--radius-full);
+}
