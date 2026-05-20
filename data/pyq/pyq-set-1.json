@@ -1,360 +1,696 @@
 {
-  "setId": "pyq-1",
-  "setName": "PYQ Set 1",
+  "setId": "pyq-2025",
+  "setName": "Andhra Pradesh Postal MTS PYQ 2025",
   "type": "pyq",
-  "year": "2024",
+  "year": "2025",
   "shift": "Morning",
-  "totalQuestions": 25,
+  "totalQuestions": 49,
   "questions": [
     {
       "id": 1,
-      "question": "Who is the constitutional head of the Union Executive in India?",
+      "question": "Articles fastened with pins if detected at office of booking will be...",
       "options": {
-        "A": "Prime Minister",
-        "B": "President",
-        "C": "Chief Justice of India",
-        "D": "Speaker of Lok Sabha"
-      },
-      "correctAnswer": "B",
-      "explanation": "The President of India is the constitutional head of the Union Executive. The Prime Minister is the real executive head.",
-      "subject": "Polity",
-      "difficulty": "easy"
-    },
-    {
-      "id": 2,
-      "question": "Which Article of the Indian Constitution abolishes untouchability?",
-      "options": {
-        "A": "Article 14",
-        "B": "Article 15",
-        "C": "Article 17",
-        "D": "Article 21"
+        "A": "Sent to RLO",
+        "B": "Sent to addressee",
+        "C": "Returned to sender at once",
+        "D": "Kept in deposit"
       },
       "correctAnswer": "C",
-      "explanation": "Article 17 of the Indian Constitution abolishes untouchability and forbids its practice in any form.",
-      "subject": "Polity",
-      "difficulty": "medium"
-    },
-    {
-      "id": 3,
-      "question": "The 'Hornbill Festival' is celebrated in which Indian state?",
-      "options": {
-        "A": "Manipur",
-        "B": "Meghalaya",
-        "C": "Nagaland",
-        "D": "Assam"
-      },
-      "correctAnswer": "C",
-      "explanation": "The Hornbill Festival is celebrated in Nagaland every year from December 1–10. It is named after the Indian Hornbill bird.",
+      "explanation": "According to Post Office guidelines, articles fastened with pins are not permitted and are returned to the sender immediately to prevent injury to postal staff and damage to other mail.",
       "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
-      "id": 4,
-      "question": "Which planet is known as the 'Red Planet'?",
+      "id": 2,
+      "question": "Trial Card...",
       "options": {
-        "A": "Venus",
-        "B": "Jupiter",
-        "C": "Saturn",
-        "D": "Mars"
+        "A": "MS 26(a)",
+        "B": "M 28(b)",
+        "C": "M 26(a)",
+        "D": "M 26(c)"
       },
-      "correctAnswer": "D",
-      "explanation": "Mars is called the Red Planet because of the reddish iron oxide (rust) on its surface.",
-      "subject": "Science",
-      "difficulty": "easy"
+      "correctAnswer": "C",
+      "explanation": "The Trial Card is denoted by the form number M 26(a) in the postal manual.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 4,
+      "question": "Discount for walk-in customers under Speed Post begins with minimum daily revenue of...",
+      "options": {
+        "A": "Rs 2,000/-",
+        "B": "Rs 20,000/-",
+        "C": "Rs 2,00,000/-",
+        "D": "Rs 20,00,000/-"
+      },
+      "correctAnswer": "A",
+      "explanation": "Speed Post offers a discount structure for walk-in customers that begins when the minimum daily revenue reaches Rs 2,000.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
     },
     {
       "id": 5,
-      "question": "What is 15% of 480?",
+      "question": "Any change of location of franking machine, except in cases of repairs, shall be notified to the...",
       "options": {
-        "A": "60",
-        "B": "72",
-        "C": "68",
-        "D": "75"
+        "A": "Office of posting",
+        "B": "Head of Division",
+        "C": "Both A & B",
+        "D": "None of the above"
       },
-      "correctAnswer": "B",
-      "explanation": "15% of 480 = (15/100) × 480 = 0.15 × 480 = 72",
-      "subject": "Numerical Ability",
-      "difficulty": "easy"
+      "correctAnswer": "C",
+      "explanation": "To maintain security and proper auditing, any change in the location of a franking machine must be notified to both the Office of posting and the Head of the Division.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
     },
     {
       "id": 6,
-      "question": "Which of the following is the largest ocean in the world?",
+      "question": "What is the maximum age limit for enrolment of SB account holder under PMJJBY?",
       "options": {
-        "A": "Atlantic Ocean",
-        "B": "Indian Ocean",
-        "C": "Arctic Ocean",
-        "D": "Pacific Ocean"
+        "A": "55 years",
+        "B": "50 years",
+        "C": "60 years",
+        "D": "65 years"
       },
-      "correctAnswer": "D",
-      "explanation": "The Pacific Ocean is the largest and deepest ocean, covering more than 30% of Earth's surface.",
-      "subject": "Geography",
+      "correctAnswer": "B",
+      "explanation": "The Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) is available to people in the age group of 18 to 50 years having a bank account.",
+      "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 7,
-      "question": "Who wrote the book 'Discovery of India'?",
+      "question": "Which bag will be booked and delivered on all working days including Sundays and holidays?",
       "options": {
-        "A": "Mahatma Gandhi",
-        "B": "Jawaharlal Nehru",
-        "C": "B.R. Ambedkar",
-        "D": "Rabindranath Tagore"
+        "A": "Camp bag",
+        "B": "Insured bag",
+        "C": "Parcel bag",
+        "D": "Account bag"
       },
-      "correctAnswer": "B",
-      "explanation": "Discovery of India was written by Jawaharlal Nehru while he was imprisoned at Ahmednagar Fort during 1942–1946.",
+      "correctAnswer": "A",
+      "explanation": "Camp bags are special bags meant for high dignitaries on tour and are booked and delivered on all days, including Sundays and holidays.",
       "subject": "General Awareness",
-      "difficulty": "easy"
-    },
-    {
-      "id": 8,
-      "question": "If APPLE = 50, MANGO = 47, then GRAPE = ?",
-      "options": {
-        "A": "44",
-        "B": "46",
-        "C": "42",
-        "D": "48"
-      },
-      "correctAnswer": "C",
-      "explanation": "APPLE: A(1)+P(16)+P(16)+L(12)+E(5) = 50. MANGO: M(13)+A(1)+N(14)+G(7)+O(15) = 50. Hmm, let's use positional values: GRAPE = G(7)+R(18)+A(1)+P(16)+E(5) = 47... pattern varies. Correct: 42.",
-      "subject": "Reasoning",
       "difficulty": "medium"
     },
     {
-      "id": 9,
-      "question": "The speed of sound in air at 0°C is approximately:",
+      "id": 8,
+      "question": "In case BNPL customer fails to make the payments of the bills by due date, what will be the rate of penalty?",
       "options": {
-        "A": "232 m/s",
-        "B": "331 m/s",
-        "C": "450 m/s",
-        "D": "500 m/s"
+        "A": "7% p.a.",
+        "B": "12% p.a.",
+        "C": "10% p.a.",
+        "D": "5% p.a."
       },
       "correctAnswer": "B",
-      "explanation": "The speed of sound in air at 0°C (273 K) is approximately 331 m/s. It increases with temperature.",
-      "subject": "Science",
+      "explanation": "For Book Now Pay Later (BNPL) customers, failure to pay bills by the due date attracts a penal interest at the rate of 12% per annum.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 9,
+      "question": "Within how many days should the renter of a Post Box inform the Postmaster about change of his address?",
+      "options": {
+        "A": "15 days",
+        "B": "7 days",
+        "C": "10 days",
+        "D": "5 days"
+      },
+      "correctAnswer": "B",
+      "explanation": "If the renter of a Post Box changes their business or residential address, they must inform the Postmaster within 7 days.",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 10,
-      "question": "Which vitamin is produced when human skin is exposed to sunlight?",
+      "question": "GDS employees can enroll as Atal Pension Yojana subscribers...",
       "options": {
-        "A": "Vitamin A",
-        "B": "Vitamin B12",
-        "C": "Vitamin C",
-        "D": "Vitamin D"
+        "A": "If eligible as per age criteria",
+        "B": "Shall not be eligible for Govt contribution",
+        "C": "In addition to the membership of SDBS",
+        "D": "All of the above"
       },
       "correctAnswer": "D",
-      "explanation": "Vitamin D is synthesized in the skin upon exposure to ultraviolet B (UVB) radiation from sunlight.",
-      "subject": "Science",
-      "difficulty": "easy"
+      "explanation": "Gramin Dak Sevaks (GDS) can enroll in APY if they meet the age criteria, they will not receive the co-contribution from the Government since they are already covered under schemes like SDBS, and it can be in addition to SDBS.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
     },
     {
       "id": 11,
-      "question": "A train travels 360 km in 4 hours. What is its speed in km/h?",
+      "question": "Following bags are not treated as due bags...",
       "options": {
-        "A": "80 km/h",
-        "B": "90 km/h",
-        "C": "85 km/h",
-        "D": "95 km/h"
+        "A": "Transit bags",
+        "B": "Registered bags",
+        "C": "Account bags",
+        "D": "Cash bags"
       },
-      "correctAnswer": "B",
-      "explanation": "Speed = Distance / Time = 360 / 4 = 90 km/h",
-      "subject": "Numerical Ability",
-      "difficulty": "easy"
+      "correctAnswer": "D",
+      "explanation": "Cash bags are not considered 'due bags' because they are only dispatched when there is an actual remittance of cash, unlike routine bags.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
     },
     {
       "id": 12,
-      "question": "Which of the following is the longest river in India?",
+      "question": "Post Offices will not accept payment of postage on postal article in the shape of...",
       "options": {
-        "A": "Yamuna",
-        "B": "Godavari",
-        "C": "Ganga",
-        "D": "Indus"
+        "A": "Postage Stamps",
+        "B": "Service Stamps",
+        "C": "Revenue Stamps",
+        "D": "Philatelic Stamps"
       },
       "correctAnswer": "C",
-      "explanation": "The Ganga is the longest river in India with a length of approximately 2,525 km.",
-      "subject": "Geography",
+      "explanation": "Revenue stamps are intended for tax purposes on documents and receipts, not for prepaying postal charges.",
+      "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 13,
-      "question": "Find the odd one out: 121, 144, 169, 196, 225, 250",
+      "question": "Following orders are issued by Superintendent, RMS prescribing changes in sorting lists...",
       "options": {
-        "A": "196",
-        "B": "225",
-        "C": "250",
-        "D": "169"
+        "A": "D order",
+        "B": "A order",
+        "C": "B order",
+        "D": "C order"
       },
-      "correctAnswer": "C",
-      "explanation": "All others are perfect squares: 11²=121, 12²=144, 13²=169, 14²=196, 15²=225. But 250 is not a perfect square.",
-      "subject": "Reasoning",
-      "difficulty": "medium"
+      "correctAnswer": "B",
+      "explanation": "'A orders' are issued by the Superintendent of RMS to prescribe changes in sorting lists and routing of mails.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
     },
     {
       "id": 14,
-      "question": "The currency of Japan is:",
+      "question": "The impressions of the franking machines recorded on the postal article should...",
       "options": {
-        "A": "Yuan",
-        "B": "Won",
-        "C": "Yen",
-        "D": "Ringgit"
+        "A": "Be clear and distinct",
+        "B": "Be of bright red colour",
+        "C": "Not overlap",
+        "D": "All of the above"
       },
-      "correctAnswer": "C",
-      "explanation": "The currency of Japan is the Japanese Yen (¥). Yuan is China's currency, Won is South Korea's, and Ringgit is Malaysia's.",
+      "correctAnswer": "D",
+      "explanation": "Franking machine impressions must meet specific standards: they must be clear, distinct, stamped in bright red ink, and must not overlap.",
       "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 15,
-      "question": "Which gas is most abundant in the Earth's atmosphere?",
+      "question": "Which is the nodal agency for implementation and monitoring of NPS?",
       "options": {
-        "A": "Oxygen",
-        "B": "Carbon Dioxide",
-        "C": "Argon",
-        "D": "Nitrogen"
+        "A": "India Post",
+        "B": "SEBI",
+        "C": "IRDA",
+        "D": "PFRDA"
       },
       "correctAnswer": "D",
-      "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, followed by Oxygen at about 21%.",
-      "subject": "Science",
-      "difficulty": "easy"
-    },
-    {
-      "id": 16,
-      "question": "If 6 workers can complete a job in 12 days, how many days will 9 workers take to complete the same job?",
-      "options": {
-        "A": "6 days",
-        "B": "8 days",
-        "C": "9 days",
-        "D": "10 days"
-      },
-      "correctAnswer": "B",
-      "explanation": "Total work = 6 × 12 = 72 man-days. Days for 9 workers = 72 / 9 = 8 days.",
-      "subject": "Numerical Ability",
+      "explanation": "The Pension Fund Regulatory and Development Authority (PFRDA) is the statutory body regulating and monitoring the National Pension System (NPS).",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
-      "id": 17,
-      "question": "The Quit India Movement was launched in which year?",
+      "id": 16,
+      "question": "The special registration envelopes provided by the post office can be used for transmission of...",
       "options": {
-        "A": "1940",
-        "B": "1942",
-        "C": "1944",
-        "D": "1945"
+        "A": "Unregistered postal article",
+        "B": "Registered postal article",
+        "C": "Ordinary postal article",
+        "D": "None of the above"
       },
       "correctAnswer": "B",
-      "explanation": "The Quit India Movement was launched by Mahatma Gandhi on 8 August 1942 during World War II.",
-      "subject": "History",
+      "explanation": "Special registration envelopes sold by the Post Office come with pre-paid postage specifically for registered postal articles.",
+      "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
-      "id": 18,
-      "question": "Which of the following is NOT a fundamental right in India?",
+      "id": 17,
+      "question": "While booking International Speed Post articles below the value of SDR 300, which form is used?",
       "options": {
-        "A": "Right to Equality",
-        "B": "Right to Property",
-        "C": "Right to Freedom",
-        "D": "Right against Exploitation"
+        "A": "CN22",
+        "B": "CN23",
+        "C": "Both CN22 & CN23",
+        "D": "None of the above"
       },
-      "correctAnswer": "B",
-      "explanation": "Right to Property was removed from Fundamental Rights by the 44th Constitutional Amendment in 1978. It is now a legal right under Article 300A.",
-      "subject": "Polity",
+      "correctAnswer": "A",
+      "explanation": "The CN22 customs declaration form is used for international postal articles weighing less than 2 kg and valued below SDR 300.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 18,
+      "question": "Post Office Savings Bank account will be treated as silent, if no deposits/withdrawals take place in an account during continuous ___ financial years.",
+      "options": {
+        "A": "Five",
+        "B": "Four",
+        "C": "Three",
+        "D": "Two"
+      },
+      "correctAnswer": "C",
+      "explanation": "A Post Office Savings Account becomes silent or dormant if there are no transactions (deposit or withdrawal) for three consecutive financial years.",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 19,
-      "question": "A person walks 5 km North, then turns East and walks 12 km. What is the shortest distance from the starting point?",
+      "question": "The weight of unregistered domestic parcel should not exceed...",
       "options": {
-        "A": "11 km",
-        "B": "13 km",
-        "C": "15 km",
-        "D": "17 km"
+        "A": "2 kg",
+        "B": "5 kg",
+        "C": "4 kg",
+        "D": "None of the above"
       },
-      "correctAnswer": "B",
-      "explanation": "Using Pythagoras theorem: √(5² + 12²) = √(25 + 144) = √169 = 13 km.",
-      "subject": "Reasoning",
+      "correctAnswer": "C",
+      "explanation": "The maximum permissible weight for an unregistered domestic parcel is 4 kilograms.",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 20,
-      "question": "Which planet has the most moons in our solar system?",
+      "question": "Premature closure of MIS account is not allowed before the expiry of ___ from the date of opening of such account.",
       "options": {
-        "A": "Jupiter",
-        "B": "Uranus",
-        "C": "Neptune",
-        "D": "Saturn"
+        "A": "One year",
+        "B": "Six months",
+        "C": "Five years",
+        "D": "None of the above"
       },
-      "correctAnswer": "D",
-      "explanation": "Saturn has the most confirmed moons with 146 known moons as of 2023, surpassing Jupiter.",
-      "subject": "Science",
-      "difficulty": "medium"
+      "correctAnswer": "A",
+      "explanation": "A Monthly Income Scheme (MIS) account cannot be closed prematurely before the completion of one year from the date of opening.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
     },
     {
       "id": 21,
-      "question": "What is the simple interest on ₹5000 at 8% per annum for 3 years?",
+      "question": "In the case of articles addressed to foreign countries, the address should be written in...",
       "options": {
-        "A": "₹1000",
-        "B": "₹1200",
-        "C": "₹1500",
-        "D": "₹1800"
+        "A": "Local language",
+        "B": "Hindi",
+        "C": "Roman letters and Arabic figures",
+        "D": "Telugu"
       },
-      "correctAnswer": "B",
-      "explanation": "SI = (P × R × T) / 100 = (5000 × 8 × 3) / 100 = 120000 / 100 = ₹1200",
-      "subject": "Numerical Ability",
+      "correctAnswer": "C",
+      "explanation": "According to Universal Postal Union (UPU) guidelines, international mail addresses must be written in Roman letters and Arabic numerals for universal readability.",
+      "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 22,
-      "question": "The headquarters of the United Nations is located in:",
+      "question": "The general maximum weight of International Speed Post (EMS) article is...",
       "options": {
-        "A": "Geneva",
-        "B": "Washington D.C.",
-        "C": "New York",
-        "D": "London"
+        "A": "25 kg",
+        "B": "20 kg",
+        "C": "30 kg",
+        "D": "35 kg"
+      },
+      "correctAnswer": "D",
+      "explanation": "The general maximum weight limit for booking an International Speed Post (EMS) article is 35 kg, subject to destination country regulations.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is an office of exchange which closes bags for and receives bags from foreign countries in India?",
+      "options": {
+        "A": "Sub Foreign Post Office",
+        "B": "Head Post Office",
+        "C": "Sub Post Office",
+        "D": "Foreign Post Office"
+      },
+      "correctAnswer": "D",
+      "explanation": "A Foreign Post Office acts as the Office of Exchange for processing and handling mail bags dispatched to and received from foreign countries.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "question": "Amount of deposit of a Post Box will not be refunded by the Postmaster at the time of surrender to the renter, if...",
+      "options": {
+        "A": "Post Box is not in use",
+        "B": "Articles not collected from Post Box",
+        "C": "Lock and key of Post Box is not working",
+        "D": "None of the above"
       },
       "correctAnswer": "C",
-      "explanation": "The headquarters of the United Nations is located in New York City, USA, on international territory.",
+      "explanation": "The deposit is forfeited if the lock and key are not returned in good working condition when the Post Box is surrendered.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "Andhra Pradesh Postal Circle is under the administrative control of...",
+      "options": {
+        "A": "Postmaster General",
+        "B": "Chief Postmaster General",
+        "C": "Director Postal Services",
+        "D": "Postmaster General (Mails & BD)"
+      },
+      "correctAnswer": "B",
+      "explanation": "Every Postal Circle in India is headed by a Chief Postmaster General (CPMG) who exercises administrative control over it.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "question": "What is meant by 'CRC' in RMS Division?",
+      "options": {
+        "A": "Computerised Revenue Centre",
+        "B": "Computerised Registration Centre",
+        "C": "Computerised Railway Centre",
+        "D": "Computerised Road Centre"
+      },
+      "correctAnswer": "B",
+      "explanation": "In Railway Mail Service (RMS) terminology, CRC stands for Computerised Registration Centre, where registered mail is processed digitally.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "What is the minimum amount of deposit to open an account under Senior Citizen Savings Scheme?",
+      "options": {
+        "A": "Rs 1,000/-",
+        "B": "Rs 10,000/-",
+        "C": "Rs 15,00,000/-",
+        "D": "Rs 30,00,000/-"
+      },
+      "correctAnswer": "A",
+      "explanation": "The minimum deposit required to open a Senior Citizen Savings Scheme (SCSS) account is Rs 1,000, and deposits must be in multiples of 1,000.",
       "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
-      "id": 23,
-      "question": "The process by which plants make their own food is called:",
+      "id": 28,
+      "question": "Which of the following is a stationery office of the Railway Mail Service?",
       "options": {
-        "A": "Respiration",
-        "B": "Transpiration",
-        "C": "Photosynthesis",
-        "D": "Germination"
+        "A": "Record Office",
+        "B": "Sub Record Office",
+        "C": "Head Record Office",
+        "D": "All above"
+      },
+      "correctAnswer": "D",
+      "explanation": "Record Offices, Sub Record Offices, and Head Record Offices all function as stationary offices of the Railway Mail Service for supplying forms, bags, and maintaining records.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "What is the maximum age at entry for opening of Gram Priya policy?",
+      "options": {
+        "A": "55 years",
+        "B": "50 years",
+        "C": "40 years",
+        "D": "45 years"
+      },
+      "correctAnswer": "D",
+      "explanation": "The maximum age for entry into the Gram Priya (10 Year Rural Postal Life Insurance) policy is 45 years.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "Department of Posts has launched a scholarship scheme called Deen Dayal Sparsh Yojana to award children in class category of...",
+      "options": {
+        "A": "Std I to V",
+        "B": "Std V to X",
+        "C": "Std VI to IX",
+        "D": "Std VI to X"
       },
       "correctAnswer": "C",
-      "explanation": "Photosynthesis is the process by which green plants use sunlight, water, and CO₂ to produce glucose and oxygen.",
+      "explanation": "The Deen Dayal SPARSH Yojana is a scholarship scheme specifically to promote philately among children studying in Standards VI to IX.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "A bus travels for 6 hours and covers a distance at the speed of 60 km per hour. If it travels at the speed of 80 km per hour, how much time will the bus take to cover the same distance?",
+      "options": {
+        "A": "8 hours",
+        "B": "4 3/4 hours",
+        "C": "4 1/4 hours",
+        "D": "4 1/2 hours"
+      },
+      "correctAnswer": "D",
+      "explanation": "Distance = Speed × Time = 60 km/h × 6 h = 360 km. New Time = Distance / New Speed = 360 / 80 = 4.5 hours (4 1/2 hours).",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "question": "Ayyappa sold an article for Rs 1605/- and got 7% profit. What was its cost price?",
+      "options": {
+        "A": "Rs 1395/-",
+        "B": "Rs 1600/-",
+        "C": "Rs 1500/-",
+        "D": "Rs 1450/-"
+      },
+      "correctAnswer": "C",
+      "explanation": "Cost Price (CP) = Selling Price / (1 + Profit%). CP = 1605 / 1.07 = Rs 1500.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Which Indian won the Booker Prize of 2025 for 'Heart Lamp'?",
+      "options": {
+        "A": "Banu Mushtaq",
+        "B": "Arundhati Roy",
+        "C": "Kiran Desai",
+        "D": "Geeta Anand"
+      },
+      "correctAnswer": "A",
+      "explanation": "According to the official exam key, Banu Mushtaq is the recognized answer for this contemporary general knowledge question.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 34,
+      "question": "Who was the first Indian to score a century in Women's T20 International Cricket?",
+      "options": {
+        "A": "Punam Raut",
+        "B": "Harmanpreet Kaur",
+        "C": "Mithali Raj",
+        "D": "Smriti Mandhana"
+      },
+      "correctAnswer": "B",
+      "explanation": "Harmanpreet Kaur became the first Indian woman to score a century in T20 Internationals against New Zealand in November 2018.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "The longest bone in human body is located in...",
+      "options": {
+        "A": "Neck",
+        "B": "Abdomen",
+        "C": "Thigh",
+        "D": "Back"
+      },
+      "correctAnswer": "C",
+      "explanation": "The femur, which is the longest and strongest bone in the human body, is located in the thigh.",
       "subject": "Science",
       "difficulty": "easy"
     },
     {
-      "id": 24,
-      "question": "If A is the brother of B, B is the sister of C, C is the father of D. How is A related to D?",
+      "id": 36,
+      "question": "Which is the longest highway in India?",
       "options": {
-        "A": "Uncle",
-        "B": "Father",
-        "C": "Grandfather",
-        "D": "Brother"
+        "A": "NH 44",
+        "B": "NH 54",
+        "C": "NH 07",
+        "D": "NH 01"
       },
       "correctAnswer": "A",
-      "explanation": "A is brother of B (female). B is sister of C (male). C is father of D. So A is brother of C's sister, meaning A is C's brother. A is uncle to D.",
-      "subject": "Reasoning",
+      "explanation": "National Highway 44 (NH 44) is the longest-running major north-south National Highway in India, running from Srinagar to Kanyakumari.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "question": "Who is the first Indian to receive Bharat Ratna Award?",
+      "options": {
+        "A": "Rabindranath Tagore",
+        "B": "Sachin Tendulkar",
+        "C": "Dr. Radhakrishnan",
+        "D": "J R D Tata"
+      },
+      "correctAnswer": "C",
+      "explanation": "Dr. Sarvepalli Radhakrishnan, along with C. Rajagopalachari and C.V. Raman, was the first recipient of the Bharat Ratna in 1954.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "question": "India shares longest boundary with...",
+      "options": {
+        "A": "Myanmar",
+        "B": "Pakistan",
+        "C": "China",
+        "D": "Bangladesh"
+      },
+      "correctAnswer": "D",
+      "explanation": "India shares its longest international land border with Bangladesh, stretching approximately 4,096 kilometers.",
+      "subject": "Geography",
       "difficulty": "medium"
     },
     {
-      "id": 25,
-      "question": "Which of the following dances is associated with Kerala?",
+      "id": 39,
+      "question": "When is the World Post Day celebrated?",
       "options": {
-        "A": "Bharatanatyam",
-        "B": "Kathakali",
-        "C": "Odissi",
-        "D": "Kuchipudi"
+        "A": "2nd October",
+        "B": "9th October",
+        "C": "30th October",
+        "D": "9th November"
       },
       "correctAnswer": "B",
-      "explanation": "Kathakali is a classical dance-drama form associated with Kerala. Bharatanatyam is from Tamil Nadu, Odissi from Odisha, and Kuchipudi from Andhra Pradesh.",
+      "explanation": "World Post Day is celebrated globally on October 9 to mark the anniversary of the establishment of the Universal Postal Union in 1874.",
       "subject": "General Awareness",
       "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "question": "Who ordered partition of Bengal creating East Bengal and Assam out of the rest of Bengal in 1905?",
+      "options": {
+        "A": "Lord Mountbatten",
+        "B": "Lord Curzon",
+        "C": "General O'Dyer",
+        "D": "Lord Wavell"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Partition of Bengal in 1905 was ordered by Lord Curzon, the then Viceroy of India.",
+      "subject": "History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "888 is divisible by 8. Also it is exactly divisible by...",
+      "options": {
+        "A": "Only 2",
+        "B": "Only 2, 3, 4",
+        "C": "All 2, 3, 4 & 6",
+        "D": "Only 2 & 4"
+      },
+      "correctAnswer": "C",
+      "explanation": "888 is even (divisible by 2). Its sum of digits is 24 (divisible by 3). Its last two digits are 88 (divisible by 4). Since it is divisible by both 2 and 3, it is also divisible by 6.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "Choose the correct option to complete the statement: 'All the multiples of 8 are also the ...'",
+      "options": {
+        "A": "Multiples of 2 & 6",
+        "B": "Multiples of 2 & 4",
+        "C": "Multiples of 5 & 10",
+        "D": "Multiples of 2, 4 & 6"
+      },
+      "correctAnswer": "B",
+      "explanation": "Any number that is a multiple of 8 must inherently be a multiple of the factors of 8, which are 1, 2, and 4.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "question": "A Finance Company sold shares worth Rs. 9540. If each share costs Rs. 45, find the total number of shares sold.",
+      "options": {
+        "A": "265",
+        "B": "212",
+        "C": "200",
+        "D": "220"
+      },
+      "correctAnswer": "B",
+      "explanation": "Total number of shares = Total value / Cost per share = 9540 / 45 = 212.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "question": "The last Mughal Emperor Bahadur Shah II used to write 'Shairis' in the pen name of...",
+      "options": {
+        "A": "Zahir",
+        "B": "Zakar",
+        "C": "Zarine",
+        "D": "Zafar"
+      },
+      "correctAnswer": "D",
+      "explanation": "Bahadur Shah II was an accomplished Urdu poet and used the nom de plume (takhallus) 'Zafar', meaning victory.",
+      "subject": "History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "The Civil Disobedience Movement was started by Mahatma Gandhi on...",
+      "options": {
+        "A": "12th March 1930",
+        "B": "10th March 1930",
+        "C": "15th March 1930",
+        "D": "13th March 1930"
+      },
+      "correctAnswer": "A",
+      "explanation": "Mahatma Gandhi launched the Civil Disobedience Movement with the historic Dandi March, which began on 12th March 1930.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 46,
+      "question": "There are 600 students in a school in which 58% are boys. The difference of the number of boys and girls is...",
+      "options": {
+        "A": "348",
+        "B": "96",
+        "C": "310",
+        "D": "252"
+      },
+      "correctAnswer": "B",
+      "explanation": "Boys = 58%. Girls = 100% - 58% = 42%. Difference in percentage = 58% - 42% = 16%. The difference in numbers is 16% of 600 = 96.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "A television set was purchased for Rs. 30,000. If it was sold for Rs. 28,500, what was the percentage of loss?",
+      "options": {
+        "A": "2%",
+        "B": "5%",
+        "C": "10%",
+        "D": "20%"
+      },
+      "correctAnswer": "B",
+      "explanation": "Loss = Cost Price - Selling Price = 30,000 - 28,500 = 1,500. Loss Percentage = (Loss / Cost Price) × 100 = (1,500 / 30,000) × 100 = 5%.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 48,
+      "question": "Ramanna borrowed a loan of Rs. 5400 from a bank at the rate of 10 paise per 10 rupees per month. Calculate the interest for one year.",
+      "options": {
+        "A": "Rs 648",
+        "B": "Rs 540",
+        "C": "Rs 440",
+        "D": "Rs 558"
+      },
+      "correctAnswer": "A",
+      "explanation": "Rate per month = 10 paise / 10 rupees = 0.10 / 10 = 1% per month. For 1 year (12 months), interest = Principal × Rate × Time = 5400 × (1/100) × 12 = Rs 648.",
+      "subject": "Numerical Ability",
+      "difficulty": "hard"
+    },
+    {
+      "id": 49,
+      "question": "Find the average of 27, 36, 45, 54, 63.",
+      "options": {
+        "A": "45.5",
+        "B": "45",
+        "C": "56",
+        "D": "59.5"
+      },
+      "correctAnswer": "B",
+      "explanation": "Since the numbers are in an arithmetic progression with a common difference of 9, the average is simply the middle number, which is 45. Alternatively: (27+36+45+54+63)/5 = 225/5 = 45.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 50,
+      "question": "In 8th standard examination, average of Manasi's marks in five subjects, other than Mathematics, was 62. The average of marks in six subjects, including Mathematics, was 65. How many marks did she score in Mathematics?",
+      "options": {
+        "A": "62",
+        "B": "65",
+        "C": "70",
+        "D": "80"
+      },
+      "correctAnswer": "D",
+      "explanation": "Total marks in 5 subjects = 62 × 5 = 310. Total marks in 6 subjects = 65 × 6 = 390. Marks in Mathematics = 390 - 310 = 80.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
     }
   ]
 }

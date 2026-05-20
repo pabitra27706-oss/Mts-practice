@@ -83,14 +83,14 @@
     "pyq": [
       {
         "id": "pyq-1",
-        "name": "PYQ Set 1",
-        "year": "2023",
+        "name": "Andhra Pradesh Postal MTS PYQ 2025",
+        "year": "2025",
         "shift": "Morning",
         "file": "data/pyq/pyq-set-1.json",
-        "totalQuestions": 25,
-        "timeInSeconds": 1500,
+        "totalQuestions": 50,
+        "timeInSeconds": 3600,
         "difficulty": "medium",
-        "tags": ["2023", "official"]
+        "tags": ["2025", "official"]
       },
       {
         "id": "pyq-2",
