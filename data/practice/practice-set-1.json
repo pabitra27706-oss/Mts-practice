@@ -1,359 +1,696 @@
 {
-  "setId": "practice-1",
-  "setName": "Practice Set 1",
-  "type": "practice",
-  "topic": "General Awareness",
-  "totalQuestions": 25,
+  "setId": "pyq-2025",
+  "setName": "Andhra Pradesh Postal MTS PYQ 2025",
+  "type": "pyq",
+  "year": "2025",
+  "shift": "Morning",
+  "totalQuestions": 49,
   "questions": [
     {
       "id": 1,
-      "question": "Which is the largest continent in the world by area?",
+      "question": "Articles fastened with pins if detected at office of booking will be...",
       "options": {
-        "A": "Africa",
-        "B": "Europe",
-        "C": "Asia",
-        "D": "North America"
+        "A": "Sent to RLO",
+        "B": "Sent to addressee",
+        "C": "Returned to sender at once",
+        "D": "Kept in deposit"
       },
       "correctAnswer": "C",
-      "explanation": "Asia is the largest continent covering about 44.6 million km², which is about 30% of Earth's total land area.",
-      "subject": "Geography",
-      "difficulty": "easy"
+      "explanation": "According to Post Office guidelines, articles fastened with pins are not permitted and are returned to the sender immediately to prevent injury to postal staff and damage to other mail.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
     },
     {
       "id": 2,
-      "question": "How many states does India have as of 2024?",
+      "question": "Trial Card...",
       "options": {
-        "A": "27",
-        "B": "28",
-        "C": "29",
-        "D": "30"
+        "A": "MS 26(a)",
+        "B": "M 28(b)",
+        "C": "M 26(a)",
+        "D": "M 26(c)"
       },
-      "correctAnswer": "B",
-      "explanation": "India has 28 states and 8 Union Territories as of 2024, after Jammu & Kashmir was reorganized into 2 UTs in 2019.",
-      "subject": "Polity",
-      "difficulty": "easy"
-    },
-    {
-      "id": 3,
-      "question": "Which planet is closest to the Sun?",
-      "options": {
-        "A": "Venus",
-        "B": "Mars",
-        "C": "Earth",
-        "D": "Mercury"
-      },
-      "correctAnswer": "D",
-      "explanation": "Mercury is the closest planet to the Sun, at an average distance of about 57.9 million km.",
-      "subject": "Science",
-      "difficulty": "easy"
+      "correctAnswer": "C",
+      "explanation": "The Trial Card is denoted by the form number M 26(a) in the postal manual.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
     },
     {
       "id": 4,
-      "question": "The national fruit of India is:",
+      "question": "Discount for walk-in customers under Speed Post begins with minimum daily revenue of...",
       "options": {
-        "A": "Banana",
-        "B": "Apple",
-        "C": "Mango",
-        "D": "Papaya"
+        "A": "Rs 2,000/-",
+        "B": "Rs 20,000/-",
+        "C": "Rs 2,00,000/-",
+        "D": "Rs 20,00,000/-"
       },
-      "correctAnswer": "C",
-      "explanation": "Mango (Mangifera indica) is the national fruit of India. It is known as the 'King of Fruits'.",
+      "correctAnswer": "A",
+      "explanation": "Speed Post offers a discount structure for walk-in customers that begins when the minimum daily revenue reaches Rs 2,000.",
       "subject": "General Awareness",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 5,
-      "question": "Which year did India gain independence?",
+      "question": "Any change of location of franking machine, except in cases of repairs, shall be notified to the...",
       "options": {
-        "A": "1945",
-        "B": "1946",
-        "C": "1947",
-        "D": "1948"
+        "A": "Office of posting",
+        "B": "Head of Division",
+        "C": "Both A & B",
+        "D": "None of the above"
       },
       "correctAnswer": "C",
-      "explanation": "India gained independence from British rule on 15 August 1947.",
-      "subject": "History",
-      "difficulty": "easy"
+      "explanation": "To maintain security and proper auditing, any change in the location of a franking machine must be notified to both the Office of posting and the Head of the Division.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
     },
     {
       "id": 6,
-      "question": "What is the capital of Rajasthan?",
+      "question": "What is the maximum age limit for enrolment of SB account holder under PMJJBY?",
       "options": {
-        "A": "Jodhpur",
-        "B": "Udaipur",
-        "C": "Jaipur",
-        "D": "Bikaner"
+        "A": "55 years",
+        "B": "50 years",
+        "C": "60 years",
+        "D": "65 years"
       },
-      "correctAnswer": "C",
-      "explanation": "Jaipur is the capital of Rajasthan. It is known as the Pink City due to the dominant color of its buildings.",
-      "subject": "Geography",
+      "correctAnswer": "B",
+      "explanation": "The Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) is available to people in the age group of 18 to 50 years having a bank account.",
+      "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 7,
-      "question": "Who is known as the 'Iron Man of India'?",
+      "question": "Which bag will be booked and delivered on all working days including Sundays and holidays?",
       "options": {
-        "A": "Mahatma Gandhi",
-        "B": "Jawaharlal Nehru",
-        "C": "Sardar Vallabhbhai Patel",
-        "D": "Subhas Chandra Bose"
+        "A": "Camp bag",
+        "B": "Insured bag",
+        "C": "Parcel bag",
+        "D": "Account bag"
       },
-      "correctAnswer": "C",
-      "explanation": "Sardar Vallabhbhai Patel is known as the Iron Man of India for his role in uniting the princely states after independence.",
-      "subject": "History",
-      "difficulty": "easy"
+      "correctAnswer": "A",
+      "explanation": "Camp bags are special bags meant for high dignitaries on tour and are booked and delivered on all days, including Sundays and holidays.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
     },
     {
       "id": 8,
-      "question": "Which organ pumps blood throughout the body?",
+      "question": "In case BNPL customer fails to make the payments of the bills by due date, what will be the rate of penalty?",
       "options": {
-        "A": "Lungs",
-        "B": "Kidney",
-        "C": "Liver",
-        "D": "Heart"
+        "A": "7% p.a.",
+        "B": "12% p.a.",
+        "C": "10% p.a.",
+        "D": "5% p.a."
       },
-      "correctAnswer": "D",
-      "explanation": "The heart is the muscular organ that pumps blood through the circulatory system to all parts of the body.",
-      "subject": "Science",
-      "difficulty": "easy"
+      "correctAnswer": "B",
+      "explanation": "For Book Now Pay Later (BNPL) customers, failure to pay bills by the due date attracts a penal interest at the rate of 12% per annum.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
     },
     {
       "id": 9,
-      "question": "In which year was the Indian National Congress founded?",
+      "question": "Within how many days should the renter of a Post Box inform the Postmaster about change of his address?",
       "options": {
-        "A": "1880",
-        "B": "1885",
-        "C": "1890",
-        "D": "1905"
+        "A": "15 days",
+        "B": "7 days",
+        "C": "10 days",
+        "D": "5 days"
       },
       "correctAnswer": "B",
-      "explanation": "The Indian National Congress was founded in 1885 by Allan Octavian Hume, Dadabhai Naoroji, and Dinshaw Wacha.",
-      "subject": "History",
+      "explanation": "If the renter of a Post Box changes their business or residential address, they must inform the Postmaster within 7 days.",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 10,
-      "question": "Which is the national bird of India?",
+      "question": "GDS employees can enroll as Atal Pension Yojana subscribers...",
       "options": {
-        "A": "Sparrow",
-        "B": "Parrot",
-        "C": "Peacock",
-        "D": "Crane"
+        "A": "If eligible as per age criteria",
+        "B": "Shall not be eligible for Govt contribution",
+        "C": "In addition to the membership of SDBS",
+        "D": "All of the above"
       },
-      "correctAnswer": "C",
-      "explanation": "The Indian Peacock (Pavo cristatus) is the national bird of India, declared so in 1963.",
+      "correctAnswer": "D",
+      "explanation": "Gramin Dak Sevaks (GDS) can enroll in APY if they meet the age criteria, they will not receive the co-contribution from the Government since they are already covered under schemes like SDBS, and it can be in addition to SDBS.",
       "subject": "General Awareness",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 11,
-      "question": "What does CPU stand for?",
+      "question": "Following bags are not treated as due bags...",
       "options": {
-        "A": "Central Process Unit",
-        "B": "Computer Personal Unit",
-        "C": "Central Processing Unit",
-        "D": "Core Processing Unit"
+        "A": "Transit bags",
+        "B": "Registered bags",
+        "C": "Account bags",
+        "D": "Cash bags"
       },
-      "correctAnswer": "C",
-      "explanation": "CPU stands for Central Processing Unit. It is the primary component of a computer that performs instructions.",
+      "correctAnswer": "D",
+      "explanation": "Cash bags are not considered 'due bags' because they are only dispatched when there is an actual remittance of cash, unlike routine bags.",
       "subject": "General Awareness",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 12,
-      "question": "Which is the smallest state of India by area?",
+      "question": "Post Offices will not accept payment of postage on postal article in the shape of...",
       "options": {
-        "A": "Sikkim",
-        "B": "Tripura",
-        "C": "Goa",
-        "D": "Manipur"
+        "A": "Postage Stamps",
+        "B": "Service Stamps",
+        "C": "Revenue Stamps",
+        "D": "Philatelic Stamps"
       },
       "correctAnswer": "C",
-      "explanation": "Goa is the smallest state of India by area, covering about 3,702 km².",
-      "subject": "Geography",
+      "explanation": "Revenue stamps are intended for tax purposes on documents and receipts, not for prepaying postal charges.",
+      "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 13,
-      "question": "The Statue of Unity is dedicated to which leader?",
+      "question": "Following orders are issued by Superintendent, RMS prescribing changes in sorting lists...",
       "options": {
-        "A": "Mahatma Gandhi",
-        "B": "Jawaharlal Nehru",
-        "C": "B.R. Ambedkar",
-        "D": "Sardar Vallabhbhai Patel"
+        "A": "D order",
+        "B": "A order",
+        "C": "B order",
+        "D": "C order"
       },
-      "correctAnswer": "D",
-      "explanation": "The Statue of Unity in Gujarat is dedicated to Sardar Vallabhbhai Patel. It is the world's tallest statue at 182 meters.",
+      "correctAnswer": "B",
+      "explanation": "'A orders' are issued by the Superintendent of RMS to prescribe changes in sorting lists and routing of mails.",
       "subject": "General Awareness",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
       "id": 14,
-      "question": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+      "question": "The impressions of the franking machines recorded on the postal article should...",
       "options": {
-        "A": "Oxygen",
-        "B": "Nitrogen",
-        "C": "Carbon Dioxide",
-        "D": "Hydrogen"
+        "A": "Be clear and distinct",
+        "B": "Be of bright red colour",
+        "C": "Not overlap",
+        "D": "All of the above"
       },
-      "correctAnswer": "C",
-      "explanation": "Plants absorb Carbon Dioxide (CO₂) from the atmosphere during photosynthesis and release oxygen.",
-      "subject": "Science",
+      "correctAnswer": "D",
+      "explanation": "Franking machine impressions must meet specific standards: they must be clear, distinct, stamped in bright red ink, and must not overlap.",
+      "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 15,
-      "question": "Which is the highest mountain peak in India?",
+      "question": "Which is the nodal agency for implementation and monitoring of NPS?",
       "options": {
-        "A": "Nanda Devi",
-        "B": "Kamet",
-        "C": "Kangchenjunga",
-        "D": "K2"
+        "A": "India Post",
+        "B": "SEBI",
+        "C": "IRDA",
+        "D": "PFRDA"
       },
-      "correctAnswer": "C",
-      "explanation": "Kangchenjunga at 8,586 m is the highest mountain peak entirely in India (on the border of Sikkim and Nepal).",
-      "subject": "Geography",
+      "correctAnswer": "D",
+      "explanation": "The Pension Fund Regulatory and Development Authority (PFRDA) is the statutory body regulating and monitoring the National Pension System (NPS).",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 16,
-      "question": "The Indian Constitution came into effect on:",
+      "question": "The special registration envelopes provided by the post office can be used for transmission of...",
       "options": {
-        "A": "15 August 1947",
-        "B": "26 November 1949",
-        "C": "26 January 1950",
-        "D": "1 January 1950"
+        "A": "Unregistered postal article",
+        "B": "Registered postal article",
+        "C": "Ordinary postal article",
+        "D": "None of the above"
       },
-      "correctAnswer": "C",
-      "explanation": "The Constitution of India came into effect on 26 January 1950, which is celebrated as Republic Day.",
-      "subject": "Polity",
+      "correctAnswer": "B",
+      "explanation": "Special registration envelopes sold by the Post Office come with pre-paid postage specifically for registered postal articles.",
+      "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 17,
-      "question": "Who invented the telephone?",
+      "question": "While booking International Speed Post articles below the value of SDR 300, which form is used?",
       "options": {
-        "A": "Thomas Edison",
-        "B": "Alexander Graham Bell",
-        "C": "Nikola Tesla",
-        "D": "Guglielmo Marconi"
+        "A": "CN22",
+        "B": "CN23",
+        "C": "Both CN22 & CN23",
+        "D": "None of the above"
       },
-      "correctAnswer": "B",
-      "explanation": "Alexander Graham Bell is credited with inventing the first practical telephone in 1876.",
+      "correctAnswer": "A",
+      "explanation": "The CN22 customs declaration form is used for international postal articles weighing less than 2 kg and valued below SDR 300.",
       "subject": "General Awareness",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
       "id": 18,
-      "question": "Which river is known as the 'Sorrow of Bihar'?",
+      "question": "Post Office Savings Bank account will be treated as silent, if no deposits/withdrawals take place in an account during continuous ___ financial years.",
       "options": {
-        "A": "Ganges",
-        "B": "Son",
-        "C": "Kosi",
-        "D": "Gandak"
+        "A": "Five",
+        "B": "Four",
+        "C": "Three",
+        "D": "Two"
       },
       "correctAnswer": "C",
-      "explanation": "The Kosi River is known as the 'Sorrow of Bihar' because of its frequent floods and the havoc it causes.",
-      "subject": "Geography",
+      "explanation": "A Post Office Savings Account becomes silent or dormant if there are no transactions (deposit or withdrawal) for three consecutive financial years.",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 19,
-      "question": "What is the SI unit of electric current?",
+      "question": "The weight of unregistered domestic parcel should not exceed...",
       "options": {
-        "A": "Volt",
-        "B": "Watt",
-        "C": "Ohm",
-        "D": "Ampere"
+        "A": "2 kg",
+        "B": "5 kg",
+        "C": "4 kg",
+        "D": "None of the above"
       },
-      "correctAnswer": "D",
-      "explanation": "Ampere (A) is the SI unit of electric current. It is named after French physicist André-Marie Ampère.",
-      "subject": "Science",
-      "difficulty": "easy"
-    },
-    {
-      "id": 20,
-      "question": "India's first satellite was named:",
-      "options": {
-        "A": "Bhaskara",
-        "B": "Aryabhata",
-        "C": "Rohini",
-        "D": "INSAT"
-      },
-      "correctAnswer": "B",
-      "explanation": "Aryabhata was India's first satellite, launched on 19 April 1975. It was named after the ancient Indian mathematician.",
+      "correctAnswer": "C",
+      "explanation": "The maximum permissible weight for an unregistered domestic parcel is 4 kilograms.",
       "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
-      "id": 21,
-      "question": "Who wrote the Indian National Anthem 'Jana Gana Mana'?",
+      "id": 20,
+      "question": "Premature closure of MIS account is not allowed before the expiry of ___ from the date of opening of such account.",
       "options": {
-        "A": "Bankim Chandra Chattopadhyay",
-        "B": "Sarojini Naidu",
-        "C": "Rabindranath Tagore",
-        "D": "Subramania Bharati"
+        "A": "One year",
+        "B": "Six months",
+        "C": "Five years",
+        "D": "None of the above"
+      },
+      "correctAnswer": "A",
+      "explanation": "A Monthly Income Scheme (MIS) account cannot be closed prematurely before the completion of one year from the date of opening.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "In the case of articles addressed to foreign countries, the address should be written in...",
+      "options": {
+        "A": "Local language",
+        "B": "Hindi",
+        "C": "Roman letters and Arabic figures",
+        "D": "Telugu"
       },
       "correctAnswer": "C",
-      "explanation": "Jana Gana Mana was written by Rabindranath Tagore. It was adopted as the national anthem on 24 January 1950.",
+      "explanation": "According to Universal Postal Union (UPU) guidelines, international mail addresses must be written in Roman letters and Arabic numerals for universal readability.",
       "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 22,
-      "question": "Which of the following is known as the 'Queen of Spices'?",
+      "question": "The general maximum weight of International Speed Post (EMS) article is...",
       "options": {
-        "A": "Turmeric",
-        "B": "Cardamom",
-        "C": "Pepper",
-        "D": "Ginger"
+        "A": "25 kg",
+        "B": "20 kg",
+        "C": "30 kg",
+        "D": "35 kg"
       },
-      "correctAnswer": "B",
-      "explanation": "Cardamom is known as the 'Queen of Spices'. Black Pepper is known as the 'King of Spices'.",
+      "correctAnswer": "D",
+      "explanation": "The general maximum weight limit for booking an International Speed Post (EMS) article is 35 kg, subject to destination country regulations.",
       "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 23,
-      "question": "The Sundarbans mangrove forest is located in which state?",
+      "question": "Which of the following is an office of exchange which closes bags for and receives bags from foreign countries in India?",
       "options": {
-        "A": "Odisha",
-        "B": "Assam",
-        "C": "West Bengal",
-        "D": "Andhra Pradesh"
+        "A": "Sub Foreign Post Office",
+        "B": "Head Post Office",
+        "C": "Sub Post Office",
+        "D": "Foreign Post Office"
       },
-      "correctAnswer": "C",
-      "explanation": "The Sundarbans is the world's largest mangrove forest, located in the delta of the Ganges in West Bengal (and Bangladesh).",
-      "subject": "Geography",
+      "correctAnswer": "D",
+      "explanation": "A Foreign Post Office acts as the Office of Exchange for processing and handling mail bags dispatched to and received from foreign countries.",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 24,
-      "question": "Which vitamin deficiency causes night blindness?",
+      "question": "Amount of deposit of a Post Box will not be refunded by the Postmaster at the time of surrender to the renter, if...",
       "options": {
-        "A": "Vitamin C",
-        "B": "Vitamin D",
-        "C": "Vitamin A",
-        "D": "Vitamin B12"
+        "A": "Post Box is not in use",
+        "B": "Articles not collected from Post Box",
+        "C": "Lock and key of Post Box is not working",
+        "D": "None of the above"
       },
       "correctAnswer": "C",
-      "explanation": "Vitamin A deficiency causes night blindness (nyctalopia). Vitamin A is essential for the production of rhodopsin in the retina.",
-      "subject": "Science",
-      "difficulty": "medium"
+      "explanation": "The deposit is forfeited if the lock and key are not returned in good working condition when the Post Box is surrendered.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
     },
     {
       "id": 25,
-      "question": "Who is the author of 'Wings of Fire'?",
+      "question": "Andhra Pradesh Postal Circle is under the administrative control of...",
       "options": {
-        "A": "Narendra Modi",
-        "B": "Amartya Sen",
-        "C": "A.P.J. Abdul Kalam",
-        "D": "Kiran Bedi"
+        "A": "Postmaster General",
+        "B": "Chief Postmaster General",
+        "C": "Director Postal Services",
+        "D": "Postmaster General (Mails & BD)"
       },
-      "correctAnswer": "C",
-      "explanation": "Wings of Fire is an autobiography of A.P.J. Abdul Kalam, co-written with Arun Tiwari. Published in 1999.",
+      "correctAnswer": "B",
+      "explanation": "Every Postal Circle in India is headed by a Chief Postmaster General (CPMG) who exercises administrative control over it.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "question": "What is meant by 'CRC' in RMS Division?",
+      "options": {
+        "A": "Computerised Revenue Centre",
+        "B": "Computerised Registration Centre",
+        "C": "Computerised Railway Centre",
+        "D": "Computerised Road Centre"
+      },
+      "correctAnswer": "B",
+      "explanation": "In Railway Mail Service (RMS) terminology, CRC stands for Computerised Registration Centre, where registered mail is processed digitally.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "What is the minimum amount of deposit to open an account under Senior Citizen Savings Scheme?",
+      "options": {
+        "A": "Rs 1,000/-",
+        "B": "Rs 10,000/-",
+        "C": "Rs 15,00,000/-",
+        "D": "Rs 30,00,000/-"
+      },
+      "correctAnswer": "A",
+      "explanation": "The minimum deposit required to open a Senior Citizen Savings Scheme (SCSS) account is Rs 1,000, and deposits must be in multiples of 1,000.",
       "subject": "General Awareness",
       "difficulty": "easy"
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is a stationery office of the Railway Mail Service?",
+      "options": {
+        "A": "Record Office",
+        "B": "Sub Record Office",
+        "C": "Head Record Office",
+        "D": "All above"
+      },
+      "correctAnswer": "D",
+      "explanation": "Record Offices, Sub Record Offices, and Head Record Offices all function as stationary offices of the Railway Mail Service for supplying forms, bags, and maintaining records.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "What is the maximum age at entry for opening of Gram Priya policy?",
+      "options": {
+        "A": "55 years",
+        "B": "50 years",
+        "C": "40 years",
+        "D": "45 years"
+      },
+      "correctAnswer": "D",
+      "explanation": "The maximum age for entry into the Gram Priya (10 Year Rural Postal Life Insurance) policy is 45 years.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "Department of Posts has launched a scholarship scheme called Deen Dayal Sparsh Yojana to award children in class category of...",
+      "options": {
+        "A": "Std I to V",
+        "B": "Std V to X",
+        "C": "Std VI to IX",
+        "D": "Std VI to X"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Deen Dayal SPARSH Yojana is a scholarship scheme specifically to promote philately among children studying in Standards VI to IX.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "A bus travels for 6 hours and covers a distance at the speed of 60 km per hour. If it travels at the speed of 80 km per hour, how much time will the bus take to cover the same distance?",
+      "options": {
+        "A": "8 hours",
+        "B": "4 3/4 hours",
+        "C": "4 1/4 hours",
+        "D": "4 1/2 hours"
+      },
+      "correctAnswer": "D",
+      "explanation": "Distance = Speed × Time = 60 km/h × 6 h = 360 km. New Time = Distance / New Speed = 360 / 80 = 4.5 hours (4 1/2 hours).",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "question": "Ayyappa sold an article for Rs 1605/- and got 7% profit. What was its cost price?",
+      "options": {
+        "A": "Rs 1395/-",
+        "B": "Rs 1600/-",
+        "C": "Rs 1500/-",
+        "D": "Rs 1450/-"
+      },
+      "correctAnswer": "C",
+      "explanation": "Cost Price (CP) = Selling Price / (1 + Profit%). CP = 1605 / 1.07 = Rs 1500.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Which Indian won the Booker Prize of 2025 for 'Heart Lamp'?",
+      "options": {
+        "A": "Banu Mushtaq",
+        "B": "Arundhati Roy",
+        "C": "Kiran Desai",
+        "D": "Geeta Anand"
+      },
+      "correctAnswer": "A",
+      "explanation": "According to the official exam key, Banu Mushtaq is the recognized answer for this contemporary general knowledge question.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 34,
+      "question": "Who was the first Indian to score a century in Women's T20 International Cricket?",
+      "options": {
+        "A": "Punam Raut",
+        "B": "Harmanpreet Kaur",
+        "C": "Mithali Raj",
+        "D": "Smriti Mandhana"
+      },
+      "correctAnswer": "B",
+      "explanation": "Harmanpreet Kaur became the first Indian woman to score a century in T20 Internationals against New Zealand in November 2018.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "The longest bone in human body is located in...",
+      "options": {
+        "A": "Neck",
+        "B": "Abdomen",
+        "C": "Thigh",
+        "D": "Back"
+      },
+      "correctAnswer": "C",
+      "explanation": "The femur, which is the longest and strongest bone in the human body, is located in the thigh.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 36,
+      "question": "Which is the longest highway in India?",
+      "options": {
+        "A": "NH 44",
+        "B": "NH 54",
+        "C": "NH 07",
+        "D": "NH 01"
+      },
+      "correctAnswer": "A",
+      "explanation": "National Highway 44 (NH 44) is the longest-running major north-south National Highway in India, running from Srinagar to Kanyakumari.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "question": "Who is the first Indian to receive Bharat Ratna Award?",
+      "options": {
+        "A": "Rabindranath Tagore",
+        "B": "Sachin Tendulkar",
+        "C": "Dr. Radhakrishnan",
+        "D": "J R D Tata"
+      },
+      "correctAnswer": "C",
+      "explanation": "Dr. Sarvepalli Radhakrishnan, along with C. Rajagopalachari and C.V. Raman, was the first recipient of the Bharat Ratna in 1954.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "question": "India shares longest boundary with...",
+      "options": {
+        "A": "Myanmar",
+        "B": "Pakistan",
+        "C": "China",
+        "D": "Bangladesh"
+      },
+      "correctAnswer": "D",
+      "explanation": "India shares its longest international land border with Bangladesh, stretching approximately 4,096 kilometers.",
+      "subject": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "When is the World Post Day celebrated?",
+      "options": {
+        "A": "2nd October",
+        "B": "9th October",
+        "C": "30th October",
+        "D": "9th November"
+      },
+      "correctAnswer": "B",
+      "explanation": "World Post Day is celebrated globally on October 9 to mark the anniversary of the establishment of the Universal Postal Union in 1874.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "question": "Who ordered partition of Bengal creating East Bengal and Assam out of the rest of Bengal in 1905?",
+      "options": {
+        "A": "Lord Mountbatten",
+        "B": "Lord Curzon",
+        "C": "General O'Dyer",
+        "D": "Lord Wavell"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Partition of Bengal in 1905 was ordered by Lord Curzon, the then Viceroy of India.",
+      "subject": "History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "888 is divisible by 8. Also it is exactly divisible by...",
+      "options": {
+        "A": "Only 2",
+        "B": "Only 2, 3, 4",
+        "C": "All 2, 3, 4 & 6",
+        "D": "Only 2 & 4"
+      },
+      "correctAnswer": "C",
+      "explanation": "888 is even (divisible by 2). Its sum of digits is 24 (divisible by 3). Its last two digits are 88 (divisible by 4). Since it is divisible by both 2 and 3, it is also divisible by 6.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "Choose the correct option to complete the statement: 'All the multiples of 8 are also the ...'",
+      "options": {
+        "A": "Multiples of 2 & 6",
+        "B": "Multiples of 2 & 4",
+        "C": "Multiples of 5 & 10",
+        "D": "Multiples of 2, 4 & 6"
+      },
+      "correctAnswer": "B",
+      "explanation": "Any number that is a multiple of 8 must inherently be a multiple of the factors of 8, which are 1, 2, and 4.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "question": "A Finance Company sold shares worth Rs. 9540. If each share costs Rs. 45, find the total number of shares sold.",
+      "options": {
+        "A": "265",
+        "B": "212",
+        "C": "200",
+        "D": "220"
+      },
+      "correctAnswer": "B",
+      "explanation": "Total number of shares = Total value / Cost per share = 9540 / 45 = 212.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "question": "The last Mughal Emperor Bahadur Shah II used to write 'Shairis' in the pen name of...",
+      "options": {
+        "A": "Zahir",
+        "B": "Zakar",
+        "C": "Zarine",
+        "D": "Zafar"
+      },
+      "correctAnswer": "D",
+      "explanation": "Bahadur Shah II was an accomplished Urdu poet and used the nom de plume (takhallus) 'Zafar', meaning victory.",
+      "subject": "History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "The Civil Disobedience Movement was started by Mahatma Gandhi on...",
+      "options": {
+        "A": "12th March 1930",
+        "B": "10th March 1930",
+        "C": "15th March 1930",
+        "D": "13th March 1930"
+      },
+      "correctAnswer": "A",
+      "explanation": "Mahatma Gandhi launched the Civil Disobedience Movement with the historic Dandi March, which began on 12th March 1930.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 46,
+      "question": "There are 600 students in a school in which 58% are boys. The difference of the number of boys and girls is...",
+      "options": {
+        "A": "348",
+        "B": "96",
+        "C": "310",
+        "D": "252"
+      },
+      "correctAnswer": "B",
+      "explanation": "Boys = 58%. Girls = 100% - 58% = 42%. Difference in percentage = 58% - 42% = 16%. The difference in numbers is 16% of 600 = 96.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "A television set was purchased for Rs. 30,000. If it was sold for Rs. 28,500, what was the percentage of loss?",
+      "options": {
+        "A": "2%",
+        "B": "5%",
+        "C": "10%",
+        "D": "20%"
+      },
+      "correctAnswer": "B",
+      "explanation": "Loss = Cost Price - Selling Price = 30,000 - 28,500 = 1,500. Loss Percentage = (Loss / Cost Price) × 100 = (1,500 / 30,000) × 100 = 5%.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 48,
+      "question": "Ramanna borrowed a loan of Rs. 5400 from a bank at the rate of 10 paise per 10 rupees per month. Calculate the interest for one year.",
+      "options": {
+        "A": "Rs 648",
+        "B": "Rs 540",
+        "C": "Rs 440",
+        "D": "Rs 558"
+      },
+      "correctAnswer": "A",
+      "explanation": "Rate per month = 10 paise / 10 rupees = 0.10 / 10 = 1% per month. For 1 year (12 months), interest = Principal × Rate × Time = 5400 × (1/100) × 12 = Rs 648.",
+      "subject": "Numerical Ability",
+      "difficulty": "hard"
+    },
+    {
+      "id": 49,
+      "question": "Find the average of 27, 36, 45, 54, 63.",
+      "options": {
+        "A": "45.5",
+        "B": "45",
+        "C": "56",
+        "D": "59.5"
+      },
+      "correctAnswer": "B",
+      "explanation": "Since the numbers are in an arithmetic progression with a common difference of 9, the average is simply the middle number, which is 45. Alternatively: (27+36+45+54+63)/5 = 225/5 = 45.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 50,
+      "question": "In 8th standard examination, average of Manasi's marks in five subjects, other than Mathematics, was 62. The average of marks in six subjects, including Mathematics, was 65. How many marks did she score in Mathematics?",
+      "options": {
+        "A": "62",
+        "B": "65",
+        "C": "70",
+        "D": "80"
+      },
+      "correctAnswer": "D",
+      "explanation": "Total marks in 5 subjects = 62 × 5 = 310. Total marks in 6 subjects = 65 × 6 = 390. Marks in Mathematics = 390 - 310 = 80.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
     }
   ]
 }
