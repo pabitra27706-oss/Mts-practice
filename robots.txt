@@ -1,14 +1,11 @@
 User-agent: *
 Allow: /
 
-# Block quiz page (dynamic, no value for SEO)
-Disallow: /pages/quiz.html
-Disallow: /pages/results.html
+Disallow: /Mts-practice/pages/quiz.html
+Disallow: /Mts-practice/pages/results.html
 
-# Allow important pages
-Allow: /index.html
-Allow: /pages/pyq.html
-Allow: /pages/practice.html
+Allow: /Mts-practice/index.html
+Allow: /Mts-practice/pages/pyq.html
+Allow: /Mts-practice/pages/practice.html
 
-# Sitemap
-Sitemap: https://yourusername.github.io/mts-practice/sitemap.xml
+Sitemap: https://pabitra27706-oss.github.io/Mts-practice/sitemap.xml

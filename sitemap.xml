@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Home Page -->
   <url>
-    <loc>https://yourusername.github.io/mts-practice/</loc>
+    <loc>https://pabitra27706-oss.github.io/Mts-practice/</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- PYQ Practice Page -->
   <url>
-    <loc>https://yourusername.github.io/mts-practice/pages/pyq.html</loc>
+    <loc>https://pabitra27706-oss.github.io/Mts-practice/pages/pyq.html</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Practice Mode Page -->
   <url>
-    <loc>https://yourusername.github.io/mts-practice/pages/practice.html</loc>
+    <loc>https://pabitra27706-oss.github.io/Mts-practice/pages/practice.html</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
