@@ -1,5 +1,6 @@
 /* ============================================
-   SETS-PAGE.JS — Secure linking with cache‑buster
+   SETS-PAGE.JS — FIXED
+   Safe ModeToggle usage + guard
    ============================================ */
 
 if (typeof window._setsPageInit === 'undefined') {
@@ -14,10 +15,13 @@ if (typeof window._setsPageInit === 'undefined') {
   // ── Safe mode getter ──
   function _getSafeMode() {
     try {
+      // Try ModeToggle first
       if (typeof ModeToggle !== 'undefined' && ModeToggle.getMode) {
         return ModeToggle.getMode();
       }
     } catch (e) {}
+
+    // Fallback: read from localStorage directly
     try {
       var raw = localStorage.getItem('mts_settings');
       if (raw) {
@@ -25,6 +29,7 @@ if (typeof window._setsPageInit === 'undefined') {
         return obj.mode || 'exam';
       }
     } catch (e) {}
+
     return 'exam';
   }
 
@@ -32,24 +37,30 @@ if (typeof window._setsPageInit === 'undefined') {
   async function _setsInit() {
     var state = window._setsState;
 
-    // Detect type from URL path (must be done early, logged)
-    state.type = window.location.pathname.includes('practice') ? 'practice' : 'pyq';
-    console.log('[SetsPage] Page type:', state.type);
+    // Detect type from URL
+    state.type = window.location.pathname.indexOf('practice') !== -1
+      ? 'practice'
+      : 'pyq';
 
-    // Theme
+    // Apply theme safely
     try {
       var raw = localStorage.getItem('mts_settings');
-      var theme = raw ? (JSON.parse(raw).theme || 'dark') : 'dark';
+      var theme = 'dark';
+      if (raw) {
+        var obj = JSON.parse(raw);
+        theme = obj.theme || 'dark';
+      }
       document.documentElement.setAttribute('data-theme', theme);
     } catch (e) {
       document.documentElement.setAttribute('data-theme', 'dark');
     }
 
-    // Init ModeToggle
+    // Init ModeToggle safely
     try {
       if (typeof ModeToggle !== 'undefined' && ModeToggle.init) {
         ModeToggle.init();
         state.mode = ModeToggle.getMode();
+
         ModeToggle.onChange(function(newMode) {
           state.mode = newMode;
           _setsUpdateModeBadge(newMode);
@@ -63,7 +74,10 @@ if (typeof window._setsPageInit === 'undefined') {
       console.warn('[SetsPage] ModeToggle error:', e);
     }
 
+    // Update badge
     _setsUpdateModeBadge(state.mode);
+
+    // Load sets
     await _setsLoad();
 
     // Save last seen
@@ -79,18 +93,27 @@ if (typeof window._setsPageInit === 'undefined') {
     var state = window._setsState;
 
     try {
-      var sets = state.type === 'pyq'
-        ? await ManifestLoader.getPYQSets()
-        : await ManifestLoader.getPracticeSets();
+      var sets;
+      if (state.type === 'pyq') {
+        sets = await ManifestLoader.getPYQSets();
+      } else {
+        sets = await ManifestLoader.getPracticeSets();
+      }
 
       state.sets = sets || [];
-      console.log('[SetsPage] Loaded', state.sets.length, 'sets for type', state.type);
 
-      _setEl('headerSub',
-        state.sets.length + ' set' + (state.sets.length !== 1 ? 's' : '') + ' available'
+      console.log('[SetsPage] Loaded', state.sets.length,
+        'sets, type:', state.type);
+
+      _setEl(
+        'headerSub',
+        state.sets.length +
+        ' set' + (state.sets.length !== 1 ? 's' : '') +
+        ' available'
       );
 
       _setsRender(state.sets);
+
     } catch (err) {
       console.error('[SetsPage] Load error:', err);
       _setsRenderError();
@@ -109,22 +132,25 @@ if (typeof window._setsPageInit === 'undefined') {
 
     container.innerHTML = '';
 
-    sets.forEach(function(set, index) {
-      var progress = null;
-      try {
-        if (typeof Storage !== 'undefined' && Storage.getSetProgress) {
-          progress = Storage.getSetProgress(set.id);
-        }
-      } catch (e) {}
+    for (var i = 0; i < sets.length; i++) {
+      (function(set, index) {
+        var progress = null;
+        try {
+          if (typeof Storage !== 'undefined' && Storage.getSetProgress) {
+            progress = Storage.getSetProgress(set.id);
+          }
+        } catch (e) {}
 
-      var card = _setsCreateCard(set, index + 1, progress);
-      container.appendChild(card);
+        var card = _setsCreateCard(set, index + 1, progress);
+        container.appendChild(card);
 
-      setTimeout(function() {
-        card.style.opacity   = '1';
-        card.style.transform = 'translateY(0)';
-      }, index * 80);
-    });
+        setTimeout(function() {
+          card.style.opacity   = '1';
+          card.style.transform = 'translateY(0)';
+        }, index * 80);
+
+      })(sets[i], i);
+    }
   }
 
   // ── Create card ──
@@ -183,6 +209,7 @@ if (typeof window._setsPageInit === 'undefined') {
         '</div>';
     }
 
+    // Optional tags
     var yearHTML = set.year
       ? '<span class="set-card__meta-item">' +
           '<span>📅</span><span>' + _escape(set.year) + '</span>' +
@@ -196,6 +223,7 @@ if (typeof window._setsPageInit === 'undefined') {
       : '';
 
     card.innerHTML =
+      // Top row
       '<div class="set-card__top">' +
         '<div class="set-card__left">' +
           '<div class="set-card__number">' + number + '</div>' +
@@ -212,6 +240,7 @@ if (typeof window._setsPageInit === 'undefined') {
         '</div>' +
       '</div>' +
 
+      // Meta row
       '<div class="set-card__meta">' +
         '<span class="set-card__meta-item">' +
           '<span>❓</span>' +
@@ -226,8 +255,10 @@ if (typeof window._setsPageInit === 'undefined') {
         topicHTML +
       '</div>' +
 
+      // Progress bar
       progressHTML +
 
+      // Footer
       '<div class="set-card__footer">' +
         '<span class="set-card__action">' +
           (isCompleted ? 'Retry Set' : 'Start Set') +
@@ -260,27 +291,16 @@ if (typeof window._setsPageInit === 'undefined') {
   function _setsStart(set) {
     var state  = window._setsState;
     var mode   = _getSafeMode();
-
-    // Build URL with cache‑buster to defeat service worker
     var params =
       'setId=' + encodeURIComponent(set.id) +
       '&type='  + encodeURIComponent(state.type) +
-      '&mode='  + encodeURIComponent(mode) +
-      '&_t='    + Date.now();   // cache‑buster
-
-    console.log(
-      '🚀 Navigating to quiz:',
-      'quiz.html?' + params,
-      '| set.id:', set.id,
-      '| page type:', state.type
-    );
+      '&mode='  + encodeURIComponent(mode);
 
     _setsShowToast('Loading ' + set.name + '...');
 
-    // Small delay to let toast appear, then navigate
     setTimeout(function() {
       window.location.href = 'quiz.html?' + params;
-    }, 200);
+    }, 300);
   }
 
   // ── Update mode badge ──
@@ -338,7 +358,9 @@ if (typeof window._setsPageInit === 'undefined') {
           'Could not load manifest.json. ' +
           'Make sure you are running on a server, not file://.' +
         '</p>' +
-        '<button class="btn btn--ghost btn--sm" onclick="window.location.reload()">' +
+        '<button ' +
+          'class="btn btn--ghost btn--sm" ' +
+          'onclick="window.location.reload()">' +
           '🔄 Retry' +
         '</button>' +
       '</div>';
@@ -379,4 +401,4 @@ if (typeof window._setsPageInit === 'undefined') {
     _setsInit();
   }
 
-}
+} // end guard
