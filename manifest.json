@@ -122,7 +122,7 @@
         "topic": "General Awareness",
         "file": "data/practice/practice-set-1.json",
         "totalQuestions": 25,
-        "timeInSeconds": 3600,
+        "timeInSeconds": 1500,
         "difficulty": "easy",
         "tags": ["general", "beginner"]
       },
