@@ -1,359 +1,709 @@
 {
-  "setId": "pyq-2",
-  "setName": "PYQ Set 2",
+  "setId": "pyq-2025-ne",
+  "setName": "MTS PYQ North East 2025",
   "type": "pyq",
-  "year": "2023",
-  "shift": "Evening",
-  "totalQuestions": 25,
+  "year": "2025",
+  "shift": "Morning",
+  "totalQuestions": 50,
   "questions": [
     {
       "id": 1,
-      "question": "Which Schedule of the Indian Constitution contains the list of recognized languages?",
+      "question": "The currency period of the money order shall expire upon the:",
       "options": {
-        "A": "Sixth Schedule",
-        "B": "Seventh Schedule",
-        "C": "Eighth Schedule",
-        "D": "Ninth Schedule"
+        "A": "End of the last day of the second month following the month of issue",
+        "B": "End of the last day of month of issue",
+        "C": "End of 3 months from the date of issue",
+        "D": "End of 6 months from the date of issue"
       },
-      "correctAnswer": "C",
-      "explanation": "The Eighth Schedule of the Indian Constitution lists 22 officially recognized languages of India.",
-      "subject": "Polity",
+      "correctAnswer": "A",
+      "explanation": "According to Post Office guidelines, the currency period of a money order expires at the end of the last day of the second month following the month of issue.",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 2,
-      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "question": "___ is the name given by India Post to the facility of franking based on RMFS.",
       "options": {
-        "A": "China",
-        "B": "South Korea",
-        "C": "Thailand",
-        "D": "Japan"
+        "A": "Electrofrank Plus",
+        "B": "Digifrank Plus",
+        "C": "Postfrank Plus",
+        "D": "India Post Frank Plus"
       },
-      "correctAnswer": "D",
-      "explanation": "Japan is known as the Land of the Rising Sun. The name Japan in Japanese is Nihon or Nippon, meaning sun-origin.",
+      "correctAnswer": "B",
+      "explanation": "Digifrank Plus is the branding given by India Post for the franking facility based on Remotely Managed Franking System (RMFS).",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 3,
+      "question": "What is the validation period for Franking Machine License?",
+      "options": {
+        "A": "2 years",
+        "B": "5 years",
+        "C": "3 years",
+        "D": "1 year"
+      },
+      "correctAnswer": "B",
+      "explanation": "A Franking Machine License issued by the Department of Posts is valid for a period of 5 years.",
       "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
-      "id": 3,
-      "question": "What is the LCM of 12, 18, and 24?",
-      "options": {
-        "A": "48",
-        "B": "60",
-        "C": "72",
-        "D": "36"
-      },
-      "correctAnswer": "C",
-      "explanation": "LCM of 12, 18, 24: Prime factorization: 12=2²×3, 18=2×3², 24=2³×3. LCM = 2³×3² = 8×9 = 72.",
-      "subject": "Numerical Ability",
-      "difficulty": "medium"
-    },
-    {
       "id": 4,
-      "question": "The Battle of Panipat (First) was fought in which year?",
+      "question": "Which of the following cannot be posted in the letter box?",
       "options": {
-        "A": "1526",
-        "B": "1556",
-        "C": "1576",
-        "D": "1761"
+        "A": "Letter",
+        "B": "Inland letter card",
+        "C": "Postcard",
+        "D": "Registered newspaper"
       },
-      "correctAnswer": "A",
-      "explanation": "The First Battle of Panipat was fought in 1526 between Babur and Ibrahim Lodi. It established the Mughal Empire in India.",
-      "subject": "History",
-      "difficulty": "medium"
+      "correctAnswer": "D",
+      "explanation": "Registered newspapers cannot be posted in ordinary letter boxes; they must be handed over at the post office counter.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
     },
     {
       "id": 5,
-      "question": "Which blood group is known as the universal donor?",
+      "question": "The public are advised to use the minimum number of stamps while prepaying postage charges by using stamps of the ___ appropriate denominations.",
       "options": {
-        "A": "A",
-        "B": "B",
-        "C": "AB",
-        "D": "O"
+        "A": "Higher",
+        "B": "Lower",
+        "C": "Same",
+        "D": "None of the above"
       },
-      "correctAnswer": "D",
-      "explanation": "Blood group O negative is the universal donor because it can be transfused to any blood group patient in emergencies.",
-      "subject": "Science",
+      "correctAnswer": "A",
+      "explanation": "To save space on the postal article and simplify cancellation, the public is advised to use the minimum number of stamps by choosing higher appropriate denominations.",
+      "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 6,
-      "question": "Complete the series: 2, 6, 12, 20, 30, __",
+      "question": "What are the modes of payment of the postage or other sums chargeable for mail services?",
       "options": {
-        "A": "40",
-        "B": "42",
-        "C": "44",
-        "D": "46"
+        "A": "Cash",
+        "B": "Digital",
+        "C": "Postage stamps",
+        "D": "All of the above"
       },
-      "correctAnswer": "B",
-      "explanation": "Pattern: n(n+1). 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.",
-      "subject": "Reasoning",
-      "difficulty": "medium"
+      "correctAnswer": "D",
+      "explanation": "Postage and other charges can be paid via cash, digital modes, or by affixing valid postage stamps.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
     },
     {
       "id": 7,
-      "question": "The Tropic of Cancer passes through how many Indian states?",
+      "question": "Post Boxes are available on rent at certain Post Offices as may be determined by the:",
       "options": {
-        "A": "6",
-        "B": "7",
-        "C": "8",
-        "D": "9"
+        "A": "Head of Division",
+        "B": "Head of Region",
+        "C": "Head of Circle",
+        "D": "Gazetted Postmaster"
       },
       "correctAnswer": "C",
-      "explanation": "The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
-      "subject": "Geography",
-      "difficulty": "hard"
+      "explanation": "The availability of Post Boxes on rent at specific Post Offices is determined by the Head of the Postal Circle.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
     },
     {
       "id": 8,
-      "question": "Which is the smallest bone in the human body?",
+      "question": "What is rate of the postage chargeable on the delivery of unpaid official postal articles?",
       "options": {
-        "A": "Femur",
-        "B": "Stapes",
-        "C": "Fibula",
-        "D": "Tibia"
+        "A": "Pre-paid rate",
+        "B": "Double the prepaid rate",
+        "C": "Free",
+        "D": "None of the above"
       },
-      "correctAnswer": "B",
-      "explanation": "The stapes is the smallest bone in the human body. It is located in the middle ear and is about 3mm long.",
-      "subject": "Science",
+      "correctAnswer": "A",
+      "explanation": "For official postal articles sent unpaid, the postage chargeable on delivery is the standard pre-paid rate, unlike private unpaid articles which are charged double.",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 9,
-      "question": "A shopkeeper sells an item for ₹840 at a 20% profit. What is the cost price?",
+      "question": "Which of the following are prohibited for transmission by the Inland post?",
       "options": {
-        "A": "₹680",
-        "B": "₹700",
-        "C": "₹720",
-        "D": "₹750"
+        "A": "Which is sent in contravention of any enactment for the time being in force",
+        "B": "Any indecent or obscene articles",
+        "C": "Ticket, proposal or advertisement relating to a lottery",
+        "D": "All of the above"
       },
-      "correctAnswer": "B",
-      "explanation": "CP = SP / (1 + profit%) = 840 / 1.20 = 840 / 1.2 = ₹700.",
-      "subject": "Numerical Ability",
-      "difficulty": "medium"
-    },
-    {
-      "id": 10,
-      "question": "Which is the highest civilian award in India?",
-      "options": {
-        "A": "Padma Vibhushan",
-        "B": "Padma Bhushan",
-        "C": "Bharat Ratna",
-        "D": "Padma Shri"
-      },
-      "correctAnswer": "C",
-      "explanation": "Bharat Ratna is the highest civilian award in India, followed by Padma Vibhushan, Padma Bhushan, and Padma Shri.",
+      "correctAnswer": "D",
+      "explanation": "The Post Office Act prohibits the transmission of illegal, obscene, or lottery-related materials through inland post.",
       "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
-      "id": 11,
-      "question": "The chemical formula of water is:",
+      "id": 10,
+      "question": "Imported postal article containing coin, bullion, precious stones, jewellery, article of gold or silver or other articles which are liable to customs duty:",
       "options": {
-        "A": "HO",
-        "B": "H₂O",
-        "C": "H₂O₂",
-        "D": "HO₂"
+        "A": "Will not be transmitted until customs duty is paid",
+        "B": "Will be transmitted even if customs duty is not paid",
+        "C": "Will be destroyed",
+        "D": "Will be returned to sender"
       },
-      "correctAnswer": "B",
-      "explanation": "Water has the chemical formula H₂O, meaning each molecule has 2 hydrogen atoms and 1 oxygen atom.",
-      "subject": "Science",
+      "correctAnswer": "A",
+      "explanation": "Any imported postal article liable to customs duty will be withheld from delivery or onward transmission until the required customs duty is paid.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 11,
+      "question": "What is the compensation for delay in speed post delivery?",
+      "options": {
+        "A": "Speed post charges",
+        "B": "Double the speed post charges",
+        "C": "Rs 500",
+        "D": "Rs 1000"
+      },
+      "correctAnswer": "A",
+      "explanation": "In case of a delay in the delivery of a Speed Post article beyond the prescribed norms, the compensation provided is the refund of the Speed Post charges paid.",
+      "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 12,
-      "question": "In a class, 40% of students passed in Maths, 50% in English. If 20% passed in both, what % failed in both?",
+      "question": "What is the rate of penalty, if a bulk customer fails to make the payment of BNPL bill by due date?",
       "options": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "10% per annum",
+        "B": "12% per annum",
+        "C": "15% per annum",
+        "D": "20% per annum"
       },
-      "correctAnswer": "C",
-      "explanation": "Passed in at least one = 40 + 50 - 20 = 70%. Failed in both = 100 - 70 = 30%.",
-      "subject": "Numerical Ability",
-      "difficulty": "hard"
+      "correctAnswer": "B",
+      "explanation": "For Book Now Pay Later (BNPL) bulk customers, a penal interest of 12% per annum is levied on the default amount if the bill is not paid by the due date.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
     },
     {
       "id": 13,
-      "question": "Who was the first woman President of India?",
+      "question": "If the COD value to be recovered from addressee is up to Rs 6500, then what is the additional fee which the sender shall be required to pay for transmitting postal article as Cash-on-Delivery (COD) article?",
       "options": {
-        "A": "Sarojini Naidu",
-        "B": "Indira Gandhi",
-        "C": "Pratibha Patil",
-        "D": "Sushma Swaraj"
+        "A": "1.6% of COD value to be recovered",
+        "B": "1.5% of COD value to be recovered",
+        "C": "1% of COD value to be recovered",
+        "D": "2% of COD value to be recovered"
       },
-      "correctAnswer": "C",
-      "explanation": "Pratibha Patil was the first woman President of India, serving from 2007 to 2012.",
+      "correctAnswer": "A",
+      "explanation": "For Cash-on-Delivery (COD) articles where the recovery value is up to Rs 6500, the fee is generally calculated at 1.6% of the COD value to be recovered (minimum Rs 50).",
       "subject": "General Awareness",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
       "id": 14,
-      "question": "Arrange in ascending order: 3/4, 5/6, 7/8, 2/3",
+      "question": "Which of the following is not true about Cash-on-Delivery (COD) facility?",
       "options": {
-        "A": "2/3, 3/4, 5/6, 7/8",
-        "B": "7/8, 5/6, 3/4, 2/3",
-        "C": "3/4, 2/3, 5/6, 7/8",
-        "D": "2/3, 7/8, 3/4, 5/6"
+        "A": "It provides collection up to Rs 50000",
+        "B": "Insurance is compulsory",
+        "C": "Such articles do not contain coupons, tickets, certificates or introductions designed for the sale of goods on what is known as the Snowball System",
+        "D": "None of the above"
       },
-      "correctAnswer": "A",
-      "explanation": "Convert to decimals: 2/3≈0.667, 3/4=0.75, 5/6≈0.833, 7/8=0.875. Ascending: 2/3, 3/4, 5/6, 7/8.",
-      "subject": "Numerical Ability",
+      "correctAnswer": "B",
+      "explanation": "Insurance is not strictly compulsory for all COD articles; it depends on the nature and value of the contents. Other statements given are correct rules for COD.",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 15,
-      "question": "Which of the following is the national game of India?",
+      "question": "Maximum number of individuals that may be nominated as nominee in Post Office Savings Account is:",
       "options": {
-        "A": "Cricket",
-        "B": "Hockey",
-        "C": "Badminton",
-        "D": "Kabaddi"
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "1"
       },
-      "correctAnswer": "B",
-      "explanation": "Field Hockey is considered the national game of India, though India has not officially declared any sport as the national game.",
+      "correctAnswer": "A",
+      "explanation": "A maximum of 4 individuals can be nominated as nominees in a Post Office Savings Account.",
       "subject": "General Awareness",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 16,
-      "question": "The outermost layer of the Earth is called:",
+      "question": "Which of the following statements is not correct about Post Office Savings Account?",
       "options": {
-        "A": "Mantle",
-        "B": "Core",
-        "C": "Crust",
-        "D": "Lithosphere"
+        "A": "Only one account can be opened by an individual as a single account",
+        "B": "Account can be opened by minor who has attained the age of 10 years",
+        "C": "There is no limit of maximum deposit",
+        "D": "An account opened as a single account can subsequently be converted into joint account"
       },
-      "correctAnswer": "C",
-      "explanation": "The crust is the outermost solid layer of the Earth. It is divided into oceanic crust and continental crust.",
-      "subject": "Geography",
-      "difficulty": "easy"
+      "correctAnswer": "D",
+      "explanation": "Under the current Post Office Savings Bank (POSB) rules, a single account cannot be converted into a joint account, and vice-versa.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
     },
     {
       "id": 17,
-      "question": "Which mirror is used in the rear-view mirrors of vehicles?",
+      "question": "What is the fee for cancellation or change in nomination in any account under Post Office Savings Scheme?",
       "options": {
-        "A": "Plane mirror",
-        "B": "Concave mirror",
-        "C": "Convex mirror",
-        "D": "Cylindrical mirror"
+        "A": "100",
+        "B": "50",
+        "C": "20",
+        "D": "No fee"
       },
-      "correctAnswer": "C",
-      "explanation": "Convex mirrors are used as rear-view mirrors because they give a wider field of view, though images appear smaller.",
-      "subject": "Science",
-      "difficulty": "easy"
+      "correctAnswer": "D",
+      "explanation": "As per the specific official answer key provided for this PYQ set, the answer is 'No fee' (D), though historically nominal fees have been subject to rule changes.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
     },
     {
       "id": 18,
-      "question": "If P is 16 km south of Q, and R is 12 km west of P, what is the distance QR?",
+      "question": "What is the correct statement about loan facility in Post Office Recurring Deposit Account?",
       "options": {
-        "A": "18 km",
-        "B": "20 km",
-        "C": "22 km",
-        "D": "24 km"
+        "A": "Loan amount is limited to 50% of deposit",
+        "B": "Account should have been operational for at least one year",
+        "C": "Twelve monthly deposits should have been made in the account",
+        "D": "All of above"
       },
-      "correctAnswer": "B",
-      "explanation": "QP = 16 km (south), PR = 12 km (west). QR = √(16² + 12²) = √(256 + 144) = √400 = 20 km.",
-      "subject": "Reasoning",
+      "correctAnswer": "D",
+      "explanation": "In a Post Office RD account, a loan up to 50% of the balance is allowed only after the account has been active for one year and 12 monthly installments have been deposited.",
+      "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
       "id": 19,
-      "question": "The Preamble of the Indian Constitution begins with the words:",
+      "question": "The investment under ___ years TD qualifies for the benefit of section 80C of Income Tax Act, 1961.",
       "options": {
-        "A": "We the citizens of India",
-        "B": "We the people of India",
-        "C": "We the members of India",
-        "D": "We the nationals of India"
+        "A": "5 years",
+        "B": "2 years",
+        "C": "1 year",
+        "D": "3 years"
       },
-      "correctAnswer": "B",
-      "explanation": "The Preamble begins with 'WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC...'",
-      "subject": "Polity",
+      "correctAnswer": "A",
+      "explanation": "Only the 5-Year Time Deposit (TD) in the Post Office qualifies for tax deduction under Section 80C of the Income Tax Act.",
+      "subject": "General Awareness",
       "difficulty": "easy"
     },
     {
       "id": 20,
-      "question": "Which element has the chemical symbol 'Fe'?",
+      "question": "Retired personnel of Defence Services (excluding Civilian Defence employees) shall be eligible to open an account under Senior Citizens Savings Scheme on attaining the age of ___ years subject to the fulfilment of other specified conditions.",
       "options": {
-        "A": "Fluorine",
-        "B": "Francium",
-        "C": "Iron",
-        "D": "Fermium"
+        "A": "60",
+        "B": "55",
+        "C": "58",
+        "D": "50"
       },
-      "correctAnswer": "C",
-      "explanation": "Fe is the chemical symbol for Iron, derived from the Latin word 'Ferrum'.",
-      "subject": "Science",
-      "difficulty": "easy"
-    },
-    {
-      "id": 21,
-      "question": "The ratio of boys to girls in a class is 3:2. If there are 30 boys, how many girls are there?",
-      "options": {
-        "A": "15",
-        "B": "20",
-        "C": "18",
-        "D": "25"
-      },
-      "correctAnswer": "B",
-      "explanation": "3:2 = 30:x. x = (30 × 2) / 3 = 60 / 3 = 20 girls.",
-      "subject": "Numerical Ability",
-      "difficulty": "easy"
-    },
-    {
-      "id": 22,
-      "question": "Which of the following is a non-renewable source of energy?",
-      "options": {
-        "A": "Solar energy",
-        "B": "Wind energy",
-        "C": "Coal",
-        "D": "Tidal energy"
-      },
-      "correctAnswer": "C",
-      "explanation": "Coal is a non-renewable fossil fuel. Solar, wind, and tidal energy are renewable sources.",
-      "subject": "Science",
-      "difficulty": "easy"
-    },
-    {
-      "id": 23,
-      "question": "How many times does the digit '3' appear in numbers from 1 to 100?",
-      "options": {
-        "A": "10",
-        "B": "19",
-        "C": "20",
-        "D": "21"
-      },
-      "correctAnswer": "C",
-      "explanation": "3 appears in units place: 3,13,23,33,43,53,63,73,83,93 = 10 times. In tens place: 30,31,32,33,34,35,36,37,38,39 = 10 times. Total = 20 times.",
-      "subject": "Numerical Ability",
+      "correctAnswer": "D",
+      "explanation": "Defence personnel (excluding civilian defence employees) can open an SCSS account upon reaching 50 years of age, provided they meet other conditions.",
+      "subject": "General Awareness",
       "difficulty": "hard"
     },
     {
-      "id": 24,
-      "question": "Which is the capital city of Australia?",
+      "id": 21,
+      "question": "If SCSS account closed on or after 2 years, an amount equal to ___ of the deposit shall be deducted and the balance shall be paid to the account holder.",
       "options": {
-        "A": "Sydney",
-        "B": "Melbourne",
-        "C": "Brisbane",
-        "D": "Canberra"
+        "A": "1%",
+        "B": "1.5%",
+        "C": "2%",
+        "D": "2.5%"
       },
-      "correctAnswer": "D",
-      "explanation": "Canberra is the capital of Australia, not Sydney or Melbourne as commonly mistaken. It was purpose-built to serve as the capital.",
+      "correctAnswer": "A",
+      "explanation": "For a Senior Citizens Savings Scheme (SCSS) account, if it is closed after 2 years from the date of opening, a penalty of 1% of the deposit amount is deducted.",
       "subject": "General Awareness",
       "difficulty": "medium"
     },
     {
-      "id": 25,
-      "question": "MIRROR is coded as RORRMI, then WINDOW is coded as?",
+      "id": 22,
+      "question": "Loan facility is available in Joint Life Assurance (Yugal Suraksha) under PLI after:",
       "options": {
-        "A": "WODNIW",
-        "B": "WODNIV",
-        "C": "WODINW",
-        "D": "WONDIW"
+        "A": "2 years",
+        "B": "3 years",
+        "C": "4 years",
+        "D": "5 years"
+      },
+      "correctAnswer": "B",
+      "explanation": "Under Postal Life Insurance (PLI), the loan facility for a Joint Life Assurance (Yugal Suraksha) policy becomes available after the completion of 3 years.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 23,
+      "question": "Which of the following PLI policy does not have surrender facility?",
+      "options": {
+        "A": "Whole Life Assurance",
+        "B": "Endowment Assurance",
+        "C": "Joint Life Assurance",
+        "D": "Children Policy"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Children Policy under PLI (Bal Jeevan Bima) does not have a surrender facility.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "question": "Which orders are issued by Superintendent RMS Division for prescribing changes in sorting lists?",
+      "options": {
+        "A": "'B' order",
+        "B": "'A' order",
+        "C": "Sorting order",
+        "D": "None of the above"
+      },
+      "correctAnswer": "B",
+      "explanation": "'A' orders are issued by the Superintendent of RMS to prescribe changes in sorting lists and mail routing.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "An ___ is used between a Sub-Post Office and its Head Post Office to enclose the bags and articles, documents, etc., connected with accounts as well as correspondence unconnected with accounts, from the Head Post Office to one of its Sub-Post Offices and vice versa.",
+      "options": {
+        "A": "Account Bag",
+        "B": "Transit Bag",
+        "C": "Mail Bag",
+        "D": "Branch Office Bag"
       },
       "correctAnswer": "A",
-      "explanation": "The code reverses the word. MIRROR reversed = RORRIM. WINDOW reversed = WODNIW.",
-      "subject": "Reasoning",
+      "explanation": "An Account Bag is specifically used for exchanging cash, accountable articles, and documents between a Sub-Post Office and its parent Head Post Office.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "Which statement is true about Transit Bag?",
+      "options": {
+        "A": "It must contain mail list",
+        "B": "It is a due bag",
+        "C": "Only (A)",
+        "D": "Both (A) & (B)"
+      },
+      "correctAnswer": "D",
+      "explanation": "A Transit Bag is a 'due bag' (must be dispatched regularly) and it must contain a mail list detailing the enclosed bags.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "___ is used to enclose several bags sent to the same office or section, thereby affording protection to them, and securing the disposal in transit of only one bag in place of several.",
+      "options": {
+        "A": "Packet Bag",
+        "B": "Transit Bag",
+        "C": "Protecting Bag",
+        "D": "Security Bag"
+      },
+      "correctAnswer": "B",
+      "explanation": "A Transit Bag is used to enclose multiple bags destined for the same office, reducing the number of individual bags handled in transit.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Which of the following offices does not deal with any bags but only deals with the correspondence relating to procurement and distribution of bags?",
+      "options": {
+        "A": "District Bag Office",
+        "B": "Circle Bag Office",
+        "C": "Principal Bag Office",
+        "D": "Central Bag Office"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Central Bag Office (D Directorate level) does not physically handle bags but manages correspondence, procurement, and overall distribution policy.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "Stationary office situated at the Headquarters of RMS Division which, in addition to the ordinary duties of a Record Office, is entrusted with the preparation of salary and contingent bills for the entire Division and the accounts connected therewith is termed as:",
+      "options": {
+        "A": "Head Record Office",
+        "B": "Sub Record Office",
+        "C": "Mail Office",
+        "D": "Transit Office"
+      },
+      "correctAnswer": "A",
+      "explanation": "A Head Record Office (HRO) performs standard record office duties plus administrative and accounting tasks like salary and contingent bills for the RMS division.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "Office which does not exchange mails with the offices in foreign countries but in which the work of customs examination, assessment and accounting of customs duty is carried out is called:",
+      "options": {
+        "A": "Foreign Post Office",
+        "B": "Sub Foreign Post Office",
+        "C": "Customs Office",
+        "D": "Mail Office"
+      },
+      "correctAnswer": "B",
+      "explanation": "A Sub Foreign Post Office facilitates customs examination and assessment for local delivery but does not independently exchange direct mail bags with foreign countries.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 31,
+      "question": "Which of the following imaginary line almost divides India into two equal parts?",
+      "options": {
+        "A": "Equator",
+        "B": "Tropic of Cancer",
+        "C": "Tropic of Capricorn",
+        "D": "Arctic Circle"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Tropic of Cancer (23.5° N) passes through the middle of India, dividing it roughly into two equal halves (tropical and subtropical zones).",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "question": "Which one of the following is the place of confluence of the Alaknanda and the Bhagirathi Rivers?",
+      "options": {
+        "A": "Vishnu Prayag",
+        "B": "Karnaprayag",
+        "C": "Rudraprayag",
+        "D": "Devprayag"
+      },
+      "correctAnswer": "D",
+      "explanation": "Devprayag is the sacred confluence where the Alaknanda and Bhagirathi rivers meet to form the holy river Ganga.",
+      "subject": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Which house of Parliament is elected directly by the people?",
+      "options": {
+        "A": "Lok Sabha",
+        "B": "Vidhan Sabha",
+        "C": "Rajya Sabha",
+        "D": "Vidhan Parishad"
+      },
+      "correctAnswer": "A",
+      "explanation": "The Lok Sabha (House of the People) is the lower house of India's bicameral Parliament, with members elected directly by the citizens.",
+      "subject": "Polity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 34,
+      "question": "What does Article 19 of the Indian Constitution guarantee?",
+      "options": {
+        "A": "Right to Property",
+        "B": "Right to Freedom of Speech and Expression",
+        "C": "Right to Religion",
+        "D": "Right to Education"
+      },
+      "correctAnswer": "B",
+      "explanation": "Article 19 guarantees several freedoms to Indian citizens, primarily the Right to Freedom of Speech and Expression.",
+      "subject": "Polity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 35,
+      "question": "Volcanic eruption does not occur in the:",
+      "options": {
+        "A": "Baltic Sea",
+        "B": "Black Sea",
+        "C": "Caribbean Sea",
+        "D": "Caspian Sea"
+      },
+      "correctAnswer": "A",
+      "explanation": "The Baltic Sea is located on a stable continental shield (Baltic Shield) far from tectonic plate boundaries, meaning no volcanic activity occurs there.",
+      "subject": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "id": 36,
+      "question": "The hottest planet in the solar system?",
+      "options": {
+        "A": "Mercury",
+        "B": "Venus",
+        "C": "Mars",
+        "D": "Jupiter"
+      },
+      "correctAnswer": "B",
+      "explanation": "Despite Mercury being closer to the Sun, Venus is the hottest planet due to a dense atmosphere of carbon dioxide causing a massive greenhouse effect.",
+      "subject": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "question": "During which movement did Mahatma Gandhi first use the term 'Satyagraha' to denote his philosophy of non-violent resistance?",
+      "options": {
+        "A": "Salt March",
+        "B": "Kheda Satyagraha",
+        "C": "Champaran Satyagraha",
+        "D": "Quit India Movement"
+      },
+      "correctAnswer": "C",
+      "explanation": "Mahatma Gandhi first used 'Satyagraha' in India during the Champaran Satyagraha of 1917 to protest against the indigo planter system.",
+      "subject": "History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Which Indian Academy is promoting dance, drama and music?",
+      "options": {
+        "A": "Sahitya Academy",
+        "B": "Lalit Kala Academy",
+        "C": "National School of Drama",
+        "D": "Sangeet Academy"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Sangeet Natak Akademi (Sangeet Academy) is the national level academy for performing arts set up by the Government of India to promote dance, drama, and music.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "Ethics determines rightness and wrongness of:",
+      "options": {
+        "A": "Human thoughts",
+        "B": "Human actions",
+        "C": "Human judgements",
+        "D": "None of these"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ethics is the branch of philosophy that deals with the moral principles governing human actions and behavior.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 40,
+      "question": "Children learn moral values through:",
+      "options": {
+        "A": "Active thinking",
+        "B": "Reasoning",
+        "C": "Both (A) and (B)",
+        "D": "None of these"
+      },
+      "correctAnswer": "C",
+      "explanation": "Children internalize moral values effectively through a combination of active cognitive thinking and logical reasoning about situations.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "Solve the following: 20 ÷ 30 ÷ 15 × 10 ÷ 10 × (-3)",
+      "options": {
+        "A": "14",
+        "B": "07",
+        "C": "21",
+        "D": "05"
+      },
+      "correctAnswer": "A",
+      "explanation": "Based on the official answer key provided for this specific paper, the answer is A. Note: The mathematical expression in the source may contain a typographical error from the original exam standard.",
+      "subject": "Numerical Ability",
+      "difficulty": "hard"
+    },
+    {
+      "id": 42,
+      "question": "Solve the following: [{(40 + 50 ÷ 5 × 6) × 2} ÷ 1/2 × 100]",
+      "options": {
+        "A": "40000",
+        "B": "8000",
+        "C": "20000",
+        "D": "50000"
+      },
+      "correctAnswer": "A",
+      "explanation": "Using BODMAS: First 50 ÷ 5 = 10. Then 10 × 6 = 60. Then 40 + 60 = 100. Then 100 × 2 = 200. Next, 200 ÷ (1/2) = 400. Finally, 400 × 100 = 40000.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "A shopkeeper sells an item at Rs. 840 at a gain of 20% and another item for Rs. 960 at the loss of 4%. Find his total gain percent.",
+      "options": {
+        "A": "97 1/7%",
+        "B": "98 1/7%",
+        "C": "99 1/7%",
+        "D": "100/17%"
+      },
+      "correctAnswer": "D",
+      "explanation": "CP1 = 840 / 1.2 = 700. CP2 = 960 / 0.96 = 1000. Total CP = 1700. Total SP = 840 + 960 = 1800. Profit = 100. Profit% = (100/1700) × 100 = 100/17 %.",
+      "subject": "Numerical Ability",
+      "difficulty": "hard"
+    },
+    {
+      "id": 44,
+      "question": "A man bought an article and sold it at a gain of 5%. If he had bought it at 5% less and sold it for Re 1 less, he would have made a profit of 10%. The C.P. of the article was:",
+      "options": {
+        "A": "100",
+        "B": "200",
+        "C": "300",
+        "D": "400"
+      },
+      "correctAnswer": "B",
+      "explanation": "Let CP = 100x. SP = 105x. New CP = 95x. New SP = 105x - 1. Profit is 10%, so 95x × 1.10 = 104.5x. Equating: 105x - 1 = 104.5x => 0.5x = 1 => x = 2. CP = 100 × 2 = Rs 200.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "Rahul took a loan of Rs. 1200 with simple interest for as many years as the rate of interest. If he paid Rs. 432 as interest at the end of the loan period, what was the rate of interest?",
+      "options": {
+        "A": "6%",
+        "B": "3.6%",
+        "C": "18%",
+        "D": "None of above"
+      },
+      "correctAnswer": "A",
+      "explanation": "SI = P × R × T / 100. Here T = R. So, 432 = 1200 × R² / 100. This simplifies to 432 = 12 × R², meaning R² = 36. Therefore, R = 6%.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 46,
+      "question": "In the first 10 overs of a cricket game, the average run rate was only 3.5 per over, then what should be the run rate in the remaining 40 overs to reach the target of 275 runs?",
+      "options": {
+        "A": "6.0",
+        "B": "6.50",
+        "C": "6.75",
+        "D": "7.0"
+      },
+      "correctAnswer": "A",
+      "explanation": "Runs scored in 10 overs = 10 × 3.5 = 35. Runs needed = 275 - 35 = 240. Required run rate for 40 overs = 240 / 40 = 6.0 runs per over.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 47,
+      "question": "A can do a work in 15 days and B in 20 days. If they work on it together for 5 days, then the fraction of the work that is left is:",
+      "options": {
+        "A": "1/4",
+        "B": "1/3",
+        "C": "7/12",
+        "D": "5/12"
+      },
+      "correctAnswer": "D",
+      "explanation": "Work done by A in 1 day = 1/15. By B = 1/20. Together = 1/15 + 1/20 = 7/60. Work done in 5 days = 5 × (7/60) = 35/60. Work left = 1 - 35/60 = 25/60 = 5/12.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "'A' alone can finish a piece of work in 70 days. 'B' is 75% more efficient than A. How many days will B alone take to finish the work?",
+      "options": {
+        "A": "40 days",
+        "B": "39 days",
+        "C": "38 days",
+        "D": "None of the above"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ratio of efficiency of A to B is 100 : 175 = 4 : 7. Ratio of time taken is 7 : 4. If 7 units = 70 days, then 4 units = 40 days.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 49,
+      "question": "Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "12",
+        "D": "20"
+      },
+      "correctAnswer": "B",
+      "explanation": "Stoppage time per hour = (Difference in speed) / (Speed without stoppage) = (54 - 45) / 54 = 9/54 = 1/6 of an hour. 1/6 × 60 minutes = 10 minutes.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 50,
+      "question": "If the cost of X meters of wire is 'M' rupees, then find the cost of 'Y' meters of wire at the same rate.",
+      "options": {
+        "A": "MY/X",
+        "B": "MX/Y",
+        "C": "XY/M",
+        "D": "None of the above"
+      },
+      "correctAnswer": "A",
+      "explanation": "Cost of 1 meter of wire = M / X. Cost of Y meters of wire = Y × (M / X) = MY / X.",
+      "subject": "Numerical Ability",
       "difficulty": "easy"
     }
   ]

@@ -94,14 +94,14 @@
       },
       {
         "id": "pyq-2",
-        "name": "PYQ Set 2",
-        "year": "2023",
-        "shift": "Evening",
+        "name": "MTS PYQ North East 2025",
+        "year": "2025",
+        "shift": "Morning",
         "file": "data/pyq/pyq-set-2.json",
-        "totalQuestions": 25,
-        "timeInSeconds": 1500,
+        "totalQuestions": 50,
+        "timeInSeconds": 3600,
         "difficulty": "medium",
-        "tags": ["2023", "official"]
+        "tags": ["2025", "official"]
       },
       {
         "id": "pyq-3",
