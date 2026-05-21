@@ -123,6 +123,8 @@ const QuizEngine = (() => {
     } else {
       Timer.hide();
     }
+    console.log('⏱️ timeInSeconds from config:', _setConfig.timeInSeconds, '| setId:', _setConfig.id);
+    const seconds = _setConfig.timeInSeconds || 1500;
   }
 
   function _setupNavGrid() {
