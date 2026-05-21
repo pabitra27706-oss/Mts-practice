@@ -121,8 +121,8 @@
         "name": "Practice Set 1",
         "topic": "General Awareness",
         "file": "data/practice/practice-set-1.json",
-        "totalQuestions": 25,
-        "timeInSeconds": 1500,
+        "totalQuestions": 50,
+        "timeInSeconds": 3600,
         "difficulty": "easy",
         "tags": ["general", "beginner"]
       },
