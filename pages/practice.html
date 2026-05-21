@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport"
     content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 
   <title>Practice Mode — MTS Mock Test Sets</title>
   <meta name="description"
@@ -28,14 +31,10 @@
   <meta name="apple-mobile-web-app-capable"          content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-  <link rel="icon" type="image/png"
-    sizes="48x48" href="../icons/icon-48x48.png" />
-  <link rel="icon" type="image/png"
-    sizes="96x96" href="../icons/icon-96x96.png" />
-  <link rel="apple-touch-icon"
-    sizes="152x152" href="../icons/icon-152x152.png" />
-  <link rel="apple-touch-icon"
-    sizes="192x192" href="../icons/icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="../icons/icon-48x48.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="../icons/icon-96x96.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="../icons/icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="../icons/icon-192x192.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -81,30 +80,7 @@
       </div>
 
       <div class="sets-list" id="setsList" role="list">
-        <div class="set-card set-card--loading set-card--practice"
-          aria-hidden="true">
-          <div class="set-card__top">
-            <div class="set-card__left">
-              <div class="set-card__number">1</div>
-              <div class="set-card__info">
-                <div class="set-card__name">Loading...</div>
-                <div class="set-card__sub">Please wait</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="set-card set-card--loading set-card--practice"
-          aria-hidden="true">
-          <div class="set-card__top">
-            <div class="set-card__left">
-              <div class="set-card__number">2</div>
-              <div class="set-card__info">
-                <div class="set-card__name">Loading...</div>
-                <div class="set-card__sub">Please wait</div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- dynamically filled by sets-page.js -->
       </div>
 
     </div>
@@ -138,6 +114,5 @@
   <script src="../js/mode-toggle.js"></script>
   <script src="../js/sets-page.js"></script>
   <script src="../js/pwa.js"></script>
-
 </body>
 </html>
