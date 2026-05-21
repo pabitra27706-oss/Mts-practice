@@ -1,0 +1,682 @@
+{
+  "setId": "pyq-2025-cg",
+  "setName": "MTS PYQ Chhattisgarh 2025",
+  "type": "pyq",
+  "year": "2025",
+  "shift": "Morning",
+  "totalQuestions": 48,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who is the Secretary to the Department of Posts?",
+      "options": {
+        "A": "Jitendra Gupta",
+        "B": "Vandita Kaul",
+        "C": "Harpreet Singh",
+        "D": "None of the above"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ms. Vandita Kaul is appointed as the Secretary to the Department of Posts, Government of India.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 2,
+      "question": "Where is the Headquarter of Telangana Circle?",
+      "options": {
+        "A": "Vijayawada",
+        "B": "Hyderabad",
+        "C": "Tirupati",
+        "D": "None of the above"
+      },
+      "correctAnswer": "B",
+      "explanation": "The headquarters of the Telangana Postal Circle is located in Hyderabad.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Which service is not provided in Mobile Post Office?",
+      "options": {
+        "A": "Speed Post",
+        "B": "Registered Article",
+        "C": "Parcel",
+        "D": "PPF"
+      },
+      "correctAnswer": "D",
+      "explanation": "Public Provident Fund (PPF) accounts cannot be opened or maintained in Mobile Post Offices. They only deal with booking of postal articles and sale of stamps.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "Who can extend the working of Post Office as 'Night Office'?",
+      "options": {
+        "A": "CPMG",
+        "B": "PMG",
+        "C": "Director General",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Director General of Posts has the authority to extend the working hours of a post office up to 8:30 PM and designate it as a 'Night Post Office'.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "question": "Franking Machine has?",
+      "options": {
+        "A": "Value die",
+        "B": "License die",
+        "C": "Both A & B",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "A standard Franking Machine operates using two primary dies: a Value die (which prints the postage amount) and a License die (which prints the license number and origin details).",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "License for Franking Machine is issued by?",
+      "options": {
+        "A": "CPMG",
+        "B": "PMG",
+        "C": "Director General",
+        "D": "SSPO"
+      },
+      "correctAnswer": "D",
+      "explanation": "The license for using a Franking Machine is issued by the Senior Superintendent of Post Offices (SSPO) or Superintendent of Post Offices (SPO) of the respective division.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "question": "Which State is not a part of North-Eastern Postal Circle?",
+      "options": {
+        "A": "Sikkim",
+        "B": "Meghalaya",
+        "C": "Nagaland",
+        "D": "Manipur"
+      },
+      "correctAnswer": "A",
+      "explanation": "Sikkim falls under the jurisdiction of the West Bengal Postal Circle, not the North-Eastern Postal Circle.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "question": "Where is 56 APO located?",
+      "options": {
+        "A": "New Delhi",
+        "B": "Kolkata",
+        "C": "Mumbai",
+        "D": "Shillong"
+      },
+      "correctAnswer": "A",
+      "explanation": "56 APO (Army Post Office), which primarily serves the armed forces in the northern and western sectors, is centrally located in New Delhi.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Post Offices are divided into how many categories?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "correctAnswer": "B",
+      "explanation": "Post Offices in India are divided into three main categories: Head Post Offices (HO), Sub Post Offices (SO), and Branch Post Offices (BO).",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Who opens the letter box?",
+      "options": {
+        "A": "Postmaster",
+        "B": "Postal Assistant",
+        "C": "Letter Box Peon",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "Letter boxes are officially cleared and opened by a designated Letter Box Peon, whose duty is to collect the mail at specified times.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Which 'APP' is used for letter box clearance?",
+      "options": {
+        "A": "PMA",
+        "B": "DMA",
+        "C": "Nanyatha",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "The 'Nanyatha' mobile application is used by the Department of Posts for the digital clearance and monitoring of letter boxes.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "Which 'APP' is used for delivery of articles?",
+      "options": {
+        "A": "PMA",
+        "B": "Nanyatha",
+        "C": "CMA",
+        "D": "None of the above"
+      },
+      "correctAnswer": "A",
+      "explanation": "The Postman Mobile App (PMA) is used by delivery staff to update the delivery status of accountable articles in real-time.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Registered articles may be delivered to?",
+      "options": {
+        "A": "Only the addressee",
+        "B": "Anyone at the address",
+        "C": "Both A & B",
+        "D": "None of the above"
+      },
+      "correctAnswer": "A",
+      "explanation": "While practically a registered article can be delivered to an authorized agent, the official key specifies 'Only the addressee' in the strict context of un-endorsed accountable mail.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 15,
+      "question": "Speed Post delivery is?",
+      "options": {
+        "A": "Address specific",
+        "B": "Addressee specific",
+        "C": "Both A & B",
+        "D": "None of the above"
+      },
+      "correctAnswer": "A",
+      "explanation": "Speed Post delivery is generally address-specific. It is delivered to the given address, not strictly restricted only to the addressee's personal hands unless specifically endorsed.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "Where is Automated Mail Processing Centre located?",
+      "options": {
+        "A": "New Delhi",
+        "B": "Mumbai",
+        "C": "Chennai",
+        "D": "Hyderabad"
+      },
+      "correctAnswer": "A",
+      "explanation": "Among the options given, a major Automated Mail Processing Centre (AMPC) is located in New Delhi.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "Which item is prohibited to be sent by Post Office?",
+      "options": {
+        "A": "Books",
+        "B": "Coins",
+        "C": "Narcotics",
+        "D": "All of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "Under the Post Office Act, narcotics and psychotropic substances are strictly prohibited from being transmitted via post.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "99 APO is located at?",
+      "options": {
+        "A": "Kolkata",
+        "B": "Mumbai",
+        "C": "New Delhi",
+        "D": "Hyderabad"
+      },
+      "correctAnswer": "A",
+      "explanation": "99 APO (Army Post Office) serves the eastern sector of the Indian armed forces and is headquartered in Kolkata.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "Maximum weight of book packet is?",
+      "options": {
+        "A": "5 kg",
+        "B": "7 kg",
+        "C": "8 kg",
+        "D": "9 kg"
+      },
+      "correctAnswer": "A",
+      "explanation": "The maximum permissible weight for sending a Book Packet through the post is 5 kilograms.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Who cannot avail PLI Scheme?",
+      "options": {
+        "A": "Doctor",
+        "B": "Advocate",
+        "C": "Engineer",
+        "D": "Labour class"
+      },
+      "correctAnswer": "D",
+      "explanation": "Postal Life Insurance (PLI) was originally restricted to government, semi-government employees, and registered professionals (doctors, engineers, advocates). Unorganized labour class cannot avail PLI (they are covered under RPLI).",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "How many days are given for taking delivery of 'Intimation Served' articles?",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correctAnswer": "B",
+      "explanation": "When an intimation is served to the addressee regarding an accountable article, it is kept in deposit at the post office for 7 days for the addressee to claim it.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Who is the DPS (HQ) of Chhattisgarh Circle?",
+      "options": {
+        "A": "Neeraj Jha",
+        "B": "Dinesh Mistry",
+        "C": "Chandra Shekhar",
+        "D": "None of the above"
+      },
+      "correctAnswer": "B",
+      "explanation": "As per current departmental postings and the official key, Dinesh Mistry is the Director of Postal Services (DPS) HQ for the Chhattisgarh Circle.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "Foreign Post is not located at?",
+      "options": {
+        "A": "Mumbai",
+        "B": "Chennai",
+        "C": "New Delhi",
+        "D": "Faridabad"
+      },
+      "correctAnswer": "D",
+      "explanation": "Foreign Post Offices (FPOs) are established in major metropolitan nodes like Mumbai, Chennai, and New Delhi. Faridabad does not have an independent FPO.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "question": "Which office is the Account Office of Branch Post Office?",
+      "options": {
+        "A": "Head Post Office",
+        "B": "Sub Post Office",
+        "C": "Both (A) and (B)",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "A Branch Post Office (BO) submits its accounts to its designated Account Office, which can be either a Head Post Office (HO) or a Sub Post Office (SO).",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "Which office deals with closed bags only?",
+      "options": {
+        "A": "NSH",
+        "B": "IPH",
+        "C": "TMO",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "A Transit Mail Office (TMO) exclusively handles closed bags. It receives, sorts, and dispatches bags without opening them to sort individual articles.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "question": "Work papers of the sections are prepared and checked in?",
+      "options": {
+        "A": "Transit Office",
+        "B": "Sections",
+        "C": "Record Office",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "The work papers of the RMS (Railway Mail Service) sections are prepared, checked, and maintained by the Record Office.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "Who can avail 'Campbag' facility?",
+      "options": {
+        "A": "The President",
+        "B": "The Prime Minister",
+        "C": "The Governor",
+        "D": "All of the above"
+      },
+      "correctAnswer": "D",
+      "explanation": "The 'Camp bag' facility is a special postal arrangement provided for high dignitaries like the President, Prime Minister, Governors, etc., when they are on tour.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 28,
+      "question": "Where is National Sorting Hub not located?",
+      "options": {
+        "A": "Jaipur",
+        "B": "New Delhi",
+        "C": "Patna",
+        "D": "Jamalpur"
+      },
+      "correctAnswer": "D",
+      "explanation": "National Sorting Hubs (NSH) are typically located in major cities and state capitals (like Jaipur, New Delhi, Patna). Jamalpur does not host an NSH.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "Which colour bag label is used for Surface Parcel?",
+      "options": {
+        "A": "Blue",
+        "B": "Orange",
+        "C": "Yellow",
+        "D": "Red"
+      },
+      "correctAnswer": "A",
+      "explanation": "In standard postal sorting, blue-colored bag labels are traditionally used to identify bags containing Surface Parcels.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 31,
+      "question": "Where did Gandhi ji launch first 'Satyagraha'?",
+      "options": {
+        "A": "Champaran",
+        "B": "Kheda",
+        "C": "South Africa",
+        "D": "Surat"
+      },
+      "correctAnswer": "C",
+      "explanation": "Mahatma Gandhi first used the tool of 'Satyagraha' (non-violent resistance) in South Africa to fight against racial discrimination before bringing it to India.",
+      "subject": "History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "question": "Where did 'Golmez Conference' take place?",
+      "options": {
+        "A": "Delhi",
+        "B": "London",
+        "C": "Paris",
+        "D": "Ireland"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Round Table Conferences (Golmez Sammelan) between 1930 and 1932 were organized by the British Government in London to discuss constitutional reforms in India.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "question": "National Emergency is imposed under which Article?",
+      "options": {
+        "A": "352",
+        "B": "356",
+        "C": "360",
+        "D": "364"
+      },
+      "correctAnswer": "A",
+      "explanation": "Under Article 352 of the Indian Constitution, the President can declare a National Emergency due to war, external aggression, or armed rebellion.",
+      "subject": "Polity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 34,
+      "question": "Who was the first President of India?",
+      "options": {
+        "A": "Dr. Rajendra Prasad",
+        "B": "V. V. Giri",
+        "C": "Jawaharlal Nehru",
+        "D": "Sardar Patel"
+      },
+      "correctAnswer": "A",
+      "explanation": "Dr. Rajendra Prasad was the first President of independent India, serving from 1950 to 1962.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 35,
+      "question": "Which city is called 'Pink City'?",
+      "options": {
+        "A": "Lucknow",
+        "B": "Jodhpur",
+        "C": "Jaipur",
+        "D": "Patna"
+      },
+      "correctAnswer": "C",
+      "explanation": "Jaipur, the capital of Rajasthan, is known as the 'Pink City' because of the distinct color of the stone used in its historic buildings.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 36,
+      "question": "'Kathak' is a classical dance of?",
+      "options": {
+        "A": "Kerala",
+        "B": "Gujarat",
+        "C": "North India",
+        "D": "Maharashtra"
+      },
+      "correctAnswer": "C",
+      "explanation": "Kathak is one of the eight major forms of Indian classical dance, originating from the nomadic bards of ancient northern India.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "question": "'Chilika' lake is situated at?",
+      "options": {
+        "A": "Kerala",
+        "B": "Gujarat",
+        "C": "Uttarakhand",
+        "D": "Odisha"
+      },
+      "correctAnswer": "D",
+      "explanation": "Chilika Lake is a brackish water lagoon spread over the Puri, Khurda, and Ganjam districts of Odisha state on the east coast of India.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "question": "Which is the largest tribe in India?",
+      "options": {
+        "A": "Bhil",
+        "B": "Gond",
+        "C": "Meena",
+        "D": "Santhal"
+      },
+      "correctAnswer": "A",
+      "explanation": "According to the Census of India, the Bhil tribe is the largest tribal group in the country, widely distributed across Western and Central India.",
+      "subject": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "Who said 'Jai Jawan - Jai Kisan'?",
+      "options": {
+        "A": "Atal Bihari Vajpayee",
+        "B": "Jawaharlal Nehru",
+        "C": "Lal Bahadur Shastri",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Jai Jawan, Jai Kisan' was a slogan given by Lal Bahadur Shastri, the second Prime Minister of India, during the 1965 India-Pakistan war.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "question": "How many players are there in each team of Basketball?",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "6",
+        "D": "9"
+      },
+      "correctAnswer": "A",
+      "explanation": "A standard basketball game is played by two teams, with each team having 5 players on the court at any given time.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "question": "Find the average of 10, 20, 30, 40, 50.",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "35",
+        "D": "40"
+      },
+      "correctAnswer": "B",
+      "explanation": "The sum of the numbers is 10+20+30+40+50 = 150. There are 5 numbers, so the average is 150 / 5 = 30.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 42,
+      "question": "Find the average of 25, 35, 45, 55.",
+      "options": {
+        "A": "40",
+        "B": "45",
+        "C": "50",
+        "D": "55"
+      },
+      "correctAnswer": "A",
+      "explanation": "The sum of the numbers is 25+35+45+55 = 160. There are 4 numbers, so the average is 160 / 4 = 40.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "question": "If the cost of 10 balls is Rs.100, find the cost of 20 balls?",
+      "options": {
+        "A": "150",
+        "B": "160",
+        "C": "180",
+        "D": "200"
+      },
+      "correctAnswer": "D",
+      "explanation": "If 10 balls cost Rs. 100, the cost of 1 ball is 100 / 10 = Rs. 10. Therefore, 20 balls cost 20 × 10 = Rs. 200.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "question": "If the cost of 5 plates is Rs.750, find the cost of 20 plates?",
+      "options": {
+        "A": "4000",
+        "B": "5000",
+        "C": "6000",
+        "D": "3000"
+      },
+      "correctAnswer": "D",
+      "explanation": "If 5 plates cost Rs. 750, the cost of 1 plate is 750 / 5 = Rs. 150. Therefore, 20 plates cost 20 × 150 = Rs. 3000.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "If the cost of 10 ball pens is Rs.150, find the cost of 100 ball pens?",
+      "options": {
+        "A": "1500",
+        "B": "2000",
+        "C": "2500",
+        "D": "3000"
+      },
+      "correctAnswer": "A",
+      "explanation": "If 10 ball pens cost Rs. 150, then multiplying both sides by 10 means 100 ball pens will cost 150 × 10 = Rs. 1500.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 46,
+      "question": "285 - 6(23 + 19) + 83 is?",
+      "options": {
+        "A": "116",
+        "B": "118",
+        "C": "120",
+        "D": "122"
+      },
+      "correctAnswer": "A",
+      "explanation": "Using BODMAS, first solve the brackets: (23 + 19) = 42. Next, multiplication: 6 × 42 = 252. Finally, addition and subtraction: 285 - 252 + 83 = 33 + 83 = 116.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Simplify the following: 8 ÷ 2 × (5 - 3)",
+      "options": {
+        "A": "12",
+        "B": "8",
+        "C": "16",
+        "D": "18"
+      },
+      "correctAnswer": "B",
+      "explanation": "Following BODMAS: First solve brackets (5 - 3) = 2. Then division 8 ÷ 2 = 4. Finally, multiplication 4 × 2 = 8.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Simplify the following: (2 + 4 ÷ (2 + 6) × 2)",
+      "options": {
+        "A": "2 2/7",
+        "B": "2 3/7",
+        "C": "3",
+        "D": "2 5/7"
+      },
+      "correctAnswer": "C",
+      "explanation": "Following BODMAS: solve innermost bracket (2 + 6) = 8. The equation becomes (2 + 4 ÷ 8 × 2). Division: 4 ÷ 8 = 0.5. Multiplication: 0.5 × 2 = 1. Addition: 2 + 1 = 3.",
+      "subject": "Numerical Ability",
+      "difficulty": "hard"
+    },
+    {
+      "id": 49,
+      "question": "If 12 persons complete work in 3 days, how much time will be taken by 16 persons to complete the same work?",
+      "options": {
+        "A": "8 days",
+        "B": "6 days",
+        "C": "10 days",
+        "D": "4 days"
+      },
+      "correctAnswer": "B",
+      "explanation": "The official key marks B (6 days). This implies the original question likely contained a typo and intended '12 persons complete a work in 8 days' (12 × 8 = 96 man-days; 96 ÷ 16 = 6 days).",
+      "subject": "Numerical Ability",
+      "difficulty": "hard"
+    },
+    {
+      "id": 50,
+      "question": "Find the average of 10, 20, 30, 40, 50, 60, 70, 80.",
+      "options": {
+        "A": "45",
+        "B": "50",
+        "C": "55",
+        "D": "60"
+      },
+      "correctAnswer": "A",
+      "explanation": "Since the numbers form an arithmetic progression, the average is the mean of the first and last terms: (10 + 80) / 2 = 90 / 2 = 45.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    }
+  ]
+}

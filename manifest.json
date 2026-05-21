@@ -105,14 +105,36 @@
       },
       {
         "id": "pyq-3",
-        "name": "PYQ Set 3",
-        "year": "2022",
+        "name": "MTS PYQ Bihar 2025",
+        "year": "2025",
         "shift": "Morning",
         "file": "data/pyq/pyq-set-3.json",
-        "totalQuestions": 25,
-        "timeInSeconds": 1500,
-        "difficulty": "hard",
-        "tags": ["2022", "official"]
+        "totalQuestions": 50,
+        "timeInSeconds": 3600,
+        "difficulty": "medium",
+        "tags": ["2025", "official"]
+      },
+      {
+        "id": "pyq-4",
+        "name": "MTS PYQ Chhattisgarh 2025",
+        "year": "2025",
+        "shift": "Morning",
+        "file": "data/pyq/pyq-set-4.json",
+        "totalQuestions": 50,
+        "timeInSeconds": 3600,
+        "difficulty": "medium",
+        "tags": ["2025", "official"]
+      },
+      {
+        "id": "pyq-5",
+        "name": "MTS PYQ Assam 2025",
+        "year": "2025",
+        "shift": "Morning",
+        "file": "data/pyq/pyq-set-5.json",
+        "totalQuestions": 50,
+        "timeInSeconds": 3600,
+        "difficulty": "medium",
+        "tags": ["2025", "official"]
       }
     ],
     "practice": [

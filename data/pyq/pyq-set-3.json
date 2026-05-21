@@ -1,0 +1,710 @@
+{
+  "setId": "pyq-2025-bihar",
+  "setName": "MTS PYQ Bihar 2025",
+  "type": "pyq",
+  "year": "2025",
+  "shift": "Morning",
+  "totalQuestions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the maximum weight limit for India Post Parcel?",
+      "options": {
+        "A": "4 kg",
+        "B": "20 kg",
+        "C": "30 kg",
+        "D": "35 kg"
+      },
+      "correctAnswer": "D",
+      "explanation": "While standard unregistered parcels have a 4 kg limit and registered parcels have a 20 kg limit, Business Parcels and certain international parcels handled by India Post can have a maximum weight limit of up to 35 kg.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 2,
+      "question": "What is the minimum chargeable weight for booking packet under 'Gyan Post'?",
+      "options": {
+        "A": "100 gram",
+        "B": "300 gram",
+        "C": "600 gram",
+        "D": "800 gram"
+      },
+      "correctAnswer": "B",
+      "explanation": "Under the Gyan Post service (a specialized postal product offered in certain circles), the minimum chargeable weight for a packet is 300 grams.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 3,
+      "question": "In POSB account, if no withdrawal/deposit takes place in the account during continuous ___ years, the account shall be treated as silent.",
+      "options": {
+        "A": "3 financial years",
+        "B": "3 calendar years",
+        "C": "2 financial years",
+        "D": "2 calendar years"
+      },
+      "correctAnswer": "A",
+      "explanation": "A Post Office Savings Bank (POSB) account becomes silent or dormant if there are no transactions (deposit or withdrawal) for three consecutive financial years.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "What is the minimum amount to open Sukanya Samriddhi Account?",
+      "options": {
+        "A": "₹100",
+        "B": "₹250",
+        "C": "₹500",
+        "D": "₹1000"
+      },
+      "correctAnswer": "B",
+      "explanation": "The minimum deposit required to open a Sukanya Samriddhi Account (SSA) is ₹250, and thereafter deposits can be made in multiples of ₹50.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "In Anticipated Endowment Assurance policy, available policy terms are:",
+      "options": {
+        "A": "10 & 15 years",
+        "B": "20 & 25 years",
+        "C": "15 & 20 years",
+        "D": "15 & 25 years"
+      },
+      "correctAnswer": "C",
+      "explanation": "Under Postal Life Insurance (PLI), the Anticipated Endowment Assurance (Sumangal) policy is available for terms of 15 years and 20 years.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "question": "Mention the Postal Circle in which Andaman and Nicobar Islands Territory is situated.",
+      "options": {
+        "A": "West Bengal Circle",
+        "B": "Orissa Circle",
+        "C": "Andhra Pradesh Circle",
+        "D": "Tamil Nadu Circle"
+      },
+      "correctAnswer": "A",
+      "explanation": "The Union Territory of Andaman and Nicobar Islands falls under the administrative jurisdiction of the West Bengal Postal Circle.",
+      "subject": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "question": "The working of all Post Offices under Postal Divisions is directly controlled by:",
+      "options": {
+        "A": "Postmaster",
+        "B": "Inspector Posts",
+        "C": "Postmaster General",
+        "D": "Superintendent or Senior Superintendent of Post Offices"
+      },
+      "correctAnswer": "D",
+      "explanation": "A Postal Division is headed by a Superintendent of Post Offices (SPOs) or Senior Superintendent of Post Offices (SSPOs), who directly controls the working of all post offices within that division.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "A Post Office which is also opened on Sundays and holidays is called:",
+      "options": {
+        "A": "Head Post Office",
+        "B": "Night Post Office",
+        "C": "Branch Post Office",
+        "D": "Mobile Post Office"
+      },
+      "correctAnswer": "B",
+      "explanation": "Night Post Offices work for extended hours on working days and also remain open on Sundays and National Holidays, operating with restricted working hours and services.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "As per clause 2 of Post Office Guide Part-I, what are the three classes of Post Offices?",
+      "options": {
+        "A": "(i), (ii) and (iv)",
+        "B": "(i), (iii) and (iv)",
+        "C": "(i), (ii) and (iii)",
+        "D": "(ii), (iii) and (iv)"
+      },
+      "correctAnswer": "C",
+      "explanation": "According to the Post Office Guide Part-I, post offices are divided into three classes: Head Post Offices, Sub-Post Offices, and Branch Post Offices.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "How many holidays are observed in Post Offices in all Circles?",
+      "options": {
+        "A": "Eleven",
+        "B": "Thirteen",
+        "C": "Fifteen",
+        "D": "Seventeen"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Department of Posts observes 17 holidays in a calendar year across all postal circles (14 compulsory and 3 chosen from a restricted list).",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 11,
+      "question": "What is the maximum amount limit for issuance of single Money Order?",
+      "options": {
+        "A": "₹5000",
+        "B": "₹10000",
+        "C": "₹15000",
+        "D": "₹25000"
+      },
+      "correctAnswer": "A",
+      "explanation": "The maximum remittance limit for a single inland Electronic Money Order (eMO) is ₹5000.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "Under which clause of Post Office Guide Part-I, 'Packing' is mentioned?",
+      "options": {
+        "A": "Clause 14",
+        "B": "Clause 15",
+        "C": "Clause 17",
+        "D": "Clause 18"
+      },
+      "correctAnswer": "B",
+      "explanation": "In the Post Office Guide Part-I, Clause 15 specifically deals with the rules and guidelines for 'Packing' of postal articles.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 13,
+      "question": "Which clause of Post Office Guide Part-I expresses the particulars to be furnished for 'Method of addressing'?",
+      "options": {
+        "A": "Clause 26",
+        "B": "Clause 16",
+        "C": "Clause 36",
+        "D": "Clause 23"
+      },
+      "correctAnswer": "A",
+      "explanation": "Clause 26 of the Post Office Guide Part-I provides detailed instructions on the 'Method of addressing' postal articles for proper sorting and delivery.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 14,
+      "question": "Postage stamp should be affixed:",
+      "options": {
+        "A": "Anywhere in the postal article",
+        "B": "On the back side of the postal article",
+        "C": "On the right-hand top corner of the address side",
+        "D": "On the bottom left-hand side corner"
+      },
+      "correctAnswer": "C",
+      "explanation": "As per postal regulations, postage stamps should be affixed to the top right-hand corner of the address side of the envelope or postcard.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "What kind of articles can we get through Post Boxes?",
+      "options": {
+        "A": "All first class mails",
+        "B": "All second class mails",
+        "C": "Only fully prepaid unaccountable articles",
+        "D": "All articles"
+      },
+      "correctAnswer": "C",
+      "explanation": "Post Boxes are used exclusively for the delivery of fully prepaid unregistered/unaccountable postal articles. Accountable articles like registered letters cannot be delivered through a Post Box.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "If the renter of a Post Box changes his business address to another place, he should invariably inform the Postmaster:",
+      "options": {
+        "A": "Within 7 days of such change",
+        "B": "Within 5 days of such change",
+        "C": "Within 10 days of such change",
+        "D": "Within 15 days of such change"
+      },
+      "correctAnswer": "A",
+      "explanation": "If a Post Box renter changes their business or residential address, they must inform the Postmaster within 7 days of the change to maintain the facility.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "What is the rent amount for both Post Box and Post Bag for a quarter or part thereof?",
+      "options": {
+        "A": "₹50",
+        "B": "₹80",
+        "C": "₹100",
+        "D": "₹150"
+      },
+      "correctAnswer": "B",
+      "explanation": "The fee for either a Post Box or a Post Bag alone is ₹50 per quarter. However, the combined fee for renting both a Post Box and a Post Bag is ₹80 per quarter.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "For availing Post Bag facility, the Post Bag along with lock and duplicate key is supplied by:",
+      "options": {
+        "A": "The Superintendent of Post Offices",
+        "B": "The Sub-Divisional Head",
+        "C": "The Postmaster",
+        "D": "The Customer"
+      },
+      "correctAnswer": "D",
+      "explanation": "For the Post Bag facility, the renter (customer) must supply the bag, lock, and duplicate key at their own cost.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Under which section of Post Office Guide Part-I, Official Postal articles are mentioned?",
+      "options": {
+        "A": "Section I",
+        "B": "Section II",
+        "C": "Section III",
+        "D": "Section IV"
+      },
+      "correctAnswer": "C",
+      "explanation": "Section III of the Post Office Guide Part-I deals with the rules and guidelines regarding Official Postal Articles.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "Official postal articles must bear the superscription of:",
+      "options": {
+        "A": "On Postal Service",
+        "B": "On India Government Service",
+        "C": "On Public Service",
+        "D": "On Official Service"
+      },
+      "correctAnswer": "B",
+      "explanation": "All official postal articles must bear the superscription 'On India Government Service' (OIGS) or 'On Service' to distinguish them from private mail.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "The postage chargeable on the delivery of official postal articles, when the postage is insufficiently paid, is:",
+      "options": {
+        "A": "Double the prepaid rate",
+        "B": "Double the deficiency",
+        "C": "Equal to deficiency",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "For unpaid or insufficiently paid official postal articles, the postage chargeable on delivery is equal to the exact amount of deficiency, unlike private mail which is charged double.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is not prohibited for transmission by Inland Post?",
+      "options": {
+        "A": "Obscene painting",
+        "B": "Noxious or deleterious substance",
+        "C": "Living creatures",
+        "D": "Sharp instrument properly protected"
+      },
+      "correctAnswer": "D",
+      "explanation": "Sharp instruments are allowed through Inland Post only if they are properly protected and securely packed so they cannot cause injury to postal workers. The other items are strictly prohibited.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "What is the maximum weight for sending a letter?",
+      "options": {
+        "A": "0.500 kg",
+        "B": "2 kg",
+        "C": "4 kg",
+        "D": "7 kg"
+      },
+      "correctAnswer": "B",
+      "explanation": "The maximum permissible weight for a standard letter sent through India Post is 2 kilograms.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "question": "The expression 'Railway Mail Service' means the service responsible for the carriage of mail by:",
+      "options": {
+        "A": "By rail only",
+        "B": "By rail and road",
+        "C": "By rail, road and air",
+        "D": "By rail, road, air and river"
+      },
+      "correctAnswer": "D",
+      "explanation": "Although named 'Railway Mail Service', its definition includes the responsibility for the carriage of mails by rail, road, air, and river routes.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "question": "Which office helps in reduction of number of loose bags?",
+      "options": {
+        "A": "Transit Office",
+        "B": "Record Office",
+        "C": "Sorting Office",
+        "D": "None of the above"
+      },
+      "correctAnswer": "A",
+      "explanation": "A Transit Office encloses several bags directed to the same office into a single Transit Bag, thereby reducing the number of loose bags handled during transit.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "question": "Which among the following is correct, in respect of Transit Mail Office?",
+      "options": {
+        "A": "Closed bags are received and opened",
+        "B": "Bags are closed and dispatched",
+        "C": "Sorting of letters is not done",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "A Transit Mail Office (TMO) only deals with closed bags. It receives and dispatches closed bags without opening them; hence, no sorting of individual letters takes place.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "AMPC means:",
+      "options": {
+        "A": "Air Mail Processing Centre",
+        "B": "Automatic Mail Processing Centre",
+        "C": "Advanced Mail Processing Centre",
+        "D": "Authorized Mail Processing Centre"
+      },
+      "correctAnswer": "B",
+      "explanation": "AMPC stands for Automatic Mail Processing Centre, where large volumes of mail are sorted rapidly using automated machinery.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 28,
+      "question": "Circle Bag Office is situated in which office?",
+      "options": {
+        "A": "Returned Letter Office",
+        "B": "Transcription Centre",
+        "C": "Mail Motor Office",
+        "D": "Postal Stores Depot"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Circle Bag Office is generally located at the Postal Stores Depot (PSD) at the circle headquarters.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "When Account bag is sent by Head Office to the Sub Post Office, it contains:",
+      "options": {
+        "A": "SO Slip",
+        "B": "SO Daily Account",
+        "C": "SO Summary",
+        "D": "None of the above"
+      },
+      "correctAnswer": "A",
+      "explanation": "When a Head Post Office sends an Account Bag to a Sub Post Office, it typically contains the SO Slip, whereas the SO Daily Account is sent from the SO to the HO.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "As per Rule 53 of Postal Manual Volume V, how many kinds of Mail Bags are prescribed?",
+      "options": {
+        "A": "Due Mail",
+        "B": "Unusual Mail",
+        "C": "Both A & B above",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "Rule 53 of Postal Manual Volume V categorizes mail bags into two types: Due Mail (dispatched regularly) and Unusual Mail (dispatched only when required).",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "What value should come in the place of question mark (?) in the below given question: 8.5 × (14 × 1.5 × 2.5 × 20) ÷ 7 = ?",
+      "options": {
+        "A": "1277",
+        "B": "1271",
+        "C": "1272",
+        "D": "1275"
+      },
+      "correctAnswer": "D",
+      "explanation": "First, solve the brackets: 14 × 1.5 = 21, and 2.5 × 20 = 50. Then, 21 × 50 = 1050. The equation becomes: 8.5 × 1050 ÷ 7. Divide 1050 by 7 to get 150. Finally, 8.5 × 150 = 1275.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "question": "What value should come in the place of question mark (?) in the below given question: 5 × 2 + (11 + 8) - 18 ÷ 9 = ?",
+      "options": {
+        "A": "28",
+        "B": "27",
+        "C": "26",
+        "D": "25"
+      },
+      "correctAnswer": "B",
+      "explanation": "Using BODMAS: First solve the brackets (11 + 8) = 19. Next perform division: 18 ÷ 9 = 2. Then multiplication: 5 × 2 = 10. Finally, addition and subtraction: 10 + 19 - 2 = 29 - 2 = 27.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "question": "A student saves an average of ₹4000 per month for the first three months. How much should be saved (in ₹) on an average per month over the next 9 months to average ₹4375 per month over the whole year?",
+      "options": {
+        "A": "₹4000",
+        "B": "₹4200",
+        "C": "₹4500",
+        "D": "₹4800"
+      },
+      "correctAnswer": "C",
+      "explanation": "Total savings for the first 3 months = 3 × 4000 = ₹12,000. Total target savings for the year (12 months) = 12 × 4375 = ₹52,500. Required savings for the next 9 months = 52,500 - 12,000 = ₹40,500. Average savings for these 9 months = 40,500 ÷ 9 = ₹4500.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "question": "The speed of a boat in still water is 12 km/h and the stream flows at a speed of 3 km/h. The distance travelled in the boat downstream in 24 minutes is:",
+      "options": {
+        "A": "5 km",
+        "B": "6 km",
+        "C": "3 km",
+        "D": "7 km"
+      },
+      "correctAnswer": "B",
+      "explanation": "Downstream speed = Speed of boat + Speed of stream = 12 + 3 = 15 km/h. Time = 24 minutes = 24/60 hours = 0.4 hours. Distance = Speed × Time = 15 × 0.4 = 6 km.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 35,
+      "question": "The average of 5 numbers is 38. If one number is excluded, their average is 36. Find the excluded number.",
+      "options": {
+        "A": "46",
+        "B": "42",
+        "C": "40",
+        "D": "38"
+      },
+      "correctAnswer": "A",
+      "explanation": "Sum of 5 numbers = 5 × 38 = 190. Sum of remaining 4 numbers = 4 × 36 = 144. Excluded number = 190 - 144 = 46.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 36,
+      "question": "Find the simple interest (in ₹) on ₹2500 as a sum borrowed at 6% per year rate of interest for 4 years.",
+      "options": {
+        "A": "₹400",
+        "B": "₹500",
+        "C": "₹600",
+        "D": "₹800"
+      },
+      "correctAnswer": "C",
+      "explanation": "Simple Interest (SI) = (Principal × Rate × Time) ÷ 100. SI = (2500 × 6 × 4) ÷ 100 = 60000 ÷ 100 = ₹600.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "question": "In an election between two candidates, one person got 35% of the votes and lost by 36 votes. Assuming that there were no invalid votes, what was the total number of votes?",
+      "options": {
+        "A": "60",
+        "B": "90",
+        "C": "100",
+        "D": "120"
+      },
+      "correctAnswer": "D",
+      "explanation": "Losing candidate got 35%. Winning candidate got 100% - 35% = 65%. Difference in vote percentage = 65% - 35% = 30%. This 30% corresponds to 36 votes. Total votes (100%) = (36 ÷ 30) × 100 = 120.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Arun runs on a circular track having length 400 metres. He makes 3 rounds daily on it. How much distance (in km) does he cover on the track in a week?",
+      "options": {
+        "A": "7.2 km",
+        "B": "8.4 km",
+        "C": "8.8 km",
+        "D": "None of the above"
+      },
+      "correctAnswer": "B",
+      "explanation": "Distance covered in one day = 3 × 400 m = 1200 m = 1.2 km. Distance covered in a week (7 days) = 1.2 km × 7 = 8.4 km.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 39,
+      "question": "Ramesh went to a brick kiln to buy bricks. The rate of bricks was ₹2500 per one thousand bricks. How many bricks can he buy if he has only ₹4000?",
+      "options": {
+        "A": "1000",
+        "B": "16000",
+        "C": "1600",
+        "D": "4000"
+      },
+      "correctAnswer": "C",
+      "explanation": "Cost of 1000 bricks = ₹2500. So, cost of 1 brick = ₹2.50. Number of bricks for ₹4000 = 4000 ÷ 2.50 = 1600 bricks.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "question": "If A & B can complete a piece of work in 15 days and B alone in 20 days, in how many days can A alone complete the work?",
+      "options": {
+        "A": "60 days",
+        "B": "45 days",
+        "C": "40 days",
+        "D": "30 days"
+      },
+      "correctAnswer": "A",
+      "explanation": "Work done by (A + B) in 1 day = 1/15. Work done by B alone in 1 day = 1/20. Work done by A alone in 1 day = 1/15 - 1/20 = (4 - 3)/60 = 1/60. Hence, A alone can complete the work in 60 days.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "What was the mission's name that took Shubhanshu Shukla to the International Space Station?",
+      "options": {
+        "A": "Gaganyaan",
+        "B": "Chandrayaan",
+        "C": "Axiom Mission 4",
+        "D": "Mars Orbiter Mission"
+      },
+      "correctAnswer": "C",
+      "explanation": "ISRO selected Group Captain Shubhanshu Shukla for the Axiom Mission 4 (Ax-4) to the International Space Station as part of a collaborative spaceflight agreement.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 42,
+      "question": "From which Upanishad is the phrase 'Satyameva Jayate' taken?",
+      "options": {
+        "A": "Aitareya Upanishad",
+        "B": "Katha Upanishad",
+        "C": "Kaivalya Upanishad",
+        "D": "Mundaka Upanishad"
+      },
+      "correctAnswer": "D",
+      "explanation": "The national motto of India, 'Satyameva Jayate' (Truth alone triumphs), is a mantra taken from the ancient Mundaka Upanishad.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is the longest National Highway in India?",
+      "options": {
+        "A": "NH-1",
+        "B": "NH-44",
+        "C": "NH-27",
+        "D": "NH-7"
+      },
+      "correctAnswer": "B",
+      "explanation": "National Highway 44 (NH-44) is the longest highway in India, traversing from Srinagar in the north to Kanyakumari in the south.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "question": "India shares highest length of border with which neighbouring country?",
+      "options": {
+        "A": "Bangladesh",
+        "B": "China",
+        "C": "Pakistan",
+        "D": "Nepal"
+      },
+      "correctAnswer": "A",
+      "explanation": "India shares its longest international land border with Bangladesh, extending over approximately 4,096 kilometers.",
+      "subject": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "Gir National Park is situated at:",
+      "options": {
+        "A": "Jammu & Kashmir",
+        "B": "Gujarat",
+        "C": "Assam",
+        "D": "Madhya Pradesh"
+      },
+      "correctAnswer": "B",
+      "explanation": "Gir National Park, renowned as the sole home of the Asiatic lion, is located in the state of Gujarat.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 46,
+      "question": "Our National Song 'Vande Mataram' composed by Shri Bankimchandra Chatterji and published in the novel named:",
+      "options": {
+        "A": "Mundaka Upanishad",
+        "B": "The Indian Struggle",
+        "C": "India's Struggle for Independence",
+        "D": "Anandmath"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Vande Mataram' was originally a poem written by Bankimchandra Chatterjee in the 1870s, which he later included in his famous 1882 novel 'Anandamath'.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 47,
+      "question": "The Quit India Movement was launched in which year?",
+      "options": {
+        "A": "1930",
+        "B": "1940",
+        "C": "1942",
+        "D": "1946"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Quit India Movement was launched by Mahatma Gandhi at the Bombay session of the All-India Congress Committee on August 8, 1942.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 48,
+      "question": "Who gave the slogan 'Do or Die' during the Quit India Movement?",
+      "options": {
+        "A": "Mahatma Gandhi",
+        "B": "Subhas Chandra Bose",
+        "C": "Jawaharlal Nehru",
+        "D": "Sardar Vallahbhai Patel"
+      },
+      "correctAnswer": "A",
+      "explanation": "Mahatma Gandhi delivered the famous 'Do or Die' (Karo Ya Maro) speech on August 8, 1942, marking the beginning of the Quit India Movement.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 49,
+      "question": "The autobiography of which of the following famous Indian musicians is titled 'My Life, My Music'?",
+      "options": {
+        "A": "Shiv Kumar Sharma",
+        "B": "Zakir Hussain",
+        "C": "Bismillah Khan",
+        "D": "Ravi Shankar"
+      },
+      "correctAnswer": "D",
+      "explanation": "Pandit Ravi Shankar, the globally renowned sitar maestro, authored his autobiography titled 'My Music, My Life' (often referenced as 'My Life, My Music' in competitive exams).",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 50,
+      "question": "In 71st National Film Awards, which film won the best feature film award?",
+      "options": {
+        "A": "12th Fail",
+        "B": "Mrs Chatterjee vs Norway",
+        "C": "The Kerala Story",
+        "D": "Jawan"
+      },
+      "correctAnswer": "A",
+      "explanation": "In context of the exam paper key, '12th Fail' was chosen as the answer among the options provided.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    }
+  ]
+}

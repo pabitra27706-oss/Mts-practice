@@ -1,0 +1,696 @@
+{
+  "setId": "pyq-2025-assam",
+  "setName": "MTS PYQ Assam 2025",
+  "type": "pyq",
+  "year": "2025",
+  "shift": "Morning",
+  "totalQuestions": 49,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Articles that are intended for delivery from the post office to which they are sent are known as?",
+      "options": {
+        "A": "Sorting Articles",
+        "B": "Station Articles",
+        "C": "Labelled Bundles",
+        "D": "Parcels"
+      },
+      "correctAnswer": "B",
+      "explanation": "Station articles are postal articles intended for delivery from the post office or sorting office to which they are directed, as opposed to sorting articles which are meant for onward transmission.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 2,
+      "question": "Bag which is never dispatched loose?",
+      "options": {
+        "A": "Parcel bag",
+        "B": "Insured bag",
+        "C": "Speed bag",
+        "D": "Packet bag"
+      },
+      "correctAnswer": "B",
+      "explanation": "Due to security reasons and the high value of contents, an Insured bag is never dispatched loose; it is always enclosed within a designated secure bag or mail bag.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "Which bags are due bags?",
+      "options": {
+        "A": "Account bags",
+        "B": "Transit bags",
+        "C": "Both (A) and (B)",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "Due bags are those which must be dispatched regularly, whether there are any contents to send or not. Both Account bags and Transit bags fall under this category.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Which statement is correct regarding Post Office Saving Accounts?",
+      "options": {
+        "A": "Only one account can be opened by an individual.",
+        "B": "All deposits / withdrawals shall be made in whole rupees only.",
+        "C": "Minimum withdrawal amount is Rs. 50/-.",
+        "D": "All of the above."
+      },
+      "correctAnswer": "D",
+      "explanation": "All the given statements are correct rules governing the Post Office Savings Account (POSA).",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Maximum how much amount can be deposited in a single Monthly Income Scheme Account?",
+      "options": {
+        "A": "Rs. 9 lakh",
+        "B": "Rs. 15 lakh",
+        "C": "Rs. 10 lakh",
+        "D": "Rs. 4.5 lakh"
+      },
+      "correctAnswer": "A",
+      "explanation": "Following recent revisions, the maximum investment limit for a single account under the Post Office Monthly Income Scheme (POMIS) is Rs. 9 lakh.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Post Offices, which are not being closed on Sunday and Postal Holidays, are known as?",
+      "options": {
+        "A": "Night Post Office",
+        "B": "Sub Post Office",
+        "C": "Mobile Post Office",
+        "D": "Head Post Office"
+      },
+      "correctAnswer": "A",
+      "explanation": "Night Post Offices operate with extended hours on regular working days and remain open for specific transactions even on Sundays and postal holidays.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "The impression of frank should consist ___ dies.",
+      "options": {
+        "A": "Value die",
+        "B": "License die",
+        "C": "Both (A) and (B)",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "A valid franking machine impression must consist of both a Value die (indicating the postage amount) and a License die (identifying the user's license details).",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "question": "Articles which can be posted in letter boxes are:",
+      "options": {
+        "A": "Inland Letter cards",
+        "B": "Machine franked articles",
+        "C": "Both (A) and (B)",
+        "D": "None of the above"
+      },
+      "correctAnswer": "A",
+      "explanation": "Inland Letter cards can be dropped in letter boxes. Machine franked articles must be handed over at the post office counter and are strictly prohibited from being dropped in letter boxes.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "question": "Fleet Mail Office is situated in:",
+      "options": {
+        "A": "Mumbai",
+        "B": "Kolkata",
+        "C": "Chennai",
+        "D": "Cochin"
+      },
+      "correctAnswer": "A",
+      "explanation": "The Fleet Mail Office (FMO), which serves the postal needs of the Indian Navy, is located in Mumbai.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 10,
+      "question": "Articles which can be delivered through post boxes, are:",
+      "options": {
+        "A": "Inland Letter cards",
+        "B": "Postcards",
+        "C": "Registered Newspapers",
+        "D": "All of the above"
+      },
+      "correctAnswer": "D",
+      "explanation": "All fully prepaid, unregistered articles like inland letter cards, postcards, and registered newspapers can be delivered through a rented Post Box.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "For availing facility of post box, a person or firm will have to submit the application to:",
+      "options": {
+        "A": "Head of Circle",
+        "B": "Head of Division",
+        "C": "Postmaster",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "An application to rent a Post Box must be submitted in the prescribed format to the Postmaster of the concerned post office.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "Which statement is correct regarding Returned Letter Office (RLO)?",
+      "options": {
+        "A": "In RLO, further efforts are made to find the addresses of articles.",
+        "B": "Refused articles are treated in the RLO, in the same manner as articles the addresses of which cannot be found.",
+        "C": "Both (A) and (B)",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Returned Letter Office (RLO) makes extensive efforts to locate the addressee or sender for undeliverable mail. Refused articles and articles with untraceable addresses are both processed by the RLO to find the sender.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "Second Class Mail includes:",
+      "options": {
+        "A": "Book packets",
+        "B": "Blind literature",
+        "C": "Registered newspapers",
+        "D": "All of the above"
+      },
+      "correctAnswer": "D",
+      "explanation": "Second Class Mails include Book Packets, Blind Literature Packets, and Registered Newspapers. They do not get the free air transmission given to First Class Mail.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Philately consists:",
+      "options": {
+        "A": "First day cover",
+        "B": "Special cover",
+        "C": "Information sheets",
+        "D": "All of the above"
+      },
+      "correctAnswer": "D",
+      "explanation": "Philately (the collection and study of postage stamps) encompasses items like First Day Covers, Special Covers, Information Sheets, and commemorative stamps.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Where foreigners can avail foreign philatelic deposit service?",
+      "options": {
+        "A": "Philatelic Bureau, Mumbai",
+        "B": "Philatelic Bureau, Delhi",
+        "C": "Philatelic Bureau, Kolkata",
+        "D": "Philatelic Bureau, Chennai"
+      },
+      "correctAnswer": "A",
+      "explanation": "Foreign philatelic deposit accounts for overseas collectors and customers are uniquely maintained at the Philatelic Bureau in Mumbai.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 16,
+      "question": "When was the Postal Life Insurance introduced?",
+      "options": {
+        "A": "01-02-1884",
+        "B": "01-02-1885",
+        "C": "01-02-1886",
+        "D": "01-02-1882"
+      },
+      "correctAnswer": "A",
+      "explanation": "Postal Life Insurance (PLI), the oldest life insurer in India, was established on 1st February 1884 as a welfare scheme for postal employees.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "Whole Life Assurance is also known as?",
+      "options": {
+        "A": "Suraksha",
+        "B": "Santosh",
+        "C": "Suvidha",
+        "D": "Sumangal"
+      },
+      "correctAnswer": "A",
+      "explanation": "Under the Postal Life Insurance (PLI) scheme, the Whole Life Assurance policy is officially branded as 'Suraksha'.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Minimum sum assured for Gram Suraksha scheme is:",
+      "options": {
+        "A": "Rs. 10,000",
+        "B": "Rs. 50,000",
+        "C": "Rs. 20,000",
+        "D": "Rs. 15,000"
+      },
+      "correctAnswer": "A",
+      "explanation": "For the Rural Postal Life Insurance (RPLI) Whole Life Assurance policy known as 'Gram Suraksha', the minimum sum assured is Rs. 10,000.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "'Postal Articles' include:",
+      "options": {
+        "A": "Letters",
+        "B": "Sample Packets",
+        "C": "Post Cards",
+        "D": "All of the above"
+      },
+      "correctAnswer": "D",
+      "explanation": "The term 'Postal Articles' is a broad category encompassing letters, postcards, sample packets, book packets, parcels, and more.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "The Officer in-charge of a set of a transit section is called a:",
+      "options": {
+        "A": "Mail Guard",
+        "B": "Mail Agent",
+        "C": "Both (A) and (B)",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "The official in charge of a set of a transit section in the Railway Mail Service is designated as a Mail Guard or Mail Agent, depending on their grade and the size of the section.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Bags which are not due bags and returned empty to UBO/DBO/CBO / PO or sacks containing such bags are treated as:",
+      "options": {
+        "A": "Transit Bag",
+        "B": "Packet Bag",
+        "C": "Parcel Bag",
+        "D": "Insured Bag"
+      },
+      "correctAnswer": "B",
+      "explanation": "According to the Postal Manual Volume V, surplus empty bags returned to bag offices are generally enclosed and treated/labeled as Packet Bags.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "For which address value payable articles and money orders will not be booked?",
+      "options": {
+        "A": "Head Post Office",
+        "B": "Army Post Office",
+        "C": "None of the above",
+        "D": "Both (A) and (B)"
+      },
+      "correctAnswer": "B",
+      "explanation": "Value Payable (VP) articles and Money Orders are not accepted for booking if addressed to personnel at an Army Post Office (APO).",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "For how many years identification cards which issued by the post office to tourists will be valid?",
+      "options": {
+        "A": "Three years",
+        "B": "Five years",
+        "C": "Two years",
+        "D": "One year"
+      },
+      "correctAnswer": "A",
+      "explanation": "Postal Identity Cards issued by the Post Office as a means of establishing identity for postal transactions are valid for three years.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "question": "Which statement is correct during delivery of postal article addressed to deceased person:",
+      "options": {
+        "A": "Articles are ordinarily dealt with in the same manner as unclaimed articles.",
+        "B": "Postmasters are authorized to exercise their discretion in delivering such articles to any near relative of the deceased.",
+        "C": "The applicant will have to address the application to the Head of the Circle concerned.",
+        "D": "All of the above"
+      },
+      "correctAnswer": "D",
+      "explanation": "All stated rules apply: unclaimed treatment is standard, postmasters have discretionary power for near relatives (for un-insured/unregistered mail), and specific formal applications can be directed to the Head of the Circle.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "question": "Maximum weight of a letter may be?",
+      "options": {
+        "A": "1 kg",
+        "B": "2 kg",
+        "C": "2.5 kg",
+        "D": "3 kg"
+      },
+      "correctAnswer": "B",
+      "explanation": "The maximum permissible weight for a domestic letter in the Indian postal system is 2 kilograms.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "Who can open Mahila Samman Saving Certificate?",
+      "options": {
+        "A": "By a woman herself",
+        "B": "By the guardian on behalf of a minor girl",
+        "C": "Both (A) and (B)",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Mahila Samman Savings Certificate can be opened by a woman for herself, or by a guardian on behalf of a minor girl child.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 27,
+      "question": "This office is used to reduce the number of loose bags?",
+      "options": {
+        "A": "Branch Post Office",
+        "B": "Sub Post Office",
+        "C": "Transit Office",
+        "D": "Sorting Office"
+      },
+      "correctAnswer": "C",
+      "explanation": "A Transit Office helps reduce the handling of individual loose bags by consolidating multiple bags meant for the same onward destination into a single Transit Bag.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 28,
+      "question": "Sorting of letters is not done in this unit of RMS.",
+      "options": {
+        "A": "Sorting Office",
+        "B": "Transit Office",
+        "C": "Transit Mail Office",
+        "D": "Sorting Sub Office"
+      },
+      "correctAnswer": "C",
+      "explanation": "A Transit Mail Office (TMO) exclusively handles closed bags. It receives and dispatches them without opening them to sort individual letters.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "Which offices cannot be unit bag offices?",
+      "options": {
+        "A": "Branch Post Office",
+        "B": "EDSO",
+        "C": "Both (A) and (B)",
+        "D": "None of the above"
+      },
+      "correctAnswer": "C",
+      "explanation": "Unit Bag Offices (UBO) are typically Head Offices or Sub-Offices. Branch Post Offices (BO) and Extra Departmental Sub Offices (EDSO) are generally tied to their account offices and do not function as independent UBOs.",
+      "subject": "General Awareness",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "Which unit works as a District Bag Office?",
+      "options": {
+        "A": "Sub Post Office",
+        "B": "Branch Post Office",
+        "C": "Head Record Office",
+        "D": "Night Post Office"
+      },
+      "correctAnswer": "C",
+      "explanation": "In the postal bag accounting structure, the Head Record Office (HRO) of the RMS division generally functions as the District Bag Office (DBO).",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "Which of the following articles of Indian Constitution cover the provisions related to citizenship?",
+      "options": {
+        "A": "Article 4 to 9",
+        "B": "Article 5 to 15",
+        "C": "Article 5 to 11",
+        "D": "Article 5 to 9"
+      },
+      "correctAnswer": "C",
+      "explanation": "Part II of the Constitution of India (Articles 5 to 11) deals with the Citizenship of India.",
+      "subject": "Polity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "question": "The Ranthambhore National Park is famous for?",
+      "options": {
+        "A": "Tigers",
+        "B": "Lions",
+        "C": "Leopard",
+        "D": "Black Buck"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ranthambhore National Park in Rajasthan is one of the largest and most famous national parks in Northern India, widely known for its Bengal tiger population.",
+      "subject": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "question": "Famous Indus Valley civilization related Dholavira site is situated in:",
+      "options": {
+        "A": "Rajasthan",
+        "B": "Gujarat",
+        "C": "Uttar Pradesh",
+        "D": "Karnataka"
+      },
+      "correctAnswer": "B",
+      "explanation": "Dholavira, an archaeological site showcasing a major city of the ancient Indus Valley Civilization, is located in the Kutch district of Gujarat.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 34,
+      "question": "With which of the following is related CITES in context with the global issues?",
+      "options": {
+        "A": "Environment Protection",
+        "B": "Financial slowdown",
+        "C": "Poverty alleviation programme of United Nations",
+        "D": "Information Technology"
+      },
+      "correctAnswer": "A",
+      "explanation": "CITES stands for the Convention on International Trade in Endangered Species of Wild Fauna and Flora. It is a major multilateral treaty focused on environmental protection and wildlife conservation.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "Taxila was the capital of which ancient Mahajanpada?",
+      "options": {
+        "A": "Gandhara",
+        "B": "Anga",
+        "C": "Magadha",
+        "D": "Kasi"
+      },
+      "correctAnswer": "A",
+      "explanation": "In ancient India, the renowned city of Taxila (Takshashila) served as the capital of the Gandhara Mahajanapada.",
+      "subject": "History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "question": "Which ethical principle emphasizes fairness and impartiality?",
+      "options": {
+        "A": "Honesty",
+        "B": "Confidentiality",
+        "C": "Justice",
+        "D": "Accountability"
+      },
+      "correctAnswer": "C",
+      "explanation": "In ethics, the principle of 'Justice' fundamentally emphasizes fairness, equality, and acting with impartiality in interactions and distributions.",
+      "subject": "General Awareness",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Gangaur festival is celebrated in?",
+      "options": {
+        "A": "Gujarat",
+        "B": "Madhya Pradesh",
+        "C": "Rajasthan",
+        "D": "Uttarakhand"
+      },
+      "correctAnswer": "C",
+      "explanation": "Gangaur is a major and vibrant festival traditionally celebrated by women primarily in the Indian state of Rajasthan.",
+      "subject": "General Awareness",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "question": "Who is known as 'Father of Indian Constitution'?",
+      "options": {
+        "A": "Dr. B. R. Ambedkar",
+        "B": "Mahatma Gandhi",
+        "C": "Motilal Nehru",
+        "D": "Maulana Abul Kalam Azad"
+      },
+      "correctAnswer": "A",
+      "explanation": "Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Constituent Assembly and is highly revered as the 'Father of the Indian Constitution'.",
+      "subject": "Polity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 39,
+      "question": "Who is known as 'Bismarck of India'?",
+      "options": {
+        "A": "Mahatma Gandhi",
+        "B": "Jawahar Lal Nehru",
+        "C": "Subhash Chandra Bose",
+        "D": "Sardar Vallabh Bhai Patel"
+      },
+      "correctAnswer": "D",
+      "explanation": "Sardar Vallabhbhai Patel is known as the 'Bismarck of India' for his decisive role in the political integration of India's princely states post-independence.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "question": "Where is famous 'Kutub Minar' situated?",
+      "options": {
+        "A": "Mumbai",
+        "B": "Kolkata",
+        "C": "Chennai",
+        "D": "New Delhi"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Qutub Minar (Kutub Minar), a UNESCO World Heritage Site, is situated in the Mehrauli area of New Delhi.",
+      "subject": "History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "question": "Calculate the simple interest on Rs. 8000 for 15 months at a rate of 6 paise per rupee per month?",
+      "options": {
+        "A": "Rs. 8200",
+        "B": "Rs. 9200",
+        "C": "Rs. 6200",
+        "D": "Rs. 7200"
+      },
+      "correctAnswer": "D",
+      "explanation": "Rate = 6 paise per rupee per month = 6% per month. Time = 15 months. Simple Interest = Principal × Rate × Time / 100 = 8000 × 6 × 15 / 100 = 80 × 90 = Rs. 7200.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "What is the average of the first six multiples of 4?",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "13",
+        "D": "11"
+      },
+      "correctAnswer": "A",
+      "explanation": "The first six multiples of 4 are 4, 8, 12, 16, 20, 24. Average = (First term + Last term) / 2 = (4 + 24) / 2 = 28 / 2 = 14.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "question": "Devi completed the school project in 20 days. How many days will Aruna take to complete the same work if she is 25% more efficient than Devi?",
+      "options": {
+        "A": "10 days",
+        "B": "12 days",
+        "C": "16 days",
+        "D": "15 days"
+      },
+      "correctAnswer": "C",
+      "explanation": "Efficiency of Aruna = 125% of Devi. Ratio of efficiency (Devi : Aruna) = 100 : 125 = 4 : 5. Time taken is inversely proportional to efficiency, so ratio of time = 5 : 4. If 5 parts = 20 days, 1 part = 4 days. Therefore, Aruna takes 4 × 4 = 16 days.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "While going to office, Asha travels at a speed of 30 Km/hour and on her way back, she travels at a speed of 45 Km/hour. What is the average speed of whole journey?",
+      "options": {
+        "A": "45 Km/hour",
+        "B": "40 Km/hour",
+        "C": "34 Km/hour",
+        "D": "36 Km/hour"
+      },
+      "correctAnswer": "D",
+      "explanation": "When distances are equal, Average Speed = (2 × S1 × S2) / (S1 + S2). Average speed = (2 × 30 × 45) / (30 + 45) = 2700 / 75 = 36 Km/hour.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 45,
+      "question": "If the price of 5 kg wheat is Rs. 150. Find the value of 24 kg wheat?",
+      "options": {
+        "A": "Rs. 720",
+        "B": "Rs. 700",
+        "C": "Rs. 600",
+        "D": "Rs. 500"
+      },
+      "correctAnswer": "A",
+      "explanation": "Cost of 5 kg = Rs. 150. Cost of 1 kg = 150 / 5 = Rs. 30. Therefore, cost of 24 kg = 24 × 30 = Rs. 720.",
+      "subject": "Numerical Ability",
+      "difficulty": "easy"
+    },
+    {
+      "id": 47,
+      "question": "Evaluate: 15 + 3² ÷ 3 × 2 - 5 = ?",
+      "options": {
+        "A": "17",
+        "B": "16",
+        "C": "15",
+        "D": "14"
+      },
+      "correctAnswer": "B",
+      "explanation": "Applying BODMAS rules: First, evaluate the exponent: 3² = 9. Equation becomes 15 + 9 ÷ 3 × 2 - 5. Next, perform division: 9 ÷ 3 = 3. Equation becomes 15 + 3 × 2 - 5. Perform multiplication: 3 × 2 = 6. Finally, addition and subtraction: 15 + 6 - 5 = 21 - 5 = 16. (Note: Adapted to match the answer key based on a typographical error in the original exam text).",
+      "subject": "Numerical Ability",
+      "difficulty": "hard"
+    },
+    {
+      "id": 48,
+      "question": "Evaluate: 5 × (2 × 3⁴) ÷ 6 + 7 - 8 = ?",
+      "options": {
+        "A": "133",
+        "B": "134",
+        "C": "136",
+        "D": "144"
+      },
+      "correctAnswer": "B",
+      "explanation": "Using BODMAS: First exponent: 3⁴ = 81. Next solve brackets: (2 × 81) = 162. Equation becomes: 5 × 162 ÷ 6 + 7 - 8. Division: 162 ÷ 6 = 27. Multiplication: 5 × 27 = 135. Finally: 135 + 7 - 8 = 134.",
+      "subject": "Numerical Ability",
+      "difficulty": "hard"
+    },
+    {
+      "id": 49,
+      "question": "A fruit seller had some apples. He sells 40% apples and still has 420 apples. What is the total number of apples he had originally?",
+      "options": {
+        "A": "600",
+        "B": "720",
+        "C": "700",
+        "D": "750"
+      },
+      "correctAnswer": "C",
+      "explanation": "If the seller sells 40%, the remaining apples constitute 60% of the total. Let the total apples be x. So, 60% of x = 420 => (60/100) × x = 420 => x = 420 × 100 / 60 = 700.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "question": "If an article is sold for Rs. 178 at a loss of 11%, what should be its selling price in order to earn a profit of 11%?",
+      "options": {
+        "A": "Rs. 222.40",
+        "B": "Rs. 222.30",
+        "C": "Rs. 222.20",
+        "D": "Rs. 222.00"
+      },
+      "correctAnswer": "D",
+      "explanation": "Selling Price (SP) = Rs. 178 at 11% loss. So, 89% of Cost Price (CP) = 178. CP = 178 / 0.89 = Rs. 200. To earn a profit of 11%, the new SP should be 111% of CP = 200 × 1.11 = Rs. 222.00.",
+      "subject": "Numerical Ability",
+      "difficulty": "medium"
+    }
+  ]
+}
