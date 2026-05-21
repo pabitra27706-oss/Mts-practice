@@ -37,10 +37,10 @@ if (typeof window._setsPageInit === 'undefined') {
   async function _setsInit() {
     var state = window._setsState;
 
-    // Detect type from URL
-    state.type = window.location.pathname.indexOf('practice') !== -1
-      ? 'practice'
-      : 'pyq';
+    // ✅ FIXED — Read type from body attribute
+    state.type = document.body.getAttribute('data-page-type') || 'pyq';
+
+    console.log('[SetsPage] ✅ Page type detected:', state.type);
 
     // Apply theme safely
     try {
@@ -102,8 +102,8 @@ if (typeof window._setsPageInit === 'undefined') {
 
       state.sets = sets || [];
 
-      console.log('[SetsPage] Loaded', state.sets.length,
-        'sets, type:', state.type);
+      console.log('[SetsPage] ✅ Loaded', state.sets.length,
+        'sets for type:', state.type);
 
       _setEl(
         'headerSub',
@@ -115,7 +115,7 @@ if (typeof window._setsPageInit === 'undefined') {
       _setsRender(state.sets);
 
     } catch (err) {
-      console.error('[SetsPage] Load error:', err);
+      console.error('[SetsPage] ❌ Load error:', err);
       _setsRenderError();
     }
   }
@@ -291,10 +291,14 @@ if (typeof window._setsPageInit === 'undefined') {
   function _setsStart(set) {
     var state  = window._setsState;
     var mode   = _getSafeMode();
+    
+    // ✅ Now using state.type which is correctly set from data-page-type
     var params =
       'setId=' + encodeURIComponent(set.id) +
       '&type='  + encodeURIComponent(state.type) +
       '&mode='  + encodeURIComponent(mode);
+
+    console.log('[SetsPage] 🚀 Starting quiz:', params);
 
     _setsShowToast('Loading ' + set.name + '...');
 
